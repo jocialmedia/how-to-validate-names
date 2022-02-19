@@ -1,4 +1,8 @@
-# Your Name Is Valid
+# Every Name Is Valid
+
+  - [About](#about)
+  - [Ideas to explore further in the upcoming time](#ideas-to-explore-further-in-the-upcoming-time)
+  - [More info and inspiration](#more-info-and-inspiration)
 
 ## About
 In 2022 nobody should have to be confronted with problems while filling out an online form. Still we all know a lot of cases in which valid legal names are either not accepted, not transmitted or not printed out correctly. 
@@ -14,6 +18,10 @@ So my idea is to setup a systematic collection of international examples and eve
 - Research and list of languages (at the beginning perhaps with focus on European Union to narrow this down) 
 
 
-## More info about this topic and inspiration
-- ["Falsehoods programmers believe about names"](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), Text by Patrick McKenzie, 2010-06-17
-- ["Your Name is Invalid!"](https://www.youtube.com/watch?v=IuZBTjaphsY), Presentation by Miroslav Šedivý 2020-07-23  
+
+## More info and inspiration
+- [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), Text by Patrick McKenzie, 2010-06-17
+- [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), Text by Tony Rogers, 2018-01-08
+- [Your Name is Invalid!](https://www.youtube.com/watch?v=IuZBTjaphsY), Presentation by Miroslav Šedivý 2020-07-23 
+- [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
+- [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), Text by Richard Ishida, W3C, 2011-08-17
