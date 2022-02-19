@@ -11,6 +11,22 @@ I am totally convinced that in not one of those cases the reason is malicious in
 
 So my idea is to setup a systematic collection of international examples and even validation rules (e.g. as Regex) which are free for everyone to use. I hope this can help to promote respectful validation standards in IT products.
 
+## Reasons for failing name validation
+
+### Structure
+...
+### Length
+...
+### Characters
+...
+
+### Similarity to reserved words
+...
+
+### Similarity to profanity words
+...
+
+
 ## Ideas to explore further in the upcoming time
 - Research list of international language standards
 - Collection of examples where validation did not work
