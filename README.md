@@ -1,6 +1,12 @@
 # Every Name Is Valid
 
   - [About](#about)
+  - [Reasons for failing name validation](#reasons-for-failing-name-validation)
+    - [Structure](#structure)
+    - [Length](#length)
+    - [Characters](#characters)
+    - [Similarity to reserved words](#similarity-to-reserved-words)
+     - [Similarity to profanity words](#similarity-to-profanity-words)
   - [Ideas to explore further in the upcoming time](#ideas-to-explore-further-in-the-upcoming-time)
   - [More info and inspiration](#more-info-and-inspiration)
 
