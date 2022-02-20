@@ -2,11 +2,15 @@
 
   - [About](#about)
   - [Reasons for failing name validation](#reasons-for-failing-name-validation)
-    - [Structure](#structure)
+    - [Number of elements](#number-of-elements)
+    - [Order of elements](#order-of-elements)
     - [Length](#length)
     - [Characters](#characters)
     - [Similarity to reserved words](#similarity-to-reserved-words)
      - [Similarity to profanity words](#similarity-to-profanity-words)
+  - [Languages](#languages)
+    - [Languages of the European Union](#languages-of-the-european-union)  
+    - [Languages worldwide](#languages-worldwide)  
   - [Ideas to explore further in the upcoming time](#ideas-to-explore-further-in-the-upcoming-time)
   - [More info and inspiration](#more-info-and-inspiration)
 
@@ -17,10 +21,14 @@ I am totally convinced that in not one of those cases the reason is malicious in
 
 So my idea is to setup a systematic collection of international examples and even validation rules (e.g. as Regex) which are free for everyone to use. I hope this can help to promote respectful validation standards in IT products.
 
-## Reasons for failing name validation
+## Reasons for failing validation
 
-### Structure
+### Number of elements
 ...
+
+### Orer of elements
+
+E.g. "Western Order" vs. "Eastern Order".
 
 ### Length
 ...
@@ -33,6 +41,50 @@ So my idea is to setup a systematic collection of international examples and eve
 
 ### Similarity to profanity words
 ...
+
+
+
+## Languages
+
+### Languages of the European Union
+
+24 current EU languages in alphabetical order.
+
+- [EU languages on the official EU website](https://european-union.europa.eu/principles-countries-history/languages_en)
+- [EU languages on Wikipedia](https://en.m.wikipedia.org/wiki/Languages_of_the_European_Union)
+
+
+| Number | Language | National level | Subnational level |Since |
+| ---- | ---- | ----------- |----------- |----------- |
+| 1 | Bulgarian | Bulgaria | - | 2007 |
+| 2 | Croatian | Croatia | Austria | 2013 |
+| 3 | Czech | Czech Republic | Slovakia | 2004 |
+| 4 | Danish | Denmark | Germany | 1973 |
+| 5 | Dutch | Belgium, Netherlands | - | 1958 |
+| 6 | English | Ireland, Malta | - | 1973 |
+| 7 | Estonian | Estonia | - | 2004 |
+| 8 | Finish | Finland | Sweden | 1995 |
+| 9 | French | Belgium, France, Luxembourg | Italy | 1958 |
+| 10 | German | Austria, Belgium, Germany, Luxembourg | Denmark, Italy, Poland | 1958 |
+| 11 | Greece | Cyprus, Greece | - | 1981 |
+| 12 | Hungarian | Hungary | Austria, Romania, Slovakia, Slovenia | 2004|
+| 13 | Irish | Ireland | - | 2007 |
+| 14 | Italian | Italy | Croatia, Slovenia | 1958 |
+| 15 | Latvian | Latvia | - | 2004 |
+| 16 | Lithuanian | Lithuania | Poland | 2004 |
+| 17 | Maltese | Malta | - | 2004 |
+| 18 | Polish | Poland | - | 2004 |
+| 19 | Portugese | Portugal | - | 1986 |
+| 20 | Romanian | Romania | - | 2007 |
+| 21 | Slovak | Slovakia | Czech Republic, Hungary | 2004 |
+| 22 | Slovene | Slovenia | Austria, Hungary, Italy | 2004 |
+| 23 | Spanish | Spain | - | 1986 |
+| 24 | Swedish | Sweden, Finland | - | 1995 |
+
+
+### Languages worldwide
+
+In the first step I will focus on the EU.
 
 
 ## Ideas to explore further in the upcoming time
