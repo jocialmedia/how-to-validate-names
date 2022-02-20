@@ -1,4 +1,4 @@
-# Every Name Is Valid
+# How to validate names
 
   - [About](#about)
   - [Reasons for failing name validation](#reasons-for-failing-name-validation)
@@ -21,8 +21,10 @@ So my idea is to setup a systematic collection of international examples and eve
 
 ### Structure
 ...
+
 ### Length
 ...
+
 ### Characters
 ...
 
@@ -44,6 +46,10 @@ So my idea is to setup a systematic collection of international examples and eve
 ## More info and inspiration
 - [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), Text by Patrick McKenzie, 2010-06-17
 - [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), Text by Tony Rogers, 2018-01-08
-- [Your Name is Invalid!](https://www.youtube.com/watch?v=IuZBTjaphsY), Presentation by Miroslav Šedivý 2020-07-23 
 - [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
+- Your Name is Invalid!, presentation by Miroslav Šedivý
+  - [Your Name is Invalid! at EuroPython 2020](https://www.youtube.com/watch?v=IuZBTjaphsY), 2020-07-23
+  - [Your Name is Invalid! at PyCascades 2021](https://www.youtube.com/watch?v=telNgfvgmHs), 2021-02-20
+  - [Your Name is Invalid! at #rC3](https://www.youtube.com/watch?v=ofPZ73Wz4SU), 2021-02-04
+  - [Your Name is Invalid! at PyData Berlin 2019](https://www.youtube.com/watch?v=pBuS7EUPnQA), 2019-10-11
 - [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), Text by Richard Ishida, W3C, 2011-08-17
