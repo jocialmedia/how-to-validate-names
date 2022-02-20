@@ -1,7 +1,7 @@
 # How to validate names
 
   - [About](#about)
-  - [Reasons for failing name validation](#reasons-for-failing-name-validation)
+  - [Reasons for failing validation](#reasons-for-failing-validation)
     - [Number of elements](#number-of-elements)
     - [Order of elements](#order-of-elements)
     - [Length](#length)
