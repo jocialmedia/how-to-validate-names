@@ -26,7 +26,7 @@ So my idea is to setup a systematic collection of international examples and eve
 ### Number of elements
 ...
 
-### Orer of elements
+### Order of elements
 
 E.g. "Western Order" vs. "Eastern Order".
 
