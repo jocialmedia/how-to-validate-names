@@ -9,7 +9,8 @@
     - [Similarity to reserved words](#similarity-to-reserved-words)
      - [Similarity to profanity words](#similarity-to-profanity-words)
   - [Languages](#languages)
-    - [Languages of the European Union](#languages-of-the-european-union)  
+    - [Languages of the EU](#languages-of-the-eu)
+    - [Alphabets of the EU languages](#alphabets-of-the-eu-languages)     
     - [Languages worldwide](#languages-worldwide)  
   - [Ideas to explore further in the upcoming time](#ideas-to-explore-further-in-the-upcoming-time)
   - [More info and inspiration](#more-info-and-inspiration)
@@ -46,7 +47,7 @@ E.g. "Western Order" vs. "Eastern Order".
 
 ## Languages
 
-### Languages of the European Union
+### Languages of the EU
 
 24 current EU languages in alphabetical order.
 
@@ -54,37 +55,72 @@ E.g. "Western Order" vs. "Eastern Order".
 - [EU languages on Wikipedia](https://en.m.wikipedia.org/wiki/Languages_of_the_European_Union)
 
 
-| Number | Language | National level | Subnational level |Since |
+
+| Number | Language | [ISO_639-2](https://en.wikipedia.org/wiki/ISO_639-2) | National level | Subnational level |Since |
+| ---- | ---- | ----------- |----------- |----------- |----------- |
+| 1 | Bulgarian | bul | Bulgaria | - | 2007 |
+| 2 | Croatian | hrv | Croatia | Austria | 2013 |
+| 3 | Czech | ces | Czech Republic | Slovakia | 2004 |
+| 4 | Danish | dan | Denmark | Germany | 1973 |
+| 5 | Dutch | nld | Belgium, Netherlands | - | 1958 |
+| 6 | English | eng | Ireland, Malta | - | 1973 |
+| 7 | Estonian | est | Estonia | - | 2004 |
+| 8 | Finnish | fin | Finland | Sweden | 1995 |
+| 9 | French | fra | Belgium, France, Luxembourg | Italy | 1958 |
+| 10 | German | deu | Austria, Belgium, Germany, Luxembourg | Denmark, Italy, Poland | 1958 |
+| 11 | Greek | ell | Cyprus, Greece | - | 1981 |
+| 12 | Hungarian | hun | Hungary | Austria, Romania, Slovakia, Slovenia | 2004|
+| 13 | Irish | gle | Ireland | - | 2007 |
+| 14 | Italian | ita | Italy | Croatia, Slovenia | 1958 |
+| 15 | Latvian | lav | Latvia | - | 2004 |
+| 16 | Lithuanian | lit | Lithuania | Poland | 2004 |
+| 17 | Maltese | mlt | Malta | - | 2004 |
+| 18 | Polish | pol | Poland | - | 2004 |
+| 19 | Portugese | por | Portugal | - | 1986 |
+| 20 | Romanian | ron | Romania | - | 2007 |
+| 21 | Slovak | slk | Slovakia | Czech Republic, Hungary | 2004 |
+| 22 | Slovene | slv | Slovenia | Austria, Hungary, Italy | 2004 |
+| 23 | Spanish | spa | Spain | - | 1986 |
+| 24 | Swedish | swe | Sweden, Finland | - | 1995 |
+
+
+
+### Alphabets of the EU languages
+
+
+| Number | Language | Number of Letters | Alphabet | - |
 | ---- | ---- | ----------- |----------- |----------- |
-| 1 | Bulgarian | Bulgaria | - | 2007 |
-| 2 | Croatian | Croatia | Austria | 2013 |
-| 3 | Czech | Czech Republic | Slovakia | 2004 |
-| 4 | Danish | Denmark | Germany | 1973 |
-| 5 | Dutch | Belgium, Netherlands | - | 1958 |
-| 6 | English | Ireland, Malta | - | 1973 |
-| 7 | Estonian | Estonia | - | 2004 |
-| 8 | Finish | Finland | Sweden | 1995 |
-| 9 | French | Belgium, France, Luxembourg | Italy | 1958 |
-| 10 | German | Austria, Belgium, Germany, Luxembourg | Denmark, Italy, Poland | 1958 |
-| 11 | Greece | Cyprus, Greece | - | 1981 |
-| 12 | Hungarian | Hungary | Austria, Romania, Slovakia, Slovenia | 2004|
-| 13 | Irish | Ireland | - | 2007 |
-| 14 | Italian | Italy | Croatia, Slovenia | 1958 |
-| 15 | Latvian | Latvia | - | 2004 |
-| 16 | Lithuanian | Lithuania | Poland | 2004 |
-| 17 | Maltese | Malta | - | 2004 |
-| 18 | Polish | Poland | - | 2004 |
-| 19 | Portugese | Portugal | - | 1986 |
-| 20 | Romanian | Romania | - | 2007 |
-| 21 | Slovak | Slovakia | Czech Republic, Hungary | 2004 |
-| 22 | Slovene | Slovenia | Austria, Hungary, Italy | 2004 |
-| 23 | Spanish | Spain | - | 1986 |
-| 24 | Swedish | Sweden, Finland | - | 1995 |
+| 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | - | - |
+| 2 | [Croatian](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet) |  - | - | - |
+| 3 | [Czech](https://en.wikipedia.org/wiki/Czech_orthography#Alphabet) | - | - | - |
+| 4 | [Danish](https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet) | - | - | - |
+| 5 | [Dutch](https://en.wikipedia.org/wiki/Dutch_orthography) |  - | - | - |
+| 6 | [English](https://en.wikipedia.org/wiki/English_alphabet) | - | - | - |
+| 7 | [Estonian](https://en.wikipedia.org/wiki/Estonian_orthography) | - | - | - |
+| 8 | [Finnish](https://en.wikipedia.org/wiki/Finnish_orthography) | - | - | - |
+| 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | - | - | - |
+| 10 | [German](https://en.wikipedia.org/wiki/German_orthography#Alphabet) | - | - | - |
+| 11 | [Greek](https://en.wikipedia.org/wiki/Greek_alphabet) | - | - | - |
+| 12 | [Hungarian](https://en.wikipedia.org/wiki/Hungarian_alphabet) |  - | - | - |
+| 13 | [Irish](https://en.wikipedia.org/wiki/Irish_orthography#Alphabet) | - | - | - |
+| 14 | [Italian](https://en.wikipedia.org/wiki/Italian_orthography#Alphabet) | - | - | - |
+| 15 | [Latvian](https://en.wikipedia.org/wiki/Latvian_orthography) | - | - | - |
+| 16 | [Lithuanian](https://en.wikipedia.org/wiki/Lithuanian_orthography) |  - | - | - |
+| 17 | [Maltese](https://en.wikipedia.org/wiki/Maltese_alphabet) |  - | - | - |
+| 18 | [Polish](https://en.wikipedia.org/wiki/Polish_alphabet) |  - | - | - |
+| 19 | [Portugese](https://en.wikipedia.org/wiki/Portuguese_orthography) | - | - | - |
+| 20 | [Romanian](https://en.wikipedia.org/wiki/Romanian_alphabet) | - | - | - |
+| 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | - | - | - |
+| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | - | - | - |
+| 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | - | - | - |
+| 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | - | - | - | 
+
 
 
 ### Languages worldwide
 
-In the first step I will focus on the EU.
+- In the first step I will focus on the EU.
+- 
 
 
 ## Ideas to explore further in the upcoming time
