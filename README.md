@@ -16,9 +16,9 @@
   - [More info and inspiration](#more-info-and-inspiration)
 
 
----
+
 ## About
----
+
 
 In 2022 nobody should have to be confronted with problems while filling out an online form. Still we all know a lot of cases in which valid legal names are either not accepted, not transmitted or not printed out correctly. 
 
@@ -26,9 +26,9 @@ I am totally convinced that in not one of those cases the reason is malicious in
 
 So my idea is to setup a systematic collection of international examples and even validation rules (e.g. as Regex) which are free for everyone to use. I hope this can help to promote respectful validation standards in IT products.
 
----
+
 ## Reasons for failing validation
----
+
 
 ### Number of elements
 ...
@@ -53,9 +53,9 @@ E.g. "Western Order" vs. "Eastern Order".
 [Coming Up](#coming-up) 
 
 
----
+
 ## Languages
----
+
 
 
 ### Languages of the EU
@@ -68,7 +68,7 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 | Number | Language | [ISO_639-2](https://en.wikipedia.org/wiki/ISO_639-2) | National level | Subnational level |Since |
-| ---- | ---- | ----------- |----------- |----------- |----------- |
+| - | - | -- |-- |-- |-- |
 | 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_language) | bul | Bulgaria | - | 2007 |
 | 2 | [Croatian](https://en.wikipedia.org/wiki/Croatian_language) | hrv | Croatia | Austria | 2013 |
 | 3 | [Czech](https://en.wikipedia.org/wiki/Czech_language) | ces | Czech Republic | Slovakia | 2004 |
@@ -100,7 +100,7 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 | Number | Language | Number of Letters | Alphabet | - |
-| ---- | ---- | ----------- |----------- |----------- |
+| - | - | -- |-- |-- |
 | 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | - | - |
 | 2 | [Croatian](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet) |  - | - | - |
 | 3 | [Czech](https://en.wikipedia.org/wiki/Czech_orthography#Alphabet) | - | - | - |
@@ -133,9 +133,9 @@ E.g. "Western Order" vs. "Eastern Order".
 - In the first step I will focus on the EU.
 - 
 
----
+
 ## Ideas to explore further in the upcoming time
----
+
 
 - Research list of international language standards
 - Collection of examples where validation did not work
@@ -144,9 +144,9 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 
----
+
 ## More info and inspiration
----
+
 
 - [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), Text by Patrick McKenzie, 2010-06-17
 - [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), Text by Tony Rogers, 2018-01-08
@@ -161,8 +161,8 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 
----
+
 ## Coming Up
----
+
 
 This is work in progress and I try to add some valuable content to this project [every day](https://github.com/jocialmedia/how-to-validate-names/commits/main).
