@@ -13,7 +13,8 @@
     - [Alphabets of the EU languages](#alphabets-of-the-eu-languages)     
     - [Languages worldwide](#languages-worldwide)  
   - [Ideas to explore further in the upcoming time](#ideas-to-explore-further-in-the-upcoming-time)
-  - [More info and inspiration](#more-info-and-inspiration)
+  - [Further Reading](#further-reading)
+  - [Coming Up](#coming-up)
 
 
 
@@ -145,20 +146,19 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 
-## More info and inspiration
+## Further Reading
 
 
-- [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), Text by Patrick McKenzie, 2010-06-17
-- [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), Text by Tony Rogers, 2018-01-08
-- [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
-- Your Name is Invalid!, presentation by Miroslav Šedivý
-  - [Your Name is Invalid! at EuroPython 2020](https://www.youtube.com/watch?v=IuZBTjaphsY), 2020-07-23
-  - [Your Name is Invalid! at PyCascades 2021](https://www.youtube.com/watch?v=telNgfvgmHs), 2021-02-20
-  - [Your Name is Invalid! at #rC3](https://www.youtube.com/watch?v=ofPZ73Wz4SU), 2021-02-04
-  - [Your Name is Invalid! at PyData Berlin 2019](https://www.youtube.com/watch?v=pBuS7EUPnQA), 2019-10-11
-- [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), Text by Richard Ishida, W3C, 2011-08-17
-
-
+- **Graham-Cumming**, John: [Your Last Name Contains Invalid Characters](https://blog.jgc.org/2010/06/your-last-name-contains-invalid.html), 2010-06-17
+- **Ishida**, Richard (W3C): [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), 2011-08-17
+- **McKenzie**, Patrick: [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), 2010-06-17
+- **Rogers**, Tony: [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), 2018-01-08
+- **Šedivý**, Miroslav: Your Name is Invalid!, 
+  - [Presentation at PyData Berlin 2019](https://www.youtube.com/watch?v=pBuS7EUPnQA), 2019-10-11
+  - [Presentation at EuroPython 2020](https://www.youtube.com/watch?v=IuZBTjaphsY), 2020-07-23
+  - [Presentation at #rC3](https://www.youtube.com/watch?v=ofPZ73Wz4SU), 2021-02-04
+  - [Presentation at PyCascades 2021](https://www.youtube.com/watch?v=telNgfvgmHs), 2021-02-20
+- **Unknown**: [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
 
 
 
