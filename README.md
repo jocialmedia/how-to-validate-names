@@ -8,6 +8,7 @@
     - [Characters](#characters)
     - [Similarity to reserved words](#similarity-to-reserved-words)
      - [Similarity to profanity words](#similarity-to-profanity-words)
+     - [Symbols or unusual terms as names](#symbols-or-unusual-terms-as-names)
   - [Languages](#languages)
     - [Languages of the EU](#languages-of-the-eu)
     - [Alphabets of the EU languages](#alphabets-of-the-eu-languages)     
@@ -50,6 +51,11 @@ E.g. "Western Order" vs. "Eastern Order".
 [Coming Up](#coming-up) 
 
 ### Similarity to profanity words
+
+[Coming Up](#coming-up) 
+
+
+### Symbols or unusual terms as names
 
 [Coming Up](#coming-up) 
 
@@ -150,6 +156,8 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 - **Graham-Cumming**, John: [Your Last Name Contains Invalid Characters](https://blog.jgc.org/2010/06/your-last-name-contains-invalid.html), 2010-06-17
+- **Ho**, Charly: [What's in a name (validation)?](https://dev.to/carlymho/whats-in-a-name-validation-4b41), 2018-10-08
+Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](https://www.youtube.com/watch?v=yuQ5YTNO3I0), 2017-06-10
 - **Ishida**, Richard (W3C): [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), 2011-08-17
 - **McKenzie**, Patrick: [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), 2010-06-17
 - **Rogers**, Tony: [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), 2018-01-08
@@ -159,7 +167,8 @@ E.g. "Western Order" vs. "Eastern Order".
   - [Presentation at #rC3](https://www.youtube.com/watch?v=ofPZ73Wz4SU), 2021-02-04
   - [Presentation at PyCascades 2021](https://www.youtube.com/watch?v=telNgfvgmHs), 2021-02-20
 - **Unknown**: [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
-
+- **Woods**, Andrew: [Name Validation Regex for People's Names](https://andrewwoods.net/blog/2018/name-validation-regex/),
+2018-04-06
 
 
 ## Coming Up
