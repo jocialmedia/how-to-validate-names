@@ -107,9 +107,10 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 
+
 |  | Language | Number of Letters | Alphabet | - |
 | ---- | ---- | ----------- |----------- |----------- |
-| 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | - | - |
+| 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | ```абвгдежзийклмнопрстуфхцчшщъьюя```<br>```АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ``` | - |
 | 2 | [Croatian](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet) | 30 |```abcčćddžđefghijklljmnnjoprsštuvzž``` <br>```ABCČĆDDžĐEFGHIJKLLjMNNjOPRSŠTUVZŽ``` | - |
 | 3 | [Czech](https://en.wikipedia.org/wiki/Czech_orthography#Alphabet) | 42 | ```aábcčdďeéěfghchiíjklmnňoópqrřsštťuúůvwxyýzž``` <br>```AÁBCČDĎEÉĚFGHCHIÍJKLMNŇOÓPQRŘSŠTŤUÚŮVWXYÝZŽ``` | - |
 | 4 | [Danish](https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet) | 29 | ```abcdefghijklmnopqrstuvwxyzæøå```<br>```ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ``` | - |
