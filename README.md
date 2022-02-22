@@ -106,13 +106,14 @@ E.g. "Western Order" vs. "Eastern Order".
 ### Alphabets of the EU languages
 
 
+
 |  | Language | Number of Letters | Alphabet | - |
 | ---- | ---- | ----------- |----------- |----------- |
 | 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | - | - |
-| 2 | [Croatian](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet) | 30 | - | - |
-| 3 | [Czech](https://en.wikipedia.org/wiki/Czech_orthography#Alphabet) | 42 | - | - |
-| 4 | [Danish](https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet) | 29 | - | - |
-| 5 | [Dutch](https://en.wikipedia.org/wiki/Dutch_orthography) | 26 | - | - |
+| 2 | [Croatian](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet) | 30 |```abcčćddžđefghijklljmnnjoprsštuvzž``` <br>```ABCČĆDDžĐEFGHIJKLLjMNNjOPRSŠTUVZŽ``` | - |
+| 3 | [Czech](https://en.wikipedia.org/wiki/Czech_orthography#Alphabet) | 42 | ```aábcčdďeéěfghchiíjklmnňoópqrřsštťuúůvwxyýzž``` <br>```AÁBCČDĎEÉĚFGHCHIÍJKLMNŇOÓPQRŘSŠTŤUÚŮVWXYÝZŽ``` | - |
+| 4 | [Danish](https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet) | 29 | ```abcdefghijklmnopqrstuvwxyzæøå```<br>```ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ``` | - |
+| 5 | [Dutch](https://en.wikipedia.org/wiki/Dutch_orthography) | 26 | ```abcdefghijklmnopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZ```  | - |
 | 6 | [English](https://en.wikipedia.org/wiki/English_alphabet) | 26 | ```abcdefghijklmnopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZ``` | - |
 | 7 | [Estonian](https://en.wikipedia.org/wiki/Estonian_orthography) | 27 | - | - |
 | 8 | [Finnish](https://en.wikipedia.org/wiki/Finnish_orthography) | 29 | - | - |
@@ -132,6 +133,8 @@ E.g. "Western Order" vs. "Eastern Order".
 | 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```abcčdefghijklmnopqrsštuvwxyzž```  <br>```ABCČDEFGHIJKLMNOPQRSŠTUVWXYZŽ``` | ISO <br>-qwxyQWXY <br> + čšžČŠŽ |
 | 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | ```abcdefghijklmnñopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNÑOPQRSTUVWXYZ``` | ISO <br>+ ñÑ |
 | 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | 29 | ```abcdefghijklmnopqrstuvwxyzåäö``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWYYZÅÄÖ``` | ISO <br>+ åäöÅÄÖ | 
+
+
 
 
 
