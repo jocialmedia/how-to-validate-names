@@ -74,7 +74,7 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 
-| Number | Language | [ISO_639-2](https://en.wikipedia.org/wiki/ISO_639-2) | National level | Subnational level |Since |
+|  | Language | [ISO_639-2](https://en.wikipedia.org/wiki/ISO_639-2) | National level | Subnational level |Since |
 | - | - | -- |-- |-- |-- |
 | 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_language) | bul | Bulgaria | - | 2007 |
 | 2 | [Croatian](https://en.wikipedia.org/wiki/Croatian_language) | hrv | Croatia | Austria | 2013 |
@@ -106,14 +106,14 @@ E.g. "Western Order" vs. "Eastern Order".
 ### Alphabets of the EU languages
 
 
-| Number | Language | Number of Letters | Alphabet | - |
+|  | Language | Number of Letters | Alphabet | - |
 | ---- | ---- | ----------- |----------- |----------- |
 | 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | - | - |
 | 2 | [Croatian](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet) | 30 | - | - |
 | 3 | [Czech](https://en.wikipedia.org/wiki/Czech_orthography#Alphabet) | 42 | - | - |
 | 4 | [Danish](https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet) | 29 | - | - |
 | 5 | [Dutch](https://en.wikipedia.org/wiki/Dutch_orthography) | 26 | - | - |
-| 6 | [English](https://en.wikipedia.org/wiki/English_alphabet) | 26 | abcdefghijklmnopqrstuvwxyz <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ | - |
+| 6 | [English](https://en.wikipedia.org/wiki/English_alphabet) | 26 | ```abcdefghijklmnopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZ``` | - |
 | 7 | [Estonian](https://en.wikipedia.org/wiki/Estonian_orthography) | 27 | - | - |
 | 8 | [Finnish](https://en.wikipedia.org/wiki/Finnish_orthography) | 29 | - | - |
 | 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | 42 | - | - |
@@ -128,10 +128,10 @@ E.g. "Western Order" vs. "Eastern Order".
 | 18 | [Polish](https://en.wikipedia.org/wiki/Polish_alphabet) | 32 | - | - |
 | 19 | [Portugese](https://en.wikipedia.org/wiki/Portuguese_orthography) | 32 | - | - |
 | 20 | [Romanian](https://en.wikipedia.org/wiki/Romanian_alphabet) | 31 | - | - |
-| 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | 46 | aáäbcčdďdzdžeéfghchiíjklĺľmnňoóôpqrŕsštťuúvwxyýzž <br>AÁÄBCČDĎDzDžEÉFGHChIÍJKLĹĽMNŇOÓÔPQRŔSŠTŤUÚVWXYÝZŽ| - |
-| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | abcčdefghijklmnopqrsštuvwxyzž <br> ABCČDEFGHIJKLMNOPQRSŠTUVWXYZŽ | ISO <br>-qwxyQWXY <br> + čšžČŠŽ |
-| 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | abcdefghijklmnñopqrstuvwxyz <br> ABCDEFGHIJKLMNÑOPQRSTUVWXYZ | ISO <br>+ ñÑ |
-| 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | 29 | abcdefghijklmnopqrstuvwxyzåäö <br> ABCDEFGHIJKLMNOPQRSTUVWYYZÅÄÖ | ISO <br>+ åäöÅÄÖ | 
+| 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | 46 | ```aáäbcčdďdzdžeéfghchiíjklĺľmnňoóôpqrŕsštťuúvwxyýzž``` <br>```AÁÄBCČDĎDzDžEÉFGHChIÍJKLĹĽMNŇOÓÔPQRŔSŠTŤUÚVWXYÝZŽ```| - |
+| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```abcčdefghijklmnopqrsštuvwxyzž```  <br>```ABCČDEFGHIJKLMNOPQRSŠTUVWXYZŽ``` | ISO <br>-qwxyQWXY <br> + čšžČŠŽ |
+| 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | ```abcdefghijklmnñopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNÑOPQRSTUVWXYZ``` | ISO <br>+ ñÑ |
+| 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | 29 | ```abcdefghijklmnopqrstuvwxyzåäö``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWYYZÅÄÖ``` | ISO <br>+ åäöÅÄÖ | 
 
 
 
