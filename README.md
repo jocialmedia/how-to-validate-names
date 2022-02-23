@@ -112,30 +112,30 @@ E.g. "Western Order" vs. "Eastern Order".
 
 |  | Language | Letters | Alphabet | 
 | ---- | ---- | ---- | ---- |
-| 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | ```а,б,в,г,д,е,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ь,ю,я```<br>```А,Б,В,Г,Д,Е,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ь,Ю,Я``` |
-| 2 | [Croatian](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet) | 30 |```a,b,c,č,ć,d,dž,đ,e,f,g,h,i,j,k,l,lj,m,n,n,j,o,p,r,s,š,t,u,v,z,ž```<br>```A,B,C,Č,Ć,D,Dž,Đ,E,F,G,H,I,J,K,L,Lj,M,N,N,j,O,P,R,S,Š,T,U,V,Z,Ž``` |
-| 3 | [Czech](https://en.wikipedia.org/wiki/Czech_orthography#Alphabet) | 42 | ```aábcčdďeéěfghchiíjklmnňoópqrřsštťuúůvwxyýzž``` <br>```AÁBCČDĎEÉĚFGHCHIÍJKLMNŇOÓPQRŘSŠTŤUÚŮVWXYÝZŽ``` |
-| 4 | [Danish](https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet) | 29 | ```abcdefghijklmnopqrstuvwxyzæøå```<br>```ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ``` |
-| 5 | [Dutch](https://en.wikipedia.org/wiki/Dutch_orthography) | 26 | ```abcdefghijklmnopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZ```  | - |
-| 6 | [English](https://en.wikipedia.org/wiki/English_alphabet) | 26 | ```abcdefghijklmnopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZ``` | - |
-| 7 | [Estonian](https://en.wikipedia.org/wiki/Estonian_orthography) | 32 | ```abcdefghijklmnopqrsšzžtuvwõäöüxy```<br>```ABCDEFGHIJKLMNOPQRSŠZŽTUVWÕÄÖÜXY``` | - |
-| 8 | [Finnish](https://en.wikipedia.org/wiki/Finnish_orthography) | 29 | ```abcdefghijklmnopqrstuvwxyzåäö```<br>```ABCDEFGHIJKLMNOPQRSTUVWYYZÅÄÖ``` | - |
-| 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | 42 |  ```abcdefghijklmnopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZ``` | - |
-| 10 | [German](https://en.wikipedia.org/wiki/German_orthography#Alphabet) | 30 | ```abcdefghijklmnopqrstuvwxyzäöüß``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß``` | - |
-| 11 | [Greek](https://en.wikipedia.org/wiki/Greek_alphabet) | 24 | ```αβγδεζηθικλμνξοπρσςτυφχψω```<br>```ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ``` | - |
-| 12 | [Hungarian](https://en.wikipedia.org/wiki/Hungarian_alphabet) | 44 | ```aábccsddzdzseéfggyhiíjkllymnnyoóöőpqrsszttyuúüűvwxyzzs```<br>```AÁBCCsDDzDzsEÉFGGyHIÍJKLLyMNNyOÓÖŐPQRSSzTTyUÚÜŰVWXYZZs``` | ISO ```+ á|cs|dz|dzs|é|í|ly|ny|ó|ö|ő|sz|ty|ú|ü|ű|zs```<br>```Á|Cs|Dz|Dzs|É|Í|Ly|Ny|Ó|Ö|Ő|Sz|Ty|Ú|Ü|Ű|Zs``` |
-| 13 | [Irish](https://en.wikipedia.org/wiki/Irish_orthography#Alphabet) | 18 | ```abcdefghilmnoprstu``` <br> ```ABCDEFGHILMNOPRSTU``` | - |
-| 14 | [Italian](https://en.wikipedia.org/wiki/Italian_orthography#Alphabet) | 21 | ```abcdefghilmnopqrstuvz``` <br> ```ABCDEFGHILMNOPQRSTUVZ``` | - |
-| 15 | [Latvian](https://en.wikipedia.org/wiki/Latvian_orthography) | 33 | ```aābcčdeēfgģhiījkķlļmnņoprsštuūvzž```<br>```AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ``` | - |
-| 16 | [Lithuanian](https://en.wikipedia.org/wiki/Lithuanian_orthography) | 32 | ```aąbcčdeęėfghiįyjklmnoprsštuųūvzž``` <br>```AĄBCČDEĘĖFGHIĮYJKLMNOPRSŠTUŲŪVZŽ``` | - |
-| 17 | [Maltese](https://en.wikipedia.org/wiki/Maltese_alphabet) | 30 | ```abċdefġggħhħiiejklmnopqrstuvwxżz``` <br>```ABĊDEFĠGGĦHĦIIEJKLMNOPQRSTUVWXŻZ``` | - |
-| 18 | [Polish](https://en.wikipedia.org/wiki/Polish_alphabet) | 32 | ```aąbcćdeęfghijklłmnńoóprsśtuwyzźż```<br>```AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ``` | - |
-| 19 | [Portugese](https://en.wikipedia.org/wiki/Portuguese_orthography) | 39 | ```aàáâãbcçdeéêfghiíjklmnoóôõpqrstuúüvwxyz```<br>```AÀÁÂÃBCÇDEÉÊFGHIÍJKLMNOÓÔÕPQRSTUÚÜVWXYZ``` | - |
-| 20 | [Romanian](https://en.wikipedia.org/wiki/Romanian_alphabet) | 31 | ```aăâbcdefghiîjklmnopqrsștțuvwxyz```<br> ```AĂÂBCDEFGHIÎJKLMNOPQRSȘTȚUVWXYZ``` | - |
-| 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | 46 | ```aáäbcčdďdzdžeéfghchiíjklĺľmnňoóôpqrŕsštťuúvwxyýzž``` <br>```AÁÄBCČDĎDzDžEÉFGHChIÍJKLĹĽMNŇOÓÔPQRŔSŠTŤUÚVWXYÝZŽ```| - |
-| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```abcčdefghijklmnopqrsštuvwxyzž```  <br>```ABCČDEFGHIJKLMNOPQRSŠTUVWXYZŽ```<br><br>```ISO basic -qwxyQWXY +čšžČŠŽ``` |
-| 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | ```abcdefghijklmnñopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNÑOPQRSTUVWXYZ``` <br><br> ```ISO basic + ñÑ ```|
-| 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | 29 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,å,ä,ö``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,Y,Y,Z,Å,Ä,Ö``` <br><br> ```ISO basic + åäöÅÄÖ```|  | 
+| 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | ```а,б,в,г,д,е,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ь,ю,я```<br>```А,Б,В,Г,Д,Е,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ь,Ю,Я``` <br><br> ``` ```|
+| 2 | [Croatian](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet) | 30 |```a,b,c,č,ć,d,dž,đ,e,f,g,h,i,j,k,l,lj,m,n,n,j,o,p,r,s,š,t,u,v,z,ž```<br>```A,B,C,Č,Ć,D,Dž,Đ,E,F,G,H,I,J,K,L,Lj,M,N,N,j,O,P,R,S,Š,T,U,V,Z,Ž```<br><br> ``` ``` |
+| 3 | [Czech](https://en.wikipedia.org/wiki/Czech_orthography#Alphabet) | 42 | ```a,á,b,c,č,d,ď,e,é,ě,f,g,h,c,h,i,í,j,k,l,m,n,ň,o,ó,p,q,r,ř,s,š,t,ť,u,ú,ů,v,w,x,y,ý,z,ž``` <br>```A,Á,B,C,Č,D,Ď,E,É,Ě,F,G,H,C,H,I,Í,J,K,L,M,N,Ň,O,Ó,P,Q,R,Ř,S,Š,T,Ť,U,Ú,Ů,V,W,X,Y,Ý,Z,Ž```<br><br> ``` ``` |
+| 4 | [Danish](https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet) | 29 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,æ,ø,å```<br>```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Æ,Ø,Å```<br><br> ``` ``` |
+| 5 | [Dutch](https://en.wikipedia.org/wiki/Dutch_orthography) | 26 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z``` <br><br> ``` ``` |
+| 6 | [English](https://en.wikipedia.org/wiki/English_alphabet) | 26 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z```<br><br> ``` ``` |
+| 7 | [Estonian](https://en.wikipedia.org/wiki/Estonian_orthography) | 32 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,š,z,ž,t,u,v,w,õ,ä,ö,ü,x,y```<br>```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,Š,Z,Ž,T,U,V,W,Õ,Ä,Ö,Ü,X,Y```<br><br> ``` ``` |
+| 8 | [Finnish](https://en.wikipedia.org/wiki/Finnish_orthography) | 29 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,å,ä,ö```<br>```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,Y,Y,Z,Å,Ä,Ö```<br><br> ``` ``` |
+| 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | 42 |  ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z``` <br><br> ``` ```|
+| 10 | [German](https://en.wikipedia.org/wiki/German_orthography#Alphabet) | 30 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ä,ö,ü,ß``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Ä,Ö,Ü,ß``` <br><br> ``` ```|
+| 11 | [Greek](https://en.wikipedia.org/wiki/Greek_alphabet) | 24 | ```α,β,γ,δ,ε,ζ,η,θ,ι,κ,λ,μ,ν,ξ,ο,π,ρ,σ/ς,τ,υ,φ,χ,ψ,ω```<br>```Α,Β,Γ,Δ,Ε,Ζ,Η,Θ,Ι,Κ,Λ,Μ,Ν,Ξ,Ο,Π,Ρ,Σ,Τ,Υ,Φ,Χ,Ψ,Ω``` <br><br> ``` ```|
+| 12 | [Hungarian](https://en.wikipedia.org/wiki/Hungarian_alphabet) | 44 | ```a,á,b,c,c,s,d,d,z,d,z,s,e,é,f,g,g,y,h,i,í,j,k,l,l,y,m,n,n,y,o,ó,ö,ő,p,q,r,s,s,z,t,t,y,u,ú,ü,ű,v,w,x,y,z,z,s```<br>```A,Á,B,C,C,s,D,D,z,D,z,s,E,É,F,G,G,y,H,I,Í,J,K,L,L,y,M,N,N,y,O,Ó,Ö,Ő,P,Q,R,S,S,z,T,T,y,U,Ú,Ü,Ű,V,W,X,Y,Z,Z,s``` | ISO ```+ á|cs|dz|dzs|é|í|ly|ny|ó|ö|ő|sz|ty|ú|ü|ű|zs```<br>```Á|Cs|Dz|Dzs|É|Í|Ly|Ny|Ó|Ö|Ő|Sz|Ty|Ú|Ü|Ű|Zs``` <br><br> ``` ```|
+| 13 | [Irish](https://en.wikipedia.org/wiki/Irish_orthography#Alphabet) | 18 | ```a,b,c,d,e,f,g,h,i,l,m,n,o,p,r,s,t,u``` <br> ```A,B,C,D,E,F,G,H,I,L,M,N,O,P,R,S,T,U```<br><br> ``` ``` |
+| 14 | [Italian](https://en.wikipedia.org/wiki/Italian_orthography#Alphabet) | 21 | ```a,b,c,d,e,f,g,h,i,l,m,n,o,p,q,r,s,t,u,v,z``` <br> ```A,B,C,D,E,F,G,H,I,L,M,N,O,P,Q,R,S,T,U,V,Z```<br><br> ``` ``` |
+| 15 | [Latvian](https://en.wikipedia.org/wiki/Latvian_orthography) | 33 | ```a,ā,b,c,č,d,e,ē,f,g,ģ,h,i,ī,j,k,ķ,l,ļ,m,n,ņ,o,p,r,s,š,t,u,ū,v,z,ž```<br>```A,Ā,B,C,Č,D,E,Ē,F,G,Ģ,H,I,Ī,J,K,Ķ,L,Ļ,M,N,Ņ,O,P,R,S,Š,T,U,Ū,V,Z,Ž``` <br><br> ``` ```|
+| 16 | [Lithuanian](https://en.wikipedia.org/wiki/Lithuanian_orthography) | 32 | ```a,ą,b,c,č,d,e,ę,ė,f,g,h,i,į,y,j,k,l,m,n,o,p,r,s,š,t,u,ų,ū,v,z,ž``` <br>```A,Ą,B,C,Č,D,E,Ę,Ė,F,G,H,I,Į,Y,J,K,L,M,N,O,P,R,S,Š,T,U,Ų,Ū,V,Z,Ž```<br><br> ``` ``` |
+| 17 | [Maltese](https://en.wikipedia.org/wiki/Maltese_alphabet) | 30 | ```a,b,ċ,d,e,f,ġ,g,g,ħ,h,ħ,i,i,e,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,ż,z``` <br>```A,B,Ċ,D,E,F,Ġ,G,G,Ħ,H,Ħ,I,I,E,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Ż,Z```<br><br> ``` ``` |
+| 18 | [Polish](https://en.wikipedia.org/wiki/Polish_alphabet) | 32 | ```a,ą,b,c,ć,d,e,ę,f,g,h,i,j,k,l,ł,m,n,ń,o,ó,p,r,s,ś,t,u,w,y,z,ź,ż```<br>```A,Ą,B,C,Ć,D,E,Ę,F,G,H,I,J,K,L,Ł,M,N,Ń,O,Ó,P,R,S,Ś,T,U,W,Y,Z,Ź,Ż``` <br><br> ``` ```|
+| 19 | [Portugese](https://en.wikipedia.org/wiki/Portuguese_orthography) | 39 | ```a,à,á,â,ã,b,c,ç,d,e,é,ê,f,g,h,i,í,j,k,l,m,n,o,ó,ô,õ,p,q,r,s,t,u,ú,ü,v,w,x,y,z```<br>```A,À,Á,Â,Ã,B,C,Ç,D,E,É,Ê,F,G,H,I,Í,J,K,L,M,N,O,Ó,Ô,Õ,P,Q,R,S,T,U,Ú,Ü,V,W,X,Y,Z```<br><br> ``` ``` |
+| 20 | [Romanian](https://en.wikipedia.org/wiki/Romanian_alphabet) | 31 | ```a,ă,â,b,c,d,e,f,g,h,i,î,j,k,l,m,n,o,p,q,r,s,ș,t,ț,u,v,w,x,y,z```<br> ```A,Ă,Â,B,C,D,E,F,G,H,I,Î,J,K,L,M,N,O,P,Q,R,S,Ș,T,Ț,U,V,W,X,Y,Z```<br><br> ``` ``` |
+| 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | 46 | ```a,á,ä,b,c,č,d,ď,d,z,d,ž,e,é,f,g,h,c,h,i,í,j,k,l,ĺ,ľ,m,n,ň,o,ó,ô,p,q,r,ŕ,s,š,t,ť,u,ú,v,w,x,y,ý,z,ž``` <br>```A,Á,Ä,B,C,Č,D,Ď,D,z,D,ž,E,É,F,G,H,C,h,I,Í,J,K,L,Ĺ,Ľ,M,N,Ň,O,Ó,Ô,P,Q,R,Ŕ,S,Š,T,Ť,U,Ú,V,W,X,Y,Ý,Z,Ž```<br><br> ``` ```|
+| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```a,b,c,č,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,š,t,u,v,w,x,y,z,ž```  <br>```A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,Š,T,U,V,W,X,Y,Z,Ž```<br><br>```ISO basic -qwxyQWXY +čšžČŠŽ``` |
+| 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z``` <br><br> ```ISO basic + ñÑ ```|
+| 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | 29 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,å,ä,ö``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,Y,Y,Z,Å,Ä,Ö``` <br><br> ```ISO basic + åäöÅÄÖ```|
 
 
 
