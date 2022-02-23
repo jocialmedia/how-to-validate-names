@@ -159,12 +159,13 @@ E.g. "Western Order" vs. "Eastern Order".
 
 ## Further Reading
 
-
+- **ElAdawy**, Amr: [My name causes an issue with any booking! (names end with MR and MRS)](https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs), Thread on travel.stackexchange.com, 2019-11-05
 - **Graham-Cumming**, John: [Your Last Name Contains Invalid Characters](https://blog.jgc.org/2010/06/your-last-name-contains-invalid.html), 2010-06-17
 - **Ho**, Charly: [What's in a name (validation)?](https://dev.to/carlymho/whats-in-a-name-validation-4b41), 2018-10-08
 Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](https://www.youtube.com/watch?v=yuQ5YTNO3I0), 2017-06-10
 - **Ishida**, Richard (W3C): [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), 2011-08-17
 - **McKenzie**, Patrick: [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), 2010-06-17
+- **Null**, Christopher: [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/), 2015-11-05
 - **Rogers**, Tony: [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), 2018-01-08
 - **Šedivý**, Miroslav: Your Name is Invalid!, 
   - [Presentation at PyData Berlin 2019](https://www.youtube.com/watch?v=pBuS7EUPnQA), 2019-10-11
@@ -174,6 +175,10 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 - **Unknown**: [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
 - **Woods**, Andrew: [Name Validation Regex for People's Names](https://andrewwoods.net/blog/2018/name-validation-regex/),
 2018-04-06
+
+
+
+
 
 
 ## Coming Up
