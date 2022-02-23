@@ -7,8 +7,8 @@
     - [Length](#length)
     - [Characters](#characters)
     - [Similarity to reserved words](#similarity-to-reserved-words)
-     - [Similarity to profanity words](#similarity-to-profanity-words)
-     - [Symbols or unusual terms as names](#symbols-or-unusual-terms-as-names)
+    - [Similarity to profanity words](#similarity-to-profanity-words)
+    - [Symbols or unusual terms as names](#symbols-or-unusual-terms-as-names)
   - [Languages](#languages)
     - [Languages of the EU](#languages-of-the-eu)
     - [Alphabets of the EU languages](#alphabets-of-the-eu-languages)     
@@ -106,10 +106,6 @@ E.g. "Western Order" vs. "Eastern Order".
 ### Alphabets of the EU languages
 
 
-
- 
- 
-
 |  | Language | Letters | Alphabet | 
 | ---- | ---- | ---- | ---- |
 | 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_alphabet) | 30 | ```а,б,в,г,д,е,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ь,ю,я```<br>```А,Б,В,Г,Д,Е,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ь,Ю,Я``` <br><br> ``` ```|
@@ -132,12 +128,13 @@ E.g. "Western Order" vs. "Eastern Order".
 | 18 | [Polish](https://en.wikipedia.org/wiki/Polish_alphabet) | 32 | ```a,ą,b,c,ć,d,e,ę,f,g,h,i,j,k,l,ł,m,n,ń,o,ó,p,r,s,ś,t,u,w,y,z,ź,ż```<br>```A,Ą,B,C,Ć,D,E,Ę,F,G,H,I,J,K,L,Ł,M,N,Ń,O,Ó,P,R,S,Ś,T,U,W,Y,Z,Ź,Ż``` <br><br> ``` ```|
 | 19 | [Portugese](https://en.wikipedia.org/wiki/Portuguese_orthography) | 39 | ```a,à,á,â,ã,b,c,ç,d,e,é,ê,f,g,h,i,í,j,k,l,m,n,o,ó,ô,õ,p,q,r,s,t,u,ú,ü,v,w,x,y,z```<br>```A,À,Á,Â,Ã,B,C,Ç,D,E,É,Ê,F,G,H,I,Í,J,K,L,M,N,O,Ó,Ô,Õ,P,Q,R,S,T,U,Ú,Ü,V,W,X,Y,Z```<br><br> ``` ``` |
 | 20 | [Romanian](https://en.wikipedia.org/wiki/Romanian_alphabet) | 31 | ```a,ă,â,b,c,d,e,f,g,h,i,î,j,k,l,m,n,o,p,q,r,s,ș,t,ț,u,v,w,x,y,z```<br> ```A,Ă,Â,B,C,D,E,F,G,H,I,Î,J,K,L,M,N,O,P,Q,R,S,Ș,T,Ț,U,V,W,X,Y,Z```<br><br> ``` ``` |
-| 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | 46 | ```a,á,ä,b,c,č,d,ď,dz,dž,e,é,f,g,h,ch,i,í,j,k,l,ĺ,ľ,m,n,ň,o,ó,ô,p,q,r,ŕ,s,š,t,ť,u,ú,v,w,x,y,ý,z,ž``` <br>```A,Á,Ä,B,C,Č,D,Ď,Dz,Dž,E,É,F,G,H,Ch,I,Í,J,K,L,Ĺ,Ľ,M,N,Ň,O,Ó,Ô,P,Q,R,Ŕ,S,Š,T,Ť,U,Ú,V,W,X,Y,Ý,Z,Ž```<br><br> ``` ```|
-| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```a,b,c,č,d,e,f,g,h,i,j,k,l,m,n,o,p,r,s,š,t,u,v,z,ž```  <br>```A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,R,S,Š,T,U,V,Z,Ž```<br><br>```ISO basic -qwxyQWXY +čšžČŠŽ``` |
-| 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z``` <br><br> ```ISO basic + ñÑ ```|
-| 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | 29 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,å,ä,ö``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,Y,Y,Z,Å,Ä,Ö``` <br><br> ```ISO basic + åäöÅÄÖ```|
+| 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | 46 | ```a,á,ä,b,c,č,d,ď,dz,dž,e,é,f,g,h,ch,i,í,j,k,l,ĺ,ľ,m,n,ň,o,ó,ô,p,q,r,ŕ,s,š,t,ť,u,ú,v,w,x,y,ý,z,ž``` <br>```A,Á,Ä,B,C,Č,D,Ď,Dz,Dž,E,É,F,G,H,Ch,I,Í,J,K,L,Ĺ,Ľ,M,N,Ň,O,Ó,Ô,P,Q,R,Ŕ,S,Š,T,Ť,U,Ú,V,W,X,Y,Ý,Z,Ž```<br><br> ```Regex: ^[A-Za-z -áäčďžéíĺľňóôŕšťúýžÁÄČĎžÉÍĹĽŇÓÔŔŠŤÚÝŽ]+$```|
+| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```a,b,c,č,d,e,f,g,h,i,j,k,l,m,n,o,p,r,s,š,t,u,v,z,ž```  <br>```A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,R,S,Š,T,U,V,Z,Ž```<br><br> ```Regex: ^[A-Za-z -čšžČŠŽ]+$```|
+| 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z``` <br><br> ```Regex: ^[A-Za-z -ñÑ]+$```|
+| 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | 29 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,å,ä,ö``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,Y,Y,Z,Å,Ä,Ö``` <br><br> ```Regex: ^[A-Za-z -åäöÅÄÖ]+$```| 
+| | | | ```General Regex: ^[A-Za-z -áåäčďéíĺľňñóôöŕšťúýžÁÅÄČÉĎÍĹĽŇÑÖÓÔŔŠŤÚÝŽ]+$``` |
 
-
+ 
 
 ### Languages worldwide
 
