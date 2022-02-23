@@ -106,7 +106,8 @@ E.g. "Western Order" vs. "Eastern Order".
 ### Alphabets of the EU languages
 
 
-
+ 
+ 
  
 
 |  | Language | Number of Letters | Alphabet | - |
@@ -122,15 +123,15 @@ E.g. "Western Order" vs. "Eastern Order".
 | 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | 42 | - | - |
 | 10 | [German](https://en.wikipedia.org/wiki/German_orthography#Alphabet) | 30 | ```abcdefghijklmnopqrstuvwxyzäöüß``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß``` | - |
 | 11 | [Greek](https://en.wikipedia.org/wiki/Greek_alphabet) | 24 | - | - |
-| 12 | [Hungarian](https://en.wikipedia.org/wiki/Hungarian_alphabet) | 44 | - | - |
-| 13 | [Irish](https://en.wikipedia.org/wiki/Irish_orthography#Alphabet) | 18 | - | - |
+| 12 | [Hungarian](https://en.wikipedia.org/wiki/Hungarian_alphabet) | 44 | ```aábccsddzdzseéfggyhiíjkllymnnyoóöőpqrsszttyuúüűvwxyzzs```<br>```AÁBCCsDDzDzsEÉFGGyHIÍJKLLyMNNyOÓÖŐPQRSSzTTyUÚÜŰVWXYZZs``` | ISO ```+ á|cs|dz|dzs|é|í|ly|ny|ó|ö|ő|sz|ty|ú|ü|ű|zs```<br>```Á|Cs|Dz|Dzs|É|Í|Ly|Ny|Ó|Ö|Ő|Sz|Ty|Ú|Ü|Ű|Zs``` |
+| 13 | [Irish](https://en.wikipedia.org/wiki/Irish_orthography#Alphabet) | 18 | ```abcdefghilmnoprstu``` <br> ```ABCDEFGHILMNOPRSTU``` | - |
 | 14 | [Italian](https://en.wikipedia.org/wiki/Italian_orthography#Alphabet) | 21 | ```abcdefghilmnopqrstuvz``` <br> ```ABCDEFGHILMNOPQRSTUVZ``` | - |
-| 15 | [Latvian](https://en.wikipedia.org/wiki/Latvian_orthography) | 33 | - | - |
+| 15 | [Latvian](https://en.wikipedia.org/wiki/Latvian_orthography) | 33 | ```aābcčdeēfgģhiījkķlļmnņoprsštuūvzž```<br>```AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ``` | - |
 | 16 | [Lithuanian](https://en.wikipedia.org/wiki/Lithuanian_orthography) | 32 | ```aąbcčdeęėfghiįyjklmnoprsštuųūvzž``` <br>```AĄBCČDEĘĖFGHIĮYJKLMNOPRSŠTUŲŪVZŽ``` | - |
 | 17 | [Maltese](https://en.wikipedia.org/wiki/Maltese_alphabet) | 30 | ```abċdefġggħhħiiejklmnopqrstuvwxżz``` <br>```ABĊDEFĠGGĦHĦIIEJKLMNOPQRSTUVWXŻZ``` | - |
-| 18 | [Polish](https://en.wikipedia.org/wiki/Polish_alphabet) | 32 | - | - |
-| 19 | [Portugese](https://en.wikipedia.org/wiki/Portuguese_orthography) | 32 | - | - |
-| 20 | [Romanian](https://en.wikipedia.org/wiki/Romanian_alphabet) | 31 | - | - |
+| 18 | [Polish](https://en.wikipedia.org/wiki/Polish_alphabet) | 32 | ```aąbcćdeęfghijklłmnńoóprsśtuwyzźż```<br>```AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ``` | - |
+| 19 | [Portugese](https://en.wikipedia.org/wiki/Portuguese_orthography) | 39 | ```aàáâãbcçdeéêfghiíjklmnoóôõpqrstuúüvwxyz```<br>```AÀÁÂÃBCÇDEÉÊFGHIÍJKLMNOÓÔÕPQRSTUÚÜVWXYZ``` | - |
+| 20 | [Romanian](https://en.wikipedia.org/wiki/Romanian_alphabet) | 31 | ```aăâbcdefghiîjklmnopqrsștțuvwxyz```<br> ```AĂÂBCDEFGHIÎJKLMNOPQRSȘTȚUVWXYZ``` | - |
 | 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | 46 | ```aáäbcčdďdzdžeéfghchiíjklĺľmnňoóôpqrŕsštťuúvwxyýzž``` <br>```AÁÄBCČDĎDzDžEÉFGHChIÍJKLĹĽMNŇOÓÔPQRŔSŠTŤUÚVWXYÝZŽ```| - |
 | 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```abcčdefghijklmnopqrsštuvwxyzž```  <br>```ABCČDEFGHIJKLMNOPQRSŠTUVWXYZŽ``` | ISO <br>-qwxyQWXY <br> + čšžČŠŽ |
 | 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | ```abcdefghijklmnñopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNÑOPQRSTUVWXYZ``` | ISO <br>+ ñÑ |
@@ -139,7 +140,7 @@ E.g. "Western Order" vs. "Eastern Order".
 
 
 
-
+ 
 
 ### Languages worldwide
 
