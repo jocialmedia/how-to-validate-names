@@ -120,9 +120,9 @@ E.g. "Western Order" vs. "Eastern Order".
 | 6 | [English](https://en.wikipedia.org/wiki/English_alphabet) | 26 | ```abcdefghijklmnopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZ``` | - |
 | 7 | [Estonian](https://en.wikipedia.org/wiki/Estonian_orthography) | 32 | ```abcdefghijklmnopqrsšzžtuvwõäöüxy```<br>```ABCDEFGHIJKLMNOPQRSŠZŽTUVWÕÄÖÜXY``` | - |
 | 8 | [Finnish](https://en.wikipedia.org/wiki/Finnish_orthography) | 29 | ```abcdefghijklmnopqrstuvwxyzåäö```<br>```ABCDEFGHIJKLMNOPQRSTUVWYYZÅÄÖ``` | - |
-| 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | 42 | - | - |
+| 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | 42 |  ```abcdefghijklmnopqrstuvwxyz``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZ``` | - |
 | 10 | [German](https://en.wikipedia.org/wiki/German_orthography#Alphabet) | 30 | ```abcdefghijklmnopqrstuvwxyzäöüß``` <br> ```ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß``` | - |
-| 11 | [Greek](https://en.wikipedia.org/wiki/Greek_alphabet) | 24 | - | - |
+| 11 | [Greek](https://en.wikipedia.org/wiki/Greek_alphabet) | 24 | ```αβγδεζηθικλμνξοπρσςτυφχψω```<br>```ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ``` | - |
 | 12 | [Hungarian](https://en.wikipedia.org/wiki/Hungarian_alphabet) | 44 | ```aábccsddzdzseéfggyhiíjkllymnnyoóöőpqrsszttyuúüűvwxyzzs```<br>```AÁBCCsDDzDzsEÉFGGyHIÍJKLLyMNNyOÓÖŐPQRSSzTTyUÚÜŰVWXYZZs``` | ISO ```+ á|cs|dz|dzs|é|í|ly|ny|ó|ö|ő|sz|ty|ú|ü|ű|zs```<br>```Á|Cs|Dz|Dzs|É|Í|Ly|Ny|Ó|Ö|Ő|Sz|Ty|Ú|Ü|Ű|Zs``` |
 | 13 | [Irish](https://en.wikipedia.org/wiki/Irish_orthography#Alphabet) | 18 | ```abcdefghilmnoprstu``` <br> ```ABCDEFGHILMNOPRSTU``` | - |
 | 14 | [Italian](https://en.wikipedia.org/wiki/Italian_orthography#Alphabet) | 21 | ```abcdefghilmnopqrstuvz``` <br> ```ABCDEFGHILMNOPQRSTUVZ``` | - |
