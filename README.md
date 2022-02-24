@@ -78,7 +78,7 @@ Good news: Here trouble is easy to avoid by trimming or stripping possible white
 
 Wikipedia features an even bigger list of [trimming examples in programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)#trim) as well as some basic info about the subject of  [trimming](https://en.wikipedia.org/wiki/Trimming_(computer_programming)).
 
-Beware about the different kinds of whitespace ([25 examples for whitespace in Unicode on Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character#Spaces_in_Unicode), [Wikipedia on whitespace](https://en.wikipedia.org/wiki/Whitespace_(programming_language))) and that the interpretation of them can vary from method to method. Luckily our use case should be mostly about the spacebar whitespace ([U+0020](https://www.compart.com/de/unicode/U+0020)) which is part of the 128 characters of the Unicode Latin Basic block and should be covered by most of the methods as standard.
+Beware about the different kinds of whitespace ([25 examples for whitespace in Unicode on Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character#Spaces_in_Unicode)) and that the interpretation of them can vary from method to method. Luckily our use case should be mostly about the spacebar whitespace ([U+0020](https://www.compart.com/de/unicode/U+0020)) which is part of the 128 characters of the Unicode Latin Basic block and should be covered by most of the methods as standard.
 
 
 ## Languages
