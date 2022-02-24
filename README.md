@@ -200,6 +200,8 @@ Shorter version with ignore flag:
 
 ## Further Reading
 
+- **Atwood**, Jeff: [Obscenity Filters: Bad Idea, or Incredibly Intercoursing Bad Idea?](https://blog.codinghorror.com/obscenity-filters-bad-idea-or-incredibly-intercoursing-bad-idea), 2008-10-20
+
 - **Baraniuk**, Chris: [These unlucky people have names that break computers](https://www.bbc.com/future/article/20160325-the-names-that-break-computer-systems), bbc.<area>com, 2016-03-25
 
 - **Deldycke**, Kevin: [Awesome Falsehood - A curated list of falsehoods programmers believe in](https://github.com/kdeldycke/awesome-falsehood), ongoing collection
