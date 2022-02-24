@@ -63,8 +63,22 @@ E.g. "Western Order" vs. "Eastern Order".
 
 ### Redundant space at beginning or end
 
-Easily solved by trimming the input.
+Yes, of course this a point which should go without saying but let us look for a moment at the redundant space at the beginning or end of an input which could also trigger a negative validation. We do this not only for the sake of completeness but also because exactly such things have a tendency to cause behaviors which are the hardest to catch for the exact reason that they are so obvious. 
 
+Good news: Here trouble is easy to avoid by trimming or stripping possible whitespace with the respectable functions.
+
+
+| Language | Doc | Example |
+| -- | -- | -- | 
+| Javascript | [Docs](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) | ```let inputTrimmed = inputOriginal.trim(); ``` |
+| Java | [Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#trim()) | ```String inputTrimmed = inputOriginal.trim(); ``` |
+| PHP | [Docs](https://www.php.net/manual/de/function.trim.php) | ```$input_trimmed = trim($input_original); ``` |
+| Python | [Docs](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.strip) | ```input_trimmed = input_original.strip() ``` |
+| Go | [Docs](https://pkg.go.dev/strings#TrimSpace) | ```var inputTrimmed = strings.TrimSpace(inputOriginal) ``` |
+
+Wikipedia features an even bigger list of [trimming examples in programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)#trim) as well as some basic info about the subject of  [trimming](https://en.wikipedia.org/wiki/Trimming_(computer_programming)).
+
+Beware about the different kinds of whitespace ([25 examples for whitespace in Unicode on Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character#Spaces_in_Unicode), [Wikipedia on whitespace](https://en.wikipedia.org/wiki/Whitespace_(programming_language))) and that the interpretation of them can vary from method to method. Luckily our use case should be mostly about the spacebar whitespace ([U+0020](https://www.compart.com/de/unicode/U+0020)) which is part of the 128 characters of the Unicode Latin Basic block and should be covered by most of the methods as standard.
 
 
 ## Languages
