@@ -1,26 +1,28 @@
 # How to validate names
 
-  - [About](#about)
-  - [Reasons for failing validation](#reasons-for-failing-validation)
-    - [Number of elements](#number-of-elements)
-    - [Order of elements](#order-of-elements)
-    - [Length](#length)
-    - [Characters](#characters)
-    - [Similarity to reserved words](#similarity-to-reserved-words)
-    - [Similarity to profanity words](#similarity-to-profanity-words)
-    - [Symbols or unusual terms as names](#symbols-or-unusual-terms-as-names)
-    - [Redundant space at beginning or end](#redundant-space-at-beginning-or-end)
-  - [Languages](#languages)
-    - [Languages of the EU](#languages-of-the-eu)
-    - [Alphabets of the EU languages](#alphabets-of-the-eu-languages)     
-    - [Languages worldwide](#languages-worldwide)  
-  - [Ideas to explore further in the upcoming time](#ideas-to-explore-further-in-the-upcoming-time)
-  - [Further Reading](#further-reading)
+  - [1. About](#1-about)
+  - [2. Reasons for failing validation](#2-reasons-for-failing-validation)
+    - [2.1. Number of elements](#21-number-of-elements)
+    - [2.2. Order of elements](#22-order-of-elements)
+    - [2.3. Length](#23-length)
+    - [2.4. Characters](#24-characters)
+    - [2.5. Similarity to reserved words](#25-similarity-to-reserved-words)
+    - [2.6. Similarity to profanity words](#26-similarity-to-profanity-words)
+    - [2.7. Symbols or unusual terms as names](#27-symbols-or-unusual-terms-as-names)
+    - [2.8. Redundant space at beginning or end](#28-redundant-space-at-beginning-or-end)
+  - [3. Languages](#3-languages)
+    - [3.1. Languages of the EU](#31-languages-of-the-eu)
+    - [3.2. Alphabets of the EU languages](#32-alphabets-of-the-eu-languages)
+    - [3.3. General Regex for all 24 EU languages](#33-general-regex-for-all-24-eu-languages)
+    - [3.4. General Regex without Greek and Bulgarian](#34-general-regex-without-greek-and-bulgarian)
+    - [3.5. Languages worldwide](#35-languages-worldwide)
+  - [4. Ideas to explore further in the upcoming time](#4-ideas-to-explore-further-in-the-upcoming-time)
+  - [5. Further Reading](#5-further-reading)
   - [Coming Up](#coming-up)
 
 
 
-## About
+## 1. About
 
 
 In 2022 nobody should have to be confronted with problems while filling out an online form. Still we all know a lot of cases in which valid legal names are either not accepted, not transmitted or not printed out correctly. 
@@ -30,38 +32,38 @@ I am totally convinced that in not one of those cases the reason is malicious in
 So my idea is to setup a systematic collection of international examples and even validation rules (e.g. as Regex) which are free for everyone to use. I hope this can help to promote respectful validation standards in IT products.
 
 
-## Reasons for failing validation
+## 2. Reasons for failing validation
 
 
-### Number of elements
+### 2.1. Number of elements
 ...
 
-### Order of elements
+### 2.2. Order of elements
 
 E.g. "Western Order" vs. "Eastern Order".
 
 [More coming Up](#coming-up) 
-### Length
+### 2.3. Length
 [Coming Up](#coming-up) 
 
-### Characters
+### 2.4. Characters
 [Coming Up](#coming-up) 
 
-### Similarity to reserved words
-
-[Coming Up](#coming-up) 
-
-### Similarity to profanity words
+### 2.5. Similarity to reserved words
 
 [Coming Up](#coming-up) 
 
-
-### Symbols or unusual terms as names
+### 2.6. Similarity to profanity words
 
 [Coming Up](#coming-up) 
 
 
-### Redundant space at beginning or end
+### 2.7. Symbols or unusual terms as names
+
+[Coming Up](#coming-up) 
+
+
+### 2.8. Redundant space at beginning or end
 
 Yes, of course this a point which should go without saying but let us look for a moment at the redundant space at the beginning or end of an input which could also trigger a negative validation. We do this not only for the sake of completeness but also because exactly such things have a tendency to cause behaviors which are the hardest to catch for the exact reason that they are so obvious. 
 
@@ -81,11 +83,11 @@ Wikipedia features an even bigger list of [trimming examples in programming lang
 Beware about the different kinds of whitespace ([25 examples for whitespace in Unicode on Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character#Spaces_in_Unicode)) and that the interpretation of them can vary from method to method. Luckily our use case should be mostly about the spacebar whitespace ([U+0020](https://www.compart.com/de/unicode/U+0020)) which is part of the 128 characters of the Unicode Latin Basic block and should be covered by most of the methods as standard.
 
 
-## Languages
+## 3. Languages
 
 
 
-### Languages of the EU
+### 3.1. Languages of the EU
 
 24 current EU languages in alphabetical order.
 
@@ -123,7 +125,7 @@ Beware about the different kinds of whitespace ([25 examples for whitespace in U
 
 
 
-### Alphabets of the EU languages
+### 3.2. Alphabets of the EU languages
 
 
 |  | Language | Letters | Alphabet / Regex patterns | 
@@ -155,7 +157,7 @@ Beware about the different kinds of whitespace ([25 examples for whitespace in U
 
 
 
-#### General Regex for all 24 EU languages: 
+### 3.3. General Regex for all 24 EU languages: 
 ```
 /^[A-Za-z -áÁàÀăĂâÂåÅäÄãÃąĄāĀæÆćĆčČċĊçÇďĎđĐéÉêÊěĚėĖęĘēĒġĠģĢħĦíÍ
 îÎįĮīĪķĶĺĹľĽļĻłŁńŃňŇñÑņŅóÓôÔöÖőŐõÕøØŕŔřŘśŚšŠșȘßťŤțȚúÚůŮüÜűŰųŲū
@@ -171,7 +173,7 @@ an upper and an lower case version of each character:
 ```
 
 
-#### General Regex without Greek and Bulgarian:
+### 3.4. General Regex without Greek and Bulgarian:
 ``` 
 /^[A-Za-z -áÁàÀăĂâÂåÅäÄãÃąĄāĀæÆćĆčČċĊçÇďĎđĐéÉêÊěĚėĖęĘēĒġĠģĢħĦíÍîÎįĮīĪ
 ķĶĺĹľĽļĻłŁńŃňŇñÑņŅóÓôÔöÖőŐõÕøØŕŔřŘśŚšŠșȘßťŤțȚúÚůŮüÜűŰųŲūŪýÝźŹžŽżŻ]+$/
@@ -182,7 +184,7 @@ Shorter version with ignore flag:
 ```
 
 
-### Languages worldwide
+### 3.5. Languages worldwide
 
 As there are about 7.000 languages worldwide I decided to deal only with those which are used on a bigger number of websites. So [this analysis by the experts from W3](https://w3techs.com/technologies/overview/content_language) lists 34 languages from which 19 are already part of the EU languages and 15 new ones.
 
@@ -224,7 +226,7 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 | 33 | Norwegian Bokmål | 0.1% | new |
 | 34 | Lithuanian | 0.1% | EU |
 
-## Ideas to explore further in the upcoming time
+## 4. Ideas to explore further in the upcoming time
 
 
 - Research list of international language standards
@@ -235,7 +237,7 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 
 
 
-## Further Reading
+## 5. Further Reading
 
 - **Atwood**, Jeff: [Obscenity Filters: Bad Idea, or Incredibly Intercoursing Bad Idea?](https://blog.codinghorror.com/obscenity-filters-bad-idea-or-incredibly-intercoursing-bad-idea), 2008-10-20
 
