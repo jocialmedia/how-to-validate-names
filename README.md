@@ -184,8 +184,45 @@ Shorter version with ignore flag:
 
 ### Languages worldwide
 
-- In the first step I will focus on the EU.
+As there are about 7.000 languages worldwide I decided to deal only with those which are used on a bigger number of websites. So [this analysis by the experts from W3](https://w3techs.com/technologies/overview/content_language) lists 34 languages from which 19 are already part of the EU languages and 15 new ones.
 
+
+| | Language | Percentage of use | Alphabet / Regex|
+|-|-|-|-|
+| 1 | English | 63.6% | EU |
+| 2 | Russian | 6.7% | new |
+| 3 | Turkish | 3.9% | new |
+| 4 | Spanish | 3.6% | EU |
+| 5 | Persian | 3.5% | new |
+| 6 | French |2.5% | EU |
+| 7 | German | 2.1% | EU |
+| 8 | Japanese | 2.0% | new |
+| 9 | Vietnamese | 1.9% | new |
+| 10 | Chinese | 1.4% | new |
+| 11 | Arabic | 1.3% | new |
+| 12 | Indonesian | 0.8% | new |
+| 13 | Italian | 0.8% | EU |
+| 14 | Portuguese | 0.7% | EU |
+| 15 | Ukrainian	| 0.6% | new |
+| 16 | Dutch, Flemish | 0.6% | EU |
+| 17 | Thai | 0.5% | new |
+| 18 | Polish | 0.5% | EU |
+| 19 | Hebrew | 0.5% | new |
+| 20 | Korean | 0.5% | new |
+| 21 | Romanian | 0.2% | EU |
+| 22 | Greek | 0.2% | EU |
+| 23 | Czech	| 0.2% | EU |
+| 24 | Swedish |	0.2% | EU |
+| 25 | Serbian | 0.2% | new |
+| 26 | Danish | 0.1% | EU |
+| 27 | Hungarian | 0.1% | EU |
+| 28 | Finnish | 0.1% | EU |
+| 29 | Bulgarian | 0.1% | EU |
+| 30 | Croatian | 0.1% | EU |
+| 31 | Hindi	| 0.1% | new |
+| 32 | Slovak | 0.1% | EU |
+| 33 | Norwegian Bokmål | 0.1% | new |
+| 34 | Lithuanian | 0.1% | EU |
 
 ## Ideas to explore further in the upcoming time
 
