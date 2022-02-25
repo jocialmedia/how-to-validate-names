@@ -191,40 +191,40 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 
 | | Language | Percentage of use | Alphabet / Regex|
 |-|-|-|-|
-| 1 | English | 63.6% | EU |
-| 2 | Russian | 6.7% | new |
+| 1 | English | 63.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 2 | Russian | 6.7% | ```33 / а,б,в,г,д,е,ё,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ы,ь,э,ю,я```  <br>```А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ы,Ь,Э,Ю,Я ``` |
 | 3 | Turkish | 3.9% | new |
-| 4 | Spanish | 3.6% | EU |
+| 4 | Spanish | 3.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 5 | Persian | 3.5% | new |
-| 6 | French |2.5% | EU |
-| 7 | German | 2.1% | EU |
+| 6 | French |2.5% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 7 | German | 2.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 8 | Japanese | 2.0% | new |
 | 9 | Vietnamese | 1.9% | new |
 | 10 | Chinese | 1.4% | new |
 | 11 | Arabic | 1.3% | new |
 | 12 | Indonesian | 0.8% | new |
-| 13 | Italian | 0.8% | EU |
-| 14 | Portuguese | 0.7% | EU |
+| 13 | Italian | 0.8% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 14 | Portuguese | 0.7% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 15 | Ukrainian	| 0.6% | new |
-| 16 | Dutch, Flemish | 0.6% | EU |
+| 16 | Dutch, Flemish | 0.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 17 | Thai | 0.5% | new |
-| 18 | Polish | 0.5% | EU |
+| 18 | Polish | 0.5% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 19 | Hebrew | 0.5% | new |
 | 20 | Korean | 0.5% | new |
-| 21 | Romanian | 0.2% | EU |
-| 22 | Greek | 0.2% | EU |
-| 23 | Czech	| 0.2% | EU |
-| 24 | Swedish |	0.2% | EU |
+| 21 | Romanian | 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 22 | Greek | 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 23 | Czech	| 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 24 | Swedish |	0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 25 | Serbian | 0.2% | new |
-| 26 | Danish | 0.1% | EU |
-| 27 | Hungarian | 0.1% | EU |
-| 28 | Finnish | 0.1% | EU |
-| 29 | Bulgarian | 0.1% | EU |
-| 30 | Croatian | 0.1% | EU |
+| 26 | Danish | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 27 | Hungarian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 28 | Finnish | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 29 | Bulgarian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 30 | Croatian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 31 | Hindi	| 0.1% | new |
-| 32 | Slovak | 0.1% | EU |
+| 32 | Slovak | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 33 | Norwegian Bokmål | 0.1% | new |
-| 34 | Lithuanian | 0.1% | EU |
+| 34 | Lithuanian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
 
 ## 4. Ideas to explore further in the upcoming time
 
