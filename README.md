@@ -4,7 +4,7 @@
   - [2. Reasons for failing validation](#2-reasons-for-failing-validation)
     - [2.1. Number of elements](#21-number-of-elements)
     - [2.2. Order of elements](#22-order-of-elements)
-    - [2.3. Length](#23-length)
+    - [2.3. Length of elements](#23-length-of-elements)
     - [2.4. Characters](#24-characters)
     - [2.5. Similarity to reserved words](#25-similarity-to-reserved-words)
     - [2.6. Similarity to profanity words](#26-similarity-to-profanity-words)
@@ -36,29 +36,58 @@ So my idea is to setup a systematic collection of international examples and eve
 
 
 ### 2.1. Number of elements
+
+Suggested solution:
+...
 ...
 
 ### 2.2. Order of elements
 
 E.g. "Western Order" vs. "Eastern Order".
 
+Suggested solution:
+...
+
 [More coming Up](#coming-up) 
-### 2.3. Length
+### 2.3. Length of elements
+
+This topic overlaps with [2.1. Number of elements](#21-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fieldss for first name, middle name and last name.
+
+Let us first start with the allowed minium length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
+
+The smallest common first names in western countries are written with 3 letters like "Jim", "Joe", "Max", "Sam", "Sue" or "Tom". But as countless examples over the years document especially online users with an asian background may have first or last names with just two letters like software developer [Charly Ho](https://dev.to/carlymho/whats-in-a-name-validation-4b41) or pro golfer [Lucy Li](https://en.wikipedia.org/wiki/Lucy_Li).
+
+The issue with allowed maximum lengths is often linked to very practical reasons like technical limits in IT systems. For example until 2013 the infrastructure used by the authorities in the US state of Hawaii could only process names with up to 35 characters. Then Hawaiian woman [Janice "Lokelani" Keihanaikukauakahihulihe'ekahaunaele](https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579) had to take legal measures to make the state change this. Under the new policy, the state's cards will have room for 40 characters in "first and last names and 35 characters for middle names.
+
+Suggested solution:
+...
+
+
 [Coming Up](#coming-up) 
 
 ### 2.4. Characters
+
+Suggested solution:
+...
+
 [Coming Up](#coming-up) 
 
 ### 2.5. Similarity to reserved words
+Suggested solution:
+...
 
 [Coming Up](#coming-up) 
 
 ### 2.6. Similarity to profanity words
+Suggested solution:
+...
 
 [Coming Up](#coming-up) 
 
 
 ### 2.7. Symbols or unusual terms as names
+Suggested solution:
+...
 
 [Coming Up](#coming-up) 
 
@@ -81,6 +110,9 @@ Good news: Here trouble is easy to avoid by trimming or stripping possible white
 Wikipedia features an even bigger list of [trimming examples in programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)#trim) as well as some basic info about the subject of  [trimming](https://en.wikipedia.org/wiki/Trimming_(computer_programming)).
 
 Beware about the different kinds of whitespace ([25 examples for whitespace in Unicode on Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character#Spaces_in_Unicode)) and that the interpretation of them can vary from method to method. Luckily our use case should be mostly about the spacebar whitespace ([U+0020](https://www.compart.com/de/unicode/U+0020)) which is part of the 128 characters of the Unicode Latin Basic block and should be covered by most of the methods as standard.
+
+Suggested solution:
+Using trim or strip functions with the input. 
 
 
 ## 3. Languages
