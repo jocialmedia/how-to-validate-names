@@ -271,6 +271,12 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 
 ## 5. Further Reading
 
+- **Adzic**, Gojko: [People that make computers go crazy](https://gojko.net/2017/12/08/people-making-computers-crazy.html), 2017-12-08 
+- [Talk at Øredev](https://vimeo.com/243152077), 38min, 2017-11-10
+- [Talk at NDC Oslo](https://www.youtube.com/watch?v=1Rna6NvIIDk), 60min, 2018-06-11
+
+- **Adzic**, Gojko: [Humans vs Computers](https://gojko.net/books/humans-vs-computers), 2017-09-01 
+
 - **Atwood**, Jeff: [Obscenity Filters: Bad Idea, or Incredibly Intercoursing Bad Idea?](https://blog.codinghorror.com/obscenity-filters-bad-idea-or-incredibly-intercoursing-bad-idea), 2008-10-20
 
 - **Baraniuk**, Chris: [These unlucky people have names that break computers](https://www.bbc.com/future/article/20160325-the-names-that-break-computer-systems), bbc.<area>com, 2016-03-25
