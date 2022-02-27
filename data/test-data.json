@@ -27,6 +27,62 @@
         "info": "https://en.wikipedia.org/wiki/Sabine_Leutheusser-Schnarrenberger",
         "comment": "Name checked. No hidden second first names."
     }, {
+        "language": "hrv",
+        "use_case": "letter_č",
+        "example_first_name": "Sunčana",
+        "example_last_name": "Glavak",
+        "info": "https://www.europarl.europa.eu/meps/de/202036/SUNCANA_GLAVAK/home",
+        "comment": ""
+    }, {
+        "language": "hrv",
+        "use_case": "letter_ć",
+        "example_first_name": "Romana",
+        "example_last_name": "Jerković",
+        "info": "https://www.europarl.europa.eu/meps/de/112747/ROMANA_JERKOVIC/home",
+        "comment": ""
+    }, {
+        "language": "hrv",
+        "use_case": "letter_ž",
+        "example_first_name": "željana",
+        "example_last_name": "Zovko",
+        "info": "https://www.europarl.europa.eu/meps/de/185341/ZELJANA_ZOVKO/home",
+        "comment": ""
+    }, {
+        "language": "hrv",
+        "use_case": "letter_đ",
+        "example_first_name": "Franjo",
+        "example_last_name": "Tuđman",
+        "info": "https://en.wikipedia.org/wiki/Franjo_Tu%C4%91man",
+        "comment": ""
+    }, {
+        "language": "hrv",
+        "use_case": "letter_š",
+        "example_first_name": "Zlatko",
+        "example_last_name": "Mateša",
+        "info": "https://en.wikipedia.org/wiki/Zlatko_Mate%C5%A1a",
+        "comment": ""
+    }, {
+        "language": "dan",
+        "use_case": "letter_æ",
+        "example_first_name": "Nick",
+        "example_last_name": "Hækkerup",
+        "info": "https://en.wikipedia.org/wiki/Nick_H%C3%A6kkerup",
+        "comment": ""
+    }, {
+        "language": "dan",
+        "use_case": "letter_ø",
+        "example_first_name": "Morten",
+        "example_last_name": "Løkkegaard",
+        "info": "https://www.europarl.europa.eu/meps/de/96709/MORTEN_LOKKEGAARD/home",
+        "comment": ""
+    }, {
+        "language": "dan",
+        "use_case": "letter_å",
+        "example_first_name": "Svend Åge",
+        "example_last_name": "Madsen",
+        "info": "https://de.wikipedia.org/wiki/Svend_%C3%85ge_Madsen",
+        "comment": ""
+    }, {
         "language": "deu",
         "use_case": "letter_ä",
         "example_first_name": "Wolfgang",
