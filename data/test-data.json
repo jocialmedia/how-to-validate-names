@@ -1,93 +1,107 @@
 [{
-    "language": "deu",
-    "use_case": "structure_nobility",
-    "example_first_name": "Ursula Gertrud",
-    "example_last_name": "von der Leyen",
-    "info": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen",
-    "comment": ""
-},
-{
-    "language": "deu",
-    "use_case": "structure_mononym",
-    "example_first_name": "Campino",
-    "example_last_name": "",
-    "info": "https://en.wikipedia.org/wiki/Campino_(singer)",
-    "comment": "Not a legal mononym but used until I find something better."
-},
-{
-    "language": "deu",
-    "use_case": "structure_polynym_basic",
-    "example_first_name": "Angela",
-    "example_last_name": "Merkel",
-    "info": "https://en.wikipedia.org/wiki/Angela_Merkel",
-    "comment": "Wrong because Angela Dorothea Merkel"
-},
-{
-    "language": "deu",
-    "use_case": "structure_double-barrel-surname",
-    "example_first_name": "Sabine",
-    "example_last_name": "Leutheusser-Schnarrenberger",
-    "info": "https://en.wikipedia.org/wiki/Sabine_Leutheusser-Schnarrenberger",
-    "comment": "Name checked. No hidden second first names."
-},
-{
-    "language": "deu",
-    "use_case": "letter_ä",
-    "example_first_name": "Wolfgang",
-    "example_last_name": "Schäuble",
-    "info": "https://en.wikipedia.org/wiki/Wolfgang_Sch%C3%A4uble",
-    "comment": ""
-},
-{
-    "language": "deu",
-    "use_case": "letter_ü",
-    "example_first_name": "Franz",
-    "example_last_name": "Müntefering",
-    "info": "https://en.wikipedia.org/wiki/Franz_M%C3%BCntefering",
-    "comment": ""
-},
-{
-    "language": "deu",
-    "use_case": "letter_ö",
-    "example_first_name": "Gerhard",
-    "example_last_name": "Schröder",
-    "info": "https://en.wikipedia.org/wiki/Gerhard_Schr%C3%B6der",
-    "comment": ""
-},
-{
-    "language": "deu",
-    "use_case": "letter_ß",
-    "example_first_name": "Johann",
-    "example_last_name": "Strauß",
-    "info": "https://en.wikipedia.org/wiki/Johann_Strauss_I",
-    "comment": ""
-}, {
-    "language": "spa",
-    "use_case": "letter_ñ",
-    "example_first_name": "Jordi",
-    "example_last_name": "Cañas",
-    "info": "https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home",
-    "comment": ""
-}, {
-    "language": "swe",
-    "use_case": "letter_ä",
-    "example_first_name": "Jessica",
-    "example_last_name": "Polfjärd",
-    "info": "https://www.europarl.europa.eu/meps/de/197404/JESSICA_POLFJARD/home",
-    "comment": ""
-}, {
-    "language": "swe",
-    "use_case": "letter_ö",
-    "example_first_name": "Malin",
-    "example_last_name": "Björk",
-    "info": "https://www.europarl.europa.eu/meps/de/124992/MALIN_BJORK/home",
-    "comment": ""
-}, {
-    "language": "swe",
-    "use_case": "letter_å",
-    "example_first_name": "Gustaf",
-    "example_last_name": "Åkerhielm",
-    "info": "https://en.wikipedia.org/wiki/Gustaf_%C3%85kerhielm",
-    "comment": "Letter: https://www.compart.com/de/unicode/U+00E5"
-}
+        "language": "deu",
+        "use_case": "structure_nobility",
+        "example_first_name": "Ursula Gertrud",
+        "example_last_name": "von der Leyen",
+        "info": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "structure_mononym",
+        "example_first_name": "Campino",
+        "example_last_name": "",
+        "info": "https://en.wikipedia.org/wiki/Campino_(singer)",
+        "comment": "Not a legal mononym but used until I find something better."
+    }, {
+        "language": "deu",
+        "use_case": "structure_polynym_basic",
+        "example_first_name": "Angela",
+        "example_last_name": "Merkel",
+        "info": "https://en.wikipedia.org/wiki/Angela_Merkel",
+        "comment": "Wrong because Angela Dorothea Merkel"
+    }, {
+        "language": "deu",
+        "use_case": "structure_double-barrel-surname",
+        "example_first_name": "Sabine",
+        "example_last_name": "Leutheusser-Schnarrenberger",
+        "info": "https://en.wikipedia.org/wiki/Sabine_Leutheusser-Schnarrenberger",
+        "comment": "Name checked. No hidden second first names."
+    }, {
+        "language": "deu",
+        "use_case": "letter_ä",
+        "example_first_name": "Wolfgang",
+        "example_last_name": "Schäuble",
+        "info": "https://en.wikipedia.org/wiki/Wolfgang_Sch%C3%A4uble",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "letter_ü",
+        "example_first_name": "Franz",
+        "example_last_name": "Müntefering",
+        "info": "https://en.wikipedia.org/wiki/Franz_M%C3%BCntefering",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "letter_ö",
+        "example_first_name": "Gerhard",
+        "example_last_name": "Schröder",
+        "info": "https://en.wikipedia.org/wiki/Gerhard_Schr%C3%B6der",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "letter_ß",
+        "example_first_name": "Johann",
+        "example_last_name": "Strauß",
+        "info": "https://en.wikipedia.org/wiki/Johann_Strauss_I",
+        "comment": ""
+    }, {
+        "language": "slv",
+        "use_case": "letter_č",
+        "example_first_name": "Franz",
+        "example_last_name": "Bogovič",
+        "info": "https://www.europarl.europa.eu/meps/de/125004/FRANC_BOGOVIC/home",
+        "comment": ""
+    }, {
+        "language": "slv",
+        "use_case": "letter_š",
+        "example_first_name": "Robert",
+        "example_last_name": "Hajšel",
+        "info": "https://www.europarl.europa.eu/meps/de/34578/ROBERT_HAJSEL/home",
+        "comment": ""
+    }, {
+        "language": "slv",
+        "use_case": "letter_ž",
+        "example_first_name": "Dejan",
+        "example_last_name": "Židan",
+        "info": "https://en.wikipedia.org/wiki/Dejan_%C5%BDidan",
+        "comment": ""
+    }, {
+        "language": "spa",
+        "use_case": "letter_ñ",
+        "example_first_name": "Jordi",
+        "example_last_name": "Cañas",
+        "info": "https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home",
+        "comment": ""
+    }, {
+        "language": "swe",
+        "use_case": "letter_ä",
+        "example_first_name": "Jessica",
+        "example_last_name": "Polfjärd",
+        "info": "https://www.europarl.europa.eu/meps/de/197404/JESSICA_POLFJARD/home",
+        "comment": ""
+    }, {
+        "language": "swe",
+        "use_case": "letter_ö",
+        "example_first_name": "Malin",
+        "example_last_name": "Björk",
+        "info": "https://www.europarl.europa.eu/meps/de/124992/MALIN_BJORK/home",
+        "comment": ""
+    }, {
+        "language": "swe",
+        "use_case": "letter_å",
+        "example_first_name": "Gustaf",
+        "example_last_name": "Åkerhielm",
+        "info": "https://en.wikipedia.org/wiki/Gustaf_%C3%85kerhielm",
+        "comment": "Letter: https://www.compart.com/de/unicode/U+00E5"
+    }
 ]
