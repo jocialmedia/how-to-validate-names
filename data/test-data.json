@@ -62,6 +62,111 @@
         "info": "https://en.wikipedia.org/wiki/Zlatko_Mate%C5%A1a",
         "comment": ""
     }, {
+        "language": "ces",
+        "use_case": "letter_á",
+        "example_first_name": "Václav",
+        "example_last_name": "Havel",
+        "info": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "comment": ""
+    },  {
+        "language": "ces",
+        "use_case": "letter_č",
+        "example_first_name": "Petr",
+        "example_last_name": "Nečas",
+        "info": "https://en.wikipedia.org/wiki/Petr_Ne%C4%8Das",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ď",
+        "example_first_name": "Naďa",
+        "example_last_name": "Urbánková",
+        "info": "https://cs.wikipedia.org/wiki/Na%C4%8Fa_Urb%C3%A1nkov%C3%A1",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_é",
+        "example_first_name": "Adéla",
+        "example_last_name": "Matasová",
+        "info": "https://cs.wikipedia.org/wiki/Ad%C3%A9la_Matasov%C3%A1",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ě",
+        "example_first_name": "Luděk",
+        "example_last_name": "Niedermayer",
+        "info": "https://www.europarl.europa.eu/meps/de/124701/LUDEK_NIEDERMAYER/home",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_í",
+        "example_first_name": "Martin",
+        "example_last_name": "Bursík",
+        "info": "https://en.wikipedia.org/wiki/Martin_Burs%C3%ADk",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ň",
+        "example_first_name": "Ruth",
+        "example_last_name": "Fraňkova",
+        "info": "https://english.radio.cz/ruth-frankova-8099586?page=80",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ó",
+        "example_first_name": "Olga",
+        "example_last_name": "Walló",
+        "info": "https://cs.wikipedia.org/wiki/Olga_Wall%C3%B3",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ř",
+        "example_first_name": "Ondřej",
+        "example_last_name": "Knotek",
+        "info": "https://www.europarl.europa.eu/meps/de/197528/ONDREJ_KNOTEK/home",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_š",
+        "example_first_name": "Miloš",
+        "example_last_name": "Zeman",
+        "info": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ť",
+        "example_first_name": "Taťjana",
+        "example_last_name": "Medvecká",
+        "info": "https://en.wikipedia.org/wiki/Ta%C5%A5jana_Medveck%C3%A1",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ú",
+        "example_first_name": "Marie Rút",
+        "example_last_name": "Křížková",
+        "info": "https://cs.wikipedia.org/wiki/Marie_R%C3%BAt_K%C5%99%C3%AD%C5%BEkov%C3%A1",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ů",
+        "example_first_name": "Ladislav",
+        "example_last_name": "Jirků",
+        "info": "https://en.wikipedia.org/wiki/Ladislav_Jirk%C5%AF",
+        "comment": "888"
+    }, {
+        "language": "ces",
+        "use_case": "letter_ý",
+        "example_first_name": "Jan",
+        "example_last_name": "Farský",
+        "info": "https://en.wikipedia.org/wiki/Jan_Farsk%C3%BD",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ž",
+        "example_first_name": "Pavel",
+        "example_last_name": "Bla%C5%BEek",
+        "info": "https://en.wikipedia.org/wiki/Pavel_Blažek",
+        "comment": ""
+    }, {
         "language": "dan",
         "use_case": "letter_æ",
         "example_first_name": "Nick",
@@ -109,6 +214,41 @@
         "example_first_name": "Johann",
         "example_last_name": "Strauß",
         "info": "https://en.wikipedia.org/wiki/Johann_Strauss_I",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_ă",
+        "example_first_name": "Gheorghe",
+        "example_last_name": "Falcă",
+        "info": "https://www.europarl.europa.eu/meps/de/197649/GHEORGHE_FALCA/home",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_â",
+        "example_first_name": "Radu-Anton",
+        "example_last_name": "Câmpeanu",
+        "info": "https://en.wikipedia.org/wiki/Radu_C%C3%A2mpeanu",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_î",
+        "example_first_name": "Sorin Mihai",
+        "example_last_name": "Cîmpeanu",
+        "info": "https://en.wikipedia.org/wiki/Sorin_C%C3%AEmpeanu",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_ș",
+        "example_first_name": "Nicolae",
+        "example_last_name": "Ceaușescu",
+        "info": "https://en.wikipedia.org/wiki/Nicolae_Ceau%C8%99escu",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_ț",
+        "example_first_name": "Daniel",
+        "example_last_name": "Chițoiu",
+        "info": "https://en.wikipedia.org/wiki/Daniel_Chi%C8%9Boiu",
         "comment": ""
     }, {
         "language": "slv",
