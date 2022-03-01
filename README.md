@@ -86,6 +86,9 @@ Suggested solution:
 
 
 ### 2.7. Symbols or unusual terms as names
+
+One of the most recent examples is for sure singer Grimes and Elon Musk naming their son [X Æ A-XII](https://en.wikipedia.org/wiki/Grimes_(musician)#Personal_life). In comparison the name [Apple](https://en.wikipedia.org/wiki/Gwyneth_Paltrow#Relationships_and_children) for the daughter of Gwyneth Paltrow and even the names [North, Saint, Chicago and Palm](https://en.wikipedia.org/wiki/Kim_Kardashian#Health_and_pregnancies) for the children of Kim Kardashian are almost boring.
+
 Suggested solution:
 ...
 
