@@ -188,6 +188,48 @@
     "info": "https://de.wikipedia.org/wiki/Svend_%C3%85ge_Madsen",
     "comment": ""
 }, {
+    "language": "est",
+    "use_case": "letter_š",
+    "example_first_name": "missing",
+    "example_last_name": "missing",
+    "info": "missing",
+    "comment": ""
+},  {
+    "language": "est",
+    "use_case": "letter_ž",
+    "example_first_name": "missing",
+    "example_last_name": "missing",
+    "info": "missing",
+    "comment": ""
+},  {
+    "language": "est",
+    "use_case": "letter_õ",
+    "example_first_name": "Jaan",
+    "example_last_name": "Tõnisson",
+    "info": "https://en.wikipedia.org/wiki/Jaan_T%C3%B5nisson",
+    "comment": ""
+}, {
+    "language": "est",
+    "use_case": "letter_ä",
+    "example_first_name": "Konstantin",
+    "example_last_name": "Päts",
+    "info": "https://en.wikipedia.org/wiki/Konstantin_P%C3%A4ts",
+    "comment": ""
+}, {
+    "language": "est",
+    "use_case": "letter_ö",
+    "example_first_name": "missing",
+    "example_last_name": "missing",
+    "info": "missing",
+    "comment": ""
+}, {
+    "language": "est",
+    "use_case": "letter_ü",
+    "example_first_name": "Arnold",
+    "example_last_name": "Rüütel",
+    "info": "https://en.wikipedia.org/wiki/Arnold_R%C3%BC%C3%BCtel",
+    "comment": ""
+}, {
     "language": "deu",
     "use_case": "letter_ä",
     "example_first_name": "Wolfgang",
