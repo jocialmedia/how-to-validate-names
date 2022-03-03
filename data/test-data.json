@@ -190,17 +190,17 @@
 }, {
     "language": "est",
     "use_case": "letter_š",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
+    "example_first_name": "",
+    "example_last_name": "",
+    "info": "",
+    "comment": "Only in loanwords"
 },  {
     "language": "est",
     "use_case": "letter_ž",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
+    "example_first_name": "",
+    "example_last_name": "",
+    "info": "",
+    "comment": "Only in loanwords"
 },  {
     "language": "est",
     "use_case": "letter_õ",
