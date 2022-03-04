@@ -194,14 +194,14 @@
     "example_last_name": "",
     "info": "",
     "comment": "Only in loanwords"
-},  {
+}, {
     "language": "est",
     "use_case": "letter_ž",
     "example_first_name": "",
     "example_last_name": "",
     "info": "",
     "comment": "Only in loanwords"
-},  {
+}, {
     "language": "est",
     "use_case": "letter_õ",
     "example_first_name": "Jaan",
@@ -256,6 +256,83 @@
     "example_first_name": "Johann",
     "example_last_name": "Strauß",
     "info": "https://en.wikipedia.org/wiki/Johann_Strauss_I",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_ā",
+    "example_first_name": "Jānis",
+    "example_last_name": "Ādamsons",
+    "info": "https://en.wikipedia.org/wiki/J%C4%81nis_%C4%80damsons",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_č",
+    "example_first_name": "Vjačeslavs",
+    "example_last_name": "Dombrovskis",
+    "info": "https://en.wikipedia.org/wiki/Vja%C4%8Deslavs_Dombrovskis",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_ē",
+    "example_first_name": "Raimonds",
+    "example_last_name": "Vējonis",
+    "info": "https://en.wikipedia.org/wiki/Raimonds_V%C4%93jonis",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_ģ",
+    "example_first_name": "Sandis",
+    "example_last_name": "Ģirģens",
+    "info": "https://en.wikipedia.org/wiki/Sandis_%C4%A2ir%C4%A3ens",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_ī",
+    "example_first_name": "Roberts",
+    "example_last_name": "Zīle",
+    "info": "https://www.europarl.europa.eu/meps/de/28615/ROBERTS_ZILE/home",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_ķ",
+    "example_first_name": "Miķelis",
+    "example_last_name": "Valters",
+    "info": "https://en.wikipedia.org/wiki/Mi%C4%B7elis_Valters",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_ļ",
+    "example_first_name": "Oļegs",
+    "example_last_name": "Batarevskis",
+    "info": "https://lv.wikipedia.org/wiki/O%C4%BCegs_Batarevskis",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_",
+    "example_first_name": "Andris",
+    "example_last_name": "Bērziņš",
+    "info": "https://lv.wikipedia.org/wiki/Andris_B%C4%93rzi%C5%86%C5%A1_(politi%C4%B7is,_1955)",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_š",
+    "example_first_name": "Nils",
+    "example_last_name": "Ušakovs",
+    "info": "https://www.europarl.europa.eu/meps/de/197810/NILS_USAKOVS/home",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_ū",
+    "example_first_name": "Artūrs",
+    "example_last_name": "Rubiks",
+    "info": "https://en.wikipedia.org/wiki/Art%C5%ABrs_Rubiks",
+    "comment": ""
+}, {
+    "language": "lav",
+    "use_case": "letter_ž",
+    "example_first_name": "Tatjana",
+    "example_last_name": "xxxxx",
+    "info": "https://www.europarl.europa.eu/meps/de/28619/TATJANA_ZDANOKA/home",
     "comment": ""
 }, {
     "language": "por",
