@@ -335,6 +335,69 @@
     "info": "https://www.europarl.europa.eu/meps/de/28619/TATJANA_ZDANOKA/home",
     "comment": ""
 }, {
+    "language": "lit",
+    "use_case": "letter_ą",
+    "example_first_name": "Adomas Ąžuolas",
+    "example_last_name": "Audickas",
+    "info": "https://en.wikipedia.org/wiki/Adomas_%C4%84%C5%BEuolas_Audickas",
+    "comment": ""
+}, {
+    "language": "lit",
+    "use_case": "letter_č",
+    "example_first_name": "Rasa",
+    "example_last_name": "Juknevičienė",
+    "info": "https://www.europarl.europa.eu/meps/de/197840/RASA_JUKNEVICIENE/home",
+    "comment": ""
+},{
+    "language": "lit",
+    "use_case": "letter_ę",
+    "example_first_name": "Kęstutis",
+    "example_last_name": "Glaveckas",
+    "info": "https://en.wikipedia.org/wiki/K%C4%99stutis_Glaveckas",
+    "comment": ""
+},{
+    "language": "lit",
+    "use_case": "letter_ė",
+    "example_first_name": "Bronis",
+    "example_last_name": "Ropė",
+    "info": "https://www.europarl.europa.eu/meps/de/125214/BRONIS_ROPE/home",
+    "comment": ""
+},{
+    "language": "lit",
+    "use_case": "letter_į",
+    "example_first_name": "missing",
+    "example_last_name": "missing",
+    "info": "missing",
+    "comment": ""
+},{
+    "language": "lit",
+    "use_case": "letter_š",
+    "example_first_name": "Valdemar",
+    "example_last_name": "Tomaševski",
+    "info": "https://www.europarl.europa.eu/meps/de/96697/VALDEMAR_TOMASEVSKI/home",
+    "comment": ""
+},{
+    "language": "lit",
+    "use_case": "letter_ų",
+    "example_first_name": "missing",
+    "example_last_name": "missing",
+    "info": "missing",
+    "comment": ""
+},{
+    "language": "lit",
+    "use_case": "letter_ū",
+    "example_first_name": "Stasys",
+    "example_last_name": "Jakeliūnas",
+    "info": "https://www.europarl.europa.eu/meps/de/197837/STASYS_JAKELIUNAS/home",
+    "comment": ""
+},{
+    "language": "lit",
+    "use_case": "letter_ž",
+    "example_first_name": "Liudas",
+    "example_last_name": "Mažylis",
+    "info": "https://www.europarl.europa.eu/meps/de/197841/LIUDAS_MAZYLIS/home",
+    "comment": ""
+}, {
     "language": "por",
     "use_case": "letter_à",
     "example_first_name": "missing",
