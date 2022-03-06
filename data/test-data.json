@@ -398,6 +398,69 @@
     "info": "https://www.europarl.europa.eu/meps/de/197841/LIUDAS_MAZYLIS/home",
     "comment": ""
 }, {
+    "language": "pol",
+    "use_case": "letter_ą",
+    "example_first_name": "missing",
+    "example_last_name": "missing",
+    "info": "missing",
+    "comment": ""
+}, {
+    "language": "pol",
+    "use_case": "letter_ć",
+    "example_first_name": "missing",
+    "example_last_name": "missing",
+    "info": "missing",
+    "comment": ""
+}, {
+    "language": "pol",
+    "use_case": "letter_ę",
+    "example_first_name": "Tomasz Piotr",
+    "example_last_name": "Poręba",
+    "info": "https://www.europarl.europa.eu/meps/de/96801/TOMASZ+PIOTR_POREBA/home",
+    "comment": ""
+}, {
+    "language": "pol",
+    "use_case": "letter_ł",
+    "example_first_name": "Beata",
+    "example_last_name": "Zydło",
+    "info": "https://www.europarl.europa.eu/meps/de/197553/BEATA_SZYDLO/home",
+    "comment": ""
+}, {
+    "language": "pol",
+    "use_case": "letter_ń",
+    "example_first_name": "Joanna",
+    "example_last_name": "Kopcińska",
+    "info": "https://www.europarl.europa.eu/meps/de/197530/JOANNA_KOPCINSKA/home",
+    "comment": ""
+}, {
+    "language": "pol",
+    "use_case": "letter_ó",
+    "example_first_name": "Józef",
+    "example_last_name": "Cyrankiewicz",
+    "info": "https://en.wikipedia.org/wiki/J%C3%B3zef_Cyrankiewicz",
+    "comment": ""
+}, {
+    "language": "pol",
+    "use_case": "letter_í",
+    "example_first_name": "Jadwiga",
+    "example_last_name": "Wiśniewska",
+    "info": "https://www.europarl.europa.eu/meps/de/124877/JADWIGA_WISNIEWSKA/home",
+    "comment": ""
+}, {
+    "language": "pol",
+    "use_case": "letter_ź",
+    "example_first_name": "Zbigniew",
+    "example_last_name": "Kuźmiuk",
+    "info": "https://www.europarl.europa.eu/meps/de/28389/ZBIGNIEW_KUZMIUK/home",
+    "comment": ""
+}, {
+    "language": "pol",
+    "use_case": "letter_ż",
+    "example_first_name": "Elżbieta",
+    "example_last_name": "Kruk",
+    "info": "https://www.europarl.europa.eu/meps/de/197532/ELZBIETA_KRUK/home",
+    "comment": ""
+}, {
     "language": "por",
     "use_case": "letter_à",
     "example_first_name": "missing",
