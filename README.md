@@ -313,6 +313,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Unknown**: [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
 
+- **Waugh**, Andrew: [Representing Peoples Names in Dublin Core](https://www.dublincore.org/specifications/dublin-core/name-representation/), 1998-02-03
+
 - **West**, Randoplh: [My surname is NULL](https://bornsql.ca/blog/my-surname-is-null), 2017-01-18
 
 - **Woods**, Andrew: [Name Validation Regex for People's Names](https://andrewwoods.net/blog/2018/name-validation-regex/), 2018-04-06
