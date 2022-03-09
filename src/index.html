@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    Playing with strings
+    <hr>
+    <form><input id="input_text" type="text"></form>
+    <hr>
+    <ul>
+        <li> Characters: <span id="result"></span></li>
+        <li> Length: <span id="length"></span></li>
+    </ul>
+   
+
+    <script>
+    document.getElementById("input_text").addEventListener("keyup", inputFunction);
+   
+    function inputFunction() {
+        const myArray = Array.from(this.value);
+        document.getElementById("result").innerHTML = myArray.sort();
+        document.getElementById("length").innerHTML = Object.keys(myArray).length;
+    }
+   
+    </script>
+</body>
+</html>
