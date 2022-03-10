@@ -28,12 +28,12 @@
         document.getElementById("input_full_name").addEventListener("keyup", analyze);
 
         function analyze() {
+            
             // Get input
             let input = "";
             let original_input = "";
-
-            let number_of_chars = "";
-            let number_of_individual_chars = "";
+            let number_of_chars = 0;
+            let number_of_individual_chars = 0;
             input = this.value;
             original_input = input;
             console.log("input: " + input);
