@@ -28,7 +28,7 @@
         document.getElementById("input_full_name").addEventListener("keyup", analyze);
 
         function analyze() {
-            
+
             // Get input
             let input = "";
             let original_input = "";
@@ -59,13 +59,14 @@
 
             number_of_individual_chars = input.length;
 
-
+            // Order items in array
             function SortArray(x, y) {
                 return x.localeCompare(y);
             }
             input = input.sort(SortArray);
             console.log("input sorted: " + input)
 
+            // Output results
             document.getElementById("input").innerHTML = original_input;
             document.getElementById("number_of_chars").innerHTML = number_of_chars;
             document.getElementById("number_of_individual_chars").innerHTML = number_of_individual_chars
