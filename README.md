@@ -60,12 +60,22 @@ The issue with allowed maximum lengths is often linked to very practical reasons
 
 #### 2.2.1. TLDR
 
-Suggested solution:
-...
+**Suggested solution:** No matter if your form has fields for first, middle and last name or like some experts suggest just one field for full name: The best is that you do not validate or filter the number of elements. Als long as the whole name fits into the length limits described later. Also be prepared to allow either the first or last name to be empty.
 
 #### 2.2.2. Long Read
 
-...
+Did you know that the subject of proper human names is so broad that there is a whole scientific discipline called [Anthroponymy](https://en.m.wikipedia.org/wiki/Anthroponymy)?
+
+Next to the common names with two or more elements ([polynym](https://en.wiktionary.org/wiki/polynym)) there are also some with just one ([mononym](https://en.m.wikipedia.org/wiki/Mononymous_person)). In this case we are not talking about artistic pseudonyms like Cher, Prince, Bono, Otto but about people who really have just one legal name like [Wookey](http://wookware.org/name.html).
+
+| Possible elements of names | example | 
+|-|-|
+| Title | |
+| **First name** <br> aka Given name <br> aka Christian name | |
+| **Middle name** | |
+| **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| |
+| **Pseudonym** <br> Nick name <br> Stage name | |
+
 
 ### 2.3. Order of elements
 
@@ -100,7 +110,7 @@ Suggested solution:
 
 One of the most recent examples is for sure singer Grimes and Elon Musk naming their son [X Æ A-XII](https://en.wikipedia.org/wiki/Grimes_(musician)#Personal_life). In comparison the name [Apple](https://en.wikipedia.org/wiki/Gwyneth_Paltrow#Relationships_and_children) for the daughter of Gwyneth Paltrow and even the names [North, Saint, Chicago and Palm](https://en.wikipedia.org/wiki/Kim_Kardashian#Health_and_pregnancies) for the children of Kim Kardashian are almost boring.
 
-But also grown ups voluntarily change their names to [Wookey](http://wookware.org/name.html) (1987), [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name  to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
+But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name  to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
 
 
 
