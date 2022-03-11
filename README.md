@@ -68,13 +68,13 @@ Did you know that the subject of proper human names is so broad that there is a 
 
 Next to the common names with two or more elements ([polynym](https://en.wiktionary.org/wiki/polynym)) there are also some with just one ([mononym](https://en.m.wikipedia.org/wiki/Mononymous_person)). In this case we are not talking about artistic pseudonyms like Cher, Prince, Bono, Otto but about people who really have just one legal name like [Wookey](http://wookware.org/name.html).
 
-| Possible elements of names | example | 
+| Possible elements of names | example |
 |-|-|
-| Title | |
-| **First name** <br> aka Given name <br> aka Christian name | |
-| **Middle name** | |
-| **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| |
-| **Pseudonym** <br> Nick name <br> Stage name | |
+| Title | . |
+| **First name** <br> aka Given name <br> aka Christian name | . |
+| **Middle name** | . |
+| **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| . |
+| **Pseudonym** <br> Nick name <br> Stage name | . |
 
 
 ### 2.3. Order of elements
