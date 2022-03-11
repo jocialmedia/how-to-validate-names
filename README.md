@@ -2,9 +2,9 @@
 
   - [1. About](#1-about)
   - [2. Reasons for failing validation](#2-reasons-for-failing-validation)
-    - [2.1. Number of elements](#21-number-of-elements)
-    - [2.2. Order of elements](#22-order-of-elements)
-    - [2.3. Length of elements](#23-length-of-elements)
+    - [2.1. Length of elements](#21-length-of-elements)
+    - [2.2. Number of elements](#22-number-of-elements)
+    - [2.3. Order of elements](#23-order-of-elements)
     - [2.4. Characters](#24-characters)
     - [2.5. Similarity to reserved words](#25-similarity-to-reserved-words)
     - [2.6. Similarity to profanity words](#26-similarity-to-profanity-words)
@@ -34,22 +34,7 @@ So my idea is to setup a systematic collection of international examples and eve
 
 ## 2. Reasons for failing validation
 
-
-### 2.1. Number of elements
-
-Suggested solution:
-...
-...
-
-### 2.2. Order of elements
-
-E.g. "Western Order" vs. "Eastern Order".
-
-Suggested solution:
-...
-
-[More coming Up](#coming-up) 
-### 2.3. Length of elements
+### 2.1. Length of elements
 
 This topic overlaps with [2.1. Number of elements](#21-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fieldss for first name, middle name and last name.
 
@@ -64,6 +49,22 @@ Suggested solution:
 
 
 [Coming Up](#coming-up) 
+
+
+### 2.2. Number of elements
+
+Suggested solution:
+...
+...
+
+### 2.3. Order of elements
+
+E.g. "Western Order" vs. "Eastern Order".
+
+Suggested solution:
+...
+
+[More coming Up](#coming-up) 
 
 ### 2.4. Characters
 
