@@ -3,7 +3,11 @@
   - [1. About](#1-about)
   - [2. Reasons for failing validation](#2-reasons-for-failing-validation)
     - [2.1. Length of elements](#21-length-of-elements)
+      - [2.1.1. TLDR](#211-tldr)
+      - [2.1.2. Long read](#212-long-read)
     - [2.2. Number of elements](#22-number-of-elements)
+      - [2.2.1. TLDR](#221-tldr)
+      - [2.2.2. Long read](#222-long-read)
     - [2.3. Order of elements](#23-order-of-elements)
     - [2.4. Characters](#24-characters)
     - [2.5. Similarity to reserved words](#25-similarity-to-reserved-words)
@@ -36,6 +40,13 @@ So my idea is to setup a systematic collection of international examples and eve
 
 ### 2.1. Length of elements
 
+#### 2.1.1. TLDR
+
+Suggested solution: ...
+[Coming Up](#coming-up) 
+
+#### 2.1.2. Long Read
+
 This topic overlaps with [2.1. Number of elements](#21-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fieldss for first name, middle name and last name.
 
 Let us first start with the allowed minium length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
@@ -44,17 +55,16 @@ The smallest common first names in western countries are written with 3 letters 
 
 The issue with allowed maximum lengths is often linked to very practical reasons like technical limits in IT systems. For example until 2013 the infrastructure used by the authorities in the US state of Hawaii could only process names with up to 35 characters. Then Hawaiian woman [Janice "Lokelani" Keihanaikukauakahihulihe'ekahaunaele](https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579) had to take legal measures to make the state change this. Under the new policy, the state's cards will have room for 40 characters in "first and last names and 35 characters for middle names.
 
-Suggested solution:
-...
-
-
-[Coming Up](#coming-up) 
-
 
 ### 2.2. Number of elements
 
+#### 2.2.1. TLDR
+
 Suggested solution:
 ...
+
+#### 2.2.2. Long Read
+
 ...
 
 ### 2.3. Order of elements
