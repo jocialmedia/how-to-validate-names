@@ -9,7 +9,7 @@
     - [2.5. Similarity to reserved words](#25-similarity-to-reserved-words)
     - [2.6. Similarity to profanity words](#26-similarity-to-profanity-words)
     - [2.7. Symbols or unusual terms as names](#27-symbols-or-unusual-terms-as-names)
-    - [2.8. Redundant space at beginning or end](#28-redundant-space-at-beginning-or-end)
+    - [2.8. Spare whitespace at beginning or end](#28-spare-whitespace-at-beginning-or-end)
   - [3. Languages](#3-languages)
     - [3.1. Languages of the EU](#31-languages-of-the-eu)
     - [3.2. Alphabets of the EU languages](#32-alphabets-of-the-eu-languages)
@@ -287,13 +287,13 @@ The short compressed form how to deal with potential challenges for failing vali
 |Challenge |Solution |
 |-|-|
 |Length of elements | | 
-|Number of elements |Best solution only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty |
+|Number of elements |Best solution only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty. |
 |Order of elements | |
 |Characters | |
-|Similarity to reserved words | |
+|Similarity to reserved words |Make sure your system accepts names like "Null" or "Sample". |
 |Similarity to profanity words | |
 |Symbols or unusual terms as names |Accept everything as long as it consists of letters from the regular alphabet(s). |
-|Redundant space at beginning or end | |
+|Spare whitespace at beginning or end |Trim it. |
 
 
 ### 4.2. Test data
