@@ -16,7 +16,9 @@
     - [3.3. General Regex for all 24 EU languages](#33-general-regex-for-all-24-eu-languages)
     - [3.4. General Regex without Greek and Bulgarian](#34-general-regex-without-greek-and-bulgarian)
     - [3.5. Languages worldwide](#35-languages-worldwide)
-  - [4. Ideas to explore further in the upcoming time](#4-ideas-to-explore-further-in-the-upcoming-time)
+  - [4. TLRD](#4-tldr)
+    - [4.1. Checklist](#41-checklist)
+    - [4.2. Test data](#42-test-data)
   - [5. Further Reading](#5-further-reading)
   - [Coming Up](#coming-up)
 
@@ -279,6 +281,8 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 
 ## 4. TLDR
 
+### 4.1. Checklist
+
 The short compressed form how to deal with potential challenges for failing validation:
 
 | Challenge | Solution |
@@ -294,7 +298,9 @@ Second best solution: Fields for first and last name but one may stay empty|
 | Redundant space at beginning or end | |
 
 
+### 4.2. Test data
 
+I started creating a set with [test data](/src/assets/test-data.json). After it is finished it sould contain one name of a european politician or celebrity for each special character in each european language.
 
 ## 5. Further Reading
 
