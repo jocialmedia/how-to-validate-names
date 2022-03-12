@@ -16,7 +16,7 @@
     - [3.3. General Regex for all 24 EU languages](#33-general-regex-for-all-24-eu-languages)
     - [3.4. General Regex without Greek and Bulgarian](#34-general-regex-without-greek-and-bulgarian)
     - [3.5. Languages worldwide](#35-languages-worldwide)
-  - [4. TLRD](#4-tldr)
+  - [4. TLDR](#4-tldr)
     - [4.1. Checklist](#41-checklist)
     - [4.2. Test data](#42-test-data)
   - [5. Further Reading](#5-further-reading)
