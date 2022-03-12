@@ -100,7 +100,7 @@ Suggested solution:
 
 Whenever people talk discuss about the sense or nonsense of filtering out possibly obscene words in online communiction sooner or later the name of the british town Scunthorpe comes up. Because the so called [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
 
-As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The french had similair issues with the town of [Ville de bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where vicitims of filtering.
+As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The french had similair issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where vicitims of filtering.
 
 A quite current and hilliarious case happend in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like "bone", "pubic", and "stream" where censored from the conference online forum.
 
