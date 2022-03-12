@@ -26,12 +26,13 @@
 
 ## 1. About
 
+**TLDR:** You need information about name validation in online forms and software applications? After it is finished this project should contain amongst other things a list of suggestions, some prepared snippets and regex formulas for easy implementation.
 
-In 2022 nobody should have to be confronted with problems while filling out an online form. Still we all know a lot of cases in which valid legal names are either not accepted, not transmitted or not printed out correctly. 
+**Long Read:** Software developers are powerful. A small decision in a form can impact the lifes of thousands of people. If the validation in a form is to strict, it can prevent humans with a more complex name from accessing financial state support or traveling. If a shopping platform does not accept your name, you can choose another one. But the more essential services are managed online, the more often people have no alternative to apply for drivers licenses, passports or certificates and if the only available form tells them that their name is not valid they are stuck.
 
-I am totally convinced that in not one of those cases the reason is malicious intent but rather the challenge for software developers to implement validation rules for names from other languages and cultures than their own.
+This whole issue is extremely complex because the factors why forms are like they are can be juridical, technical or sometimes simply based on human assumptions. In the everyday life of a software developer nobody has the time to dig into this whole issue. And also the existing articles and sources about this topic still demand some time to study and implement them.
 
-So my idea is to setup a systematic collection of international examples and even validation rules (e.g. as Regex) which are free for everyone to use. I hope this can help to promote respectful validation standards in IT products.
+So the idea of this collection is to create some specific technical patterns which are easy to adopt. Because what is missing - or at least I did not find it anywhere else - is an out-of-the-box solution. A framework of example regex to use and a set of test-cases to make sure your own application is compliant. Something which is complete, tested and production ready.
 
 
 ## 2. Potential reasons for failing validation
