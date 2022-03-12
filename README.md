@@ -38,7 +38,7 @@ So my idea is to setup a systematic collection of international examples and eve
 
 ### 2.1. Length of elements
 
-This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fieldss for first name, middle name and last name.
+This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fields for first name, middle name and last name.
 
 Let us first start with the allowed minium length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
 
