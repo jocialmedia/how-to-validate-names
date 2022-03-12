@@ -46,6 +46,9 @@ The smallest common first names in western countries are written with 3 letters 
 
 The issue with allowed maximum lengths is often linked to very practical reasons like technical limits in IT systems. For example until 2013 the infrastructure used by the authorities in the US state of Hawaii could only process names with up to 35 characters. Then Hawaiian woman [Janice "Lokelani" Keihanaikukauakahihulihe'ekahaunaele](https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579) had to take legal measures to make the state change this. Under the new policy, the state's cards will have room for 40 characters in "first and last names and 35 characters for middle names.
 
+The [W3C is clear in its recommendation](https://www.w3.org/International/questions/qa-personal-names) "Bear in mind that names in some cultures can be quite a lot longer than your own. ... Avoid limiting the field size for names in your database."
+
+**Suggestion:** Try to avoid any unnecessary minimum or maximum constraints.
 
 ### 2.2. Number of elements
   
@@ -287,7 +290,7 @@ The short compressed form how to deal with potential challenges for failing vali
 |Challenge |Solution |
 |-|-|
 |Length of elements | | 
-|Number of elements |Best solution only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty. |
+|Number of elements |Best solution: Only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty. |
 |Order of elements | |
 |Characters | |
 |Similarity to reserved words |Make sure your system accepts names like "Null" or "Sample". |
