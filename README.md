@@ -284,16 +284,16 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 
 The short compressed form how to deal with potential challenges for failing validation:
 
-| Challenge | Solution |
+|Challenge |Solution |
 |-|-|
-| Length of elements | | 
-| Number of elements |Best solution only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty|
-| Order of elements | |
-| Characters | |
-| Similarity to reserved words | |
-| Similarity to profanity words | |
-| Symbols or unusual terms as names | |
-| Redundant space at beginning or end | |
+|Length of elements | | 
+|Number of elements |Best solution only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty |
+|Order of elements | |
+|Characters | |
+|Similarity to reserved words | |
+|Similarity to profanity words | |
+|Symbols or unusual terms as names |Accept everything as long as it consists of letters from the regular alphabet(s). |
+|Redundant space at beginning or end | |
 
 
 ### 4.2. Test data
