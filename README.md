@@ -81,20 +81,20 @@ E.g. "Western Order" vs. "Eastern Order".
 Suggested solution:
 ...
 
-[More coming Up](#coming-up) 
+ 
 
 ### 2.4. Characters
 
 Suggested solution:
 ...
 
-[Coming Up](#coming-up) 
+ 
 
 ### 2.5. Similarity to reserved words
 Suggested solution:
 ...
 
-[Coming Up](#coming-up) 
+ 
 
 ### 2.6. Similarity to profanity words
 
@@ -376,9 +376,3 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 - **Woods**, Andrew: [Name Validation Regex for People's Names](https://andrewwoods.net/blog/2018/name-validation-regex/), 2018-04-06
 
 - **Zentgraf**, David C.: [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/), 2015-04-27
- 
-
-## Coming Up
-
-
-This is work in progress and I try to add some valuable content to this project [every day](https://github.com/jocialmedia/how-to-validate-names/commits/main).
