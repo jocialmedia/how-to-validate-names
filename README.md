@@ -104,6 +104,8 @@ As it turned out citizens of Scunthorpe could not apply for a AOL connection in 
 
 A quite current and hilliarious case happend in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like "bone", "pubic", and "stream" where censored from the conference online forum.
 
+There are several commercial offers for such a kind of validation. [This british company even lets you try their filter product on their website](https://www.data-8.co.uk/data-validation/name-validation/): "Our Name Validation service identifies random, salacious or unusable names from an extensive list of unusable names, and will prevent obviously false or inaccurate data from entering your database."
+
 **Suggested solution:** Do not even try to actively filter input in online forms based on lists because: You. Just. Can. Not. Win. This. The small number of people who want to trick such filters will understand them well enough to do so. And at the same time every such filter is potentially worsening the experience for regular users.
 
 One alternative is not to block entries but to flag them so that support members can take a closer look afterwards.
@@ -308,7 +310,21 @@ The short compressed form how to deal with potential challenges for failing vali
 
 ### 4.2. Test data
 
-I started creating a set with [test data](/src/assets/test-data.json). After it is finished it sould contain one name of a european politician or celebrity for each special character in each european language.
+I started creating a set with test data to be used for manual or automated testing.
+
+Concept:
+
+- Adding one name for each letter which is not covered by ISO Latin Basic
+
+- To get real life examples politicians and celebrities are used
+
+- All letters are checked in the language they originate from. For example German politician [Thomas de Maizière](https://en.wikipedia.org/wiki/Thomas_de_Maizi%C3%A8re) has an è in his surname because his ancestors lived in France. But this letter is not included in the German test cases.
+
+- At first my idea was to use a smaller number of names which cover as many cases as possible then I realized it is better to have one name for each letter so the result is much more clearer if a test fails.
+
+- If possible for the letters I will use simple names. So instead for "ß" instead of "Franz-Josef Strauß" who has a double-barrel first name I will use composer Johann Strauß. Or instead of [Lina Gálvez Muñoz](https://www.europarl.europa.eu/meps/de/197702/LINA_GALVEZ+MUNOZ/home) I will use [Jordi Cañas](https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home)
+
+The current work in progress version of the data set can be accessed [here](/src/assets/test-data.json).
 
 ## 5. Further Reading
 
