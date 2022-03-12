@@ -97,10 +97,20 @@ Suggested solution:
 [Coming Up](#coming-up) 
 
 ### 2.6. Similarity to profanity words
-Suggested solution:
-...
 
-[Coming Up](#coming-up) 
+
+Whenever people talk discuss about the sense or nonsense of filtering out possibly obscene words in online communiction sooner or later the name of the british town Scunthorpe comes up. Because the so called [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
+
+As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The french had similair issues with the town of [Ville de bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In Germany terms like analysis (contains „anal“) or „Sextett“ or „Staatsexamen“ (contain „sex“) where vicitims of filtering.
+> https://de.m.wikipedia.org/wiki/Scunthorpe-Problem
+
+A quite current and hilliarious case happend in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like bone’, ‘pubic’, and ‘stream’ where censored from the conference online forum.
+
+**Suggested solution:** Do not even try to actively filter input in online forms because: You. Just. Can. Not. Win. This. The small number of people who want to trick such filters will understand them well enough to do so. And at the samte time every filter is potentially worsening the experience for regular users.
+
+One alternative is not to block entries but to flag them so that support members can take a closer look afterwards.
+
+
 
 
 ### 2.7. Symbols or unusual terms as names
