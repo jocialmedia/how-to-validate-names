@@ -1,13 +1,9 @@
 # How to validate names
 
   - [1. About](#1-about)
-  - [2. Reasons for failing validation](#2-reasons-for-failing-validation)
+  - [2. Potential challenges for validation](#2-potential-reasons-for-failing-validation)
     - [2.1. Length of elements](#21-length-of-elements)
-      - [2.1.1. TLDR](#211-tldr)
-      - [2.1.2. Long read](#212-long-read)
     - [2.2. Number of elements](#22-number-of-elements)
-      - [2.2.1. TLDR](#221-tldr)
-      - [2.2.2. Long read](#222-long-read)
     - [2.3. Order of elements](#23-order-of-elements)
     - [2.4. Characters](#24-characters)
     - [2.5. Similarity to reserved words](#25-similarity-to-reserved-words)
@@ -36,16 +32,9 @@ I am totally convinced that in not one of those cases the reason is malicious in
 So my idea is to setup a systematic collection of international examples and even validation rules (e.g. as Regex) which are free for everyone to use. I hope this can help to promote respectful validation standards in IT products.
 
 
-## 2. Reasons for failing validation
+## 2. Potential reasons for failing validation
 
 ### 2.1. Length of elements
-
-#### 2.1.1. TLDR
-
-Suggested solution: ...
-[Coming Up](#coming-up) 
-
-#### 2.1.2. Long Read
 
 This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fieldss for first name, middle name and last name.
 
@@ -57,16 +46,15 @@ The issue with allowed maximum lengths is often linked to very practical reasons
 
 
 ### 2.2. Number of elements
-
-#### 2.2.1. TLDR
-
-**Suggested solution:** No matter if your form has fields for first, middle and last name or like some experts suggest just one field for full name: The best is that you do not validate or filter the number of elements. Als long as the whole name fits into the length limits described later. Also be prepared to allow either the first or last name to be empty.
-
-#### 2.2.2. Long Read
-
+  
 Did you know that the subject of proper human names is so broad that there is a whole scientific discipline called [Anthroponymy](https://en.m.wikipedia.org/wiki/Anthroponymy)?
 
 Next to the common names with two or more elements ([polynym](https://en.wiktionary.org/wiki/polynym)) there are also some with just one ([mononym](https://en.m.wikipedia.org/wiki/Mononymous_person)). In this case we are not talking about artistic pseudonyms like Cher, Prince, Bono, Otto but about people who really have just one legal name like [Wookey](http://wookware.org/name.html).
+
+W3C's recommendation:
+If designing a form or database that will accept names from people with a variety of backgrounds, you should ask yourself whether you really need to have separate fields for given name and family name.
+https://www.w3.org/International/questions/qa-personal-names
+
 
 | Possible elements of names | example |
 |-|-|
@@ -75,6 +63,9 @@ Next to the common names with two or more elements ([polynym](https://en.wiktion
 | **Middle name** | . |
 | **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| . |
 | **Pseudonym** <br> Nick name <br> Stage name | . |
+
+
+**Suggested solution:** No matter if your form has fields for first, middle and last name or like some experts suggest just one field for full name: The best is that you do not validate or filter the number of elements. Als long as the whole name fits into the length limits described later. Also be prepared to allow either the first or last name to be empty.
 
 
 ### 2.3. Order of elements
@@ -286,13 +277,21 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 | 33 | Norwegian Bokmål | 0.1% | new |
 | 34 | Lithuanian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
 
-## 4. Ideas to explore further in the upcoming time
+## 4. TLDR
 
+The short compressed form how to deal with potential challenges for failing validation:
 
-- Research list of international language standards
-- Collection of examples where validation did not work
-- Example validation rules (e.g. as Regex)
-- Research and list of languages (at the beginning perhaps with focus on European Union to narrow this down) 
+| Challenge | Solution |
+|-|-|
+| Length of elements | | 
+| Number of elements |Best solution only one field for all name elements.<br>
+Second best solution: Fields for first and last name but one may stay empty|
+| Order of elements | |
+| Characters | |
+| Similarity to reserved words | |
+| Similarity to profanity words | |
+| Symbols or unusual terms as names | |
+| Redundant space at beginning or end | |
 
 
 
