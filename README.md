@@ -84,16 +84,21 @@ Suggested solution:
 
 ### 2.4. Characters
 
-Suggested solution:
-...
+... 
+
+**Suggested solution:** ...
 
  
 
 ### 2.5. Similarity to reserved words
-Suggested solution:
-...
 
- 
+Most common case of problems with reserved words in computer systems are people  with the surname "Null". People like Jennifer Null (Baraniuk 2016) from southern Virgina in the US have problems with online shopping, booking flights or entering  details into online forms for taxes or utilities. Journalist Christopher Null (Null 2015) encounters problems receiving physical mail as well as digital email.
+
+Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic word as surname. He got stuck in digital hell at the Buenos Aires airport when the airline for his connecting flight could not find his ticket.
+
+There are several possible technical reasons and also different ways to avoid them. Using delimiters in CSV files is an important principle (West 2017). [Testing fields for "null" and escaping them as CDATA values](https://stackoverflow.com/questions/4456438/how-to-pass-null-a-real-surname-to-a-soap-web-service-in-actionscript-3) is another one for Actionscript.
+
+**Suggested solution:** Implement systemtests to make sure that the obvious names are correctly handled during the whole business process.
 
 ### 2.6. Similarity to profanity words
 
