@@ -20,7 +20,6 @@
     - [4.1. Checklist](#41-checklist)
     - [4.2. Test data](#42-test-data)
   - [5. Further Reading](#5-further-reading)
-  - [Coming Up](#coming-up)
 
 
 
