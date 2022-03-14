@@ -306,7 +306,7 @@ The short compressed form how to deal with potential challenges for failing vali
 |Number of elements |Best solution: Only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty. |
 |Order of elements | |
 |Characters | |
-|Similarity to reserved words |Make sure your system accepts names like "Null" or "Sample". |
+|Similarity to reserved words |Implement systemtests to make sure that the obvious cases like "Null" or "Sample" are correctly handled during the whole business process. |
 |Similarity to profanity words | |
 |Symbols or unusual terms as names |Accept everything as long as it consists of letters from the regular alphabet(s). |
 |Spare whitespace at beginning or end |Trim it. |
