@@ -19,6 +19,7 @@
   - [4. TLDR](#4-tldr)
     - [4.1. Checklist](#41-checklist)
     - [4.2. Test data](#42-test-data)
+    - [4.3. Test data real cases](#43-test-data-real-cases)
   - [5. Further Reading](#5-further-reading)
   - [6. Glossary](#6-glossary)
 
@@ -330,6 +331,12 @@ Concept:
 - If possible for the letters I will use simple names. So instead for "ß" instead of "Franz-Josef Strauß" who has a double-barrel first name I will use composer Johann Strauß. Or instead of [Lina Gálvez Muñoz](https://www.europarl.europa.eu/meps/de/197702/LINA_GALVEZ+MUNOZ/home) I will use [Jordi Cañas](https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home)
 
 The current work in progress version of the data set can be accessed [here](/src/assets/test-data.json).
+
+### 4.3. Test data real cases
+
+I also started a collection of test cases based on the countless examples from articles and other online mentions.
+
+The current work in progress version of the data set can be accessed [here](/src/assets/test-data-real-cases.json).
 
 ## 5. Further Reading
 
