@@ -20,6 +20,7 @@
     - [4.1. Checklist](#41-checklist)
     - [4.2. Test data](#42-test-data)
   - [5. Further Reading](#5-further-reading)
+  - [6. Glossaary](#6-glossary)
 
 
 
@@ -380,3 +381,21 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 - **Woods**, Andrew: [Name Validation Regex for People's Names](https://andrewwoods.net/blog/2018/name-validation-regex/), 2018-04-06
 
 - **Zentgraf**, David C.: [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/), 2015-04-27
+
+
+## 6. Glossary
+
+Alphabetical list of terms directly or indirectly associated with validation of online forms.
+
+### Bowdlerization
+Substitution of anthing deemed unpleasant or offensive from an artistic work, or other type of writing or media. Named after [Thomas Bowdler](https://en.wikipedia.org/wiki/Thomas_Bowdler) (1754–1825) who in 1818 published a censored family friendly version of plays by William Shakespeare. 
+See [2.6.](#26-similarity-to-profanity-words)
+
+
+### Clbuttic
+Edited version of the word "classic" changed where the substring "ass" is replaced by the potentially more harmless term "butt". Another related example is "assassinate" which becomes "buttbuttinate".
+See [2.6.](#26-similarity-to-profanity-words)
+
+### Scunthorpe
+British town which became a synonym for trouble caused by automated wordfilters. Citizens could not apply for an AOL connection in 1996 because the name of their town contains the substring "cunt".
+See [2.6.](#26-similarity-to-profanity-words)
