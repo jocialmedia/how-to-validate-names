@@ -20,7 +20,7 @@
     - [4.1. Checklist](#41-checklist)
     - [4.2. Test data](#42-test-data)
   - [5. Further Reading](#5-further-reading)
-  - [6. Glossaary](#6-glossary)
+  - [6. Glossary](#6-glossary)
 
 
 
@@ -28,7 +28,7 @@
 
 **TLDR:** You need information about name validation in online forms and software applications? After it is finished this project should contain amongst other things a list of suggestions, some prepared snippets and regex formulas for easy implementation.
 
-**Long Read:** Software developers are powerful. A small decision in a online form can impact the lifes of thousands of people. If the validation is to strict, it can prevent humans with a more complex name from traveling or accessing financial support from the state. If a shopping platform does not accept your name, you can choose another one. But the more essential services are managed online, the more often people have no alternative to apply for drivers licenses, passports or certificates and if the only available form tells them that their name is not valid they are stuck.
+**Long Read:** Software developers are powerful. A small decision in a online form can impact the lives of thousands of people. If the validation is to strict, it can prevent humans with a more complex name from traveling or accessing financial support from the state. If a shopping platform does not accept your name, you can choose another one. But the more essential services are managed online, the more often people have no alternative to apply for drivers licenses, passports or certificates and if the only available form tells them that their name is not valid they are stuck.
 
 This whole issue is extremely complex because the factors why forms are like they are can be juridical, technical or sometimes simply based on human assumptions. In the everyday life of a software developer nobody has the time to dig into this whole issue. And also the existing articles and sources about this topic still demand some time to study and implement them.
 
@@ -41,7 +41,7 @@ So the idea of this collection is to create some specific technical patterns whi
 
 This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fields for first name, middle name and last name.
 
-Let us first start with the allowed minium length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
+Let us first start with the allowed minimum length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
 
 The smallest common first names in western countries are written with 3 letters like "Jim", "Joe", "Max", "Sam", "Sue" or "Tom". But as countless examples over the years document especially online users with an asian background may have first or last names with just two letters like software developer [Charly Ho](https://dev.to/carlymho/whats-in-a-name-validation-4b41) or pro golfer [Lucy Li](https://en.wikipedia.org/wiki/Lucy_Li).
 
@@ -53,7 +53,7 @@ The [W3C is clear in its recommendation](https://www.w3.org/International/questi
 
 ### 2.2. Number of elements
   
-Did you know that the subject of proper human names is so broad that there is a whole scientific discipline called [Anthroponymy](https://en.m.wikipedia.org/wiki/Anthroponymy)?
+Did you know that the subject of proper human names is so broad that there is a whole scientific discipline called [anthroponymy](https://en.m.wikipedia.org/wiki/Anthroponymy)?
 
 Next to the common names with two or more elements ([polynym](https://en.wiktionary.org/wiki/polynym)) there are also some with just one ([mononym](https://en.m.wikipedia.org/wiki/Mononymous_person)). In this case we are not talking about artistic pseudonyms like Cher, Prince, Bono, Otto but about people who really have just one legal name like [Wookey](http://wookware.org/name.html).
 
@@ -103,11 +103,11 @@ There are several possible technical reasons and also different ways to avoid th
 
 ### 2.6. Similarity to profanity words
 
-Whenever people talk discuss about the sense or nonsense of filtering out possibly obscene words in online communiction sooner or later the name of the british town Scunthorpe comes up. Because the so called [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
+Whenever people talk discuss about the sense or nonsense of filtering out possibly obscene words in online communication sooner or later the name of the British town Scunthorpe comes up. Because the so called [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
 
-As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The french had similair issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where vicitims of filtering.
+As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The french had similar issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where victims of filtering.
 
-A quite current and hilliarious case happend in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like "bone", "pubic", and "stream" where censored from the conference online forum.
+A quite current and hilarious case happened in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like "bone", "pubic", and "stream" where censored from the conference online forum.
 
 There are several commercial offers for such a kind of validation. [This british company even lets you try their filter product on their website](https://www.data-8.co.uk/data-validation/name-validation/): "Our Name Validation service identifies random, salacious or unusable names from an extensive list of unusable names, and will prevent obviously false or inaccurate data from entering your database."
 
@@ -122,11 +122,11 @@ One of the most recent examples is for sure singer Grimes and Elon Musk naming t
 
 But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name  to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
 
-A aspect which should be mentioned as well is people with which are unintentially similar to celebrities or fictional characters. Developers could try to avaid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charly Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
+A aspect which should be mentioned as well is people with which are unintentially similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charly Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
 [James Bond](https://www.linkedin.com/pub/dir?firstName=James&lastName=Bond&trk=people-guest_people-search-bar_search-submit) or [Peter Pan](https://www.linkedin.com/pub/dir?firstName=Peter&lastName=Pan&trk=people-guest_people-search-bar_search-submit)?
 
 
-**Suggested solution:** As far as I know it is a really rare occasion that people use symbols as names. So nobody can expect forms to handle this. Another story are names which sound unusual because they are lent from cities, countries, celebrities or fictional characters. Who would we be to judge the name choices of other people no matter if we personally think it is esthitic or not? As long as letters from the regular alphabet are used, we should not filter names because we can not.
+**Suggested solution:** As far as I know it is a really rare occasion that people use symbols as names. So nobody can expect forms to handle this. Another story are names which sound unusual because they are lent from cities, countries, celebrities or fictional characters. Who would we be to judge the name choices of other people no matter if we personally think it is esthetic or not? As long as letters from the regular alphabet are used, we should not filter names because we can not.
 
 
 ### 2.8. Redundant space at beginning or end
