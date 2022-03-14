@@ -122,7 +122,7 @@ One of the most recent examples is for sure singer Grimes and Elon Musk naming t
 
 But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name  to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
 
-A aspect which should be mentioned as well is people with which are unintentially similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charly Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
+A aspect which should be mentioned as well is people with which are unintentionally similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charly Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
 [James Bond](https://www.linkedin.com/pub/dir?firstName=James&lastName=Bond&trk=people-guest_people-search-bar_search-submit) or [Peter Pan](https://www.linkedin.com/pub/dir?firstName=Peter&lastName=Pan&trk=people-guest_people-search-bar_search-submit)?
 
 
@@ -376,7 +376,7 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Waugh**, Andrew: [Representing Peoples Names in Dublin Core](https://www.dublincore.org/specifications/dublin-core/name-representation/), 1998-02-03
 
-- **West**, Randoplh: [My surname is NULL](https://bornsql.ca/blog/my-surname-is-null), 2017-01-18
+- **West**, Randolph: [My surname is NULL](https://bornsql.ca/blog/my-surname-is-null), 2017-01-18
 
 - **Woods**, Andrew: [Name Validation Regex for People's Names](https://andrewwoods.net/blog/2018/name-validation-regex/), 2018-04-06
 
