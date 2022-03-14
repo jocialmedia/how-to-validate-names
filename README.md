@@ -377,6 +377,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
   - [Presentation at #rC3](https://www.youtube.com/watch?v=ofPZ73Wz4SU), 36min, 2021-02-04
   - [Presentation at PyCascades 2021](https://www.youtube.com/watch?v=telNgfvgmHs), 29min, 2021-02-20
 
+- **Sposlky**, Joel: [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/), 2003-10-08
+
 - **Unknown**: [Name Validation For Developers 101](https://businesscomputingworld.co.uk/name-validation-for-developers-101), businesscomputingworld<area>.co.uk, 2019-02-05
 
 - **Unknown**: [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
