@@ -17,9 +17,10 @@
     - [3.4. General Regex without Greek and Bulgarian](#34-general-regex-without-greek-and-bulgarian)
     - [3.5. Languages worldwide](#35-languages-worldwide)
   - [4. TLDR](#4-tldr)
-    - [4.1. Checklist](#41-checklist)
-    - [4.2. Test data](#42-test-data)
-    - [4.3. Test data real cases](#43-test-data-real-cases)
+    - [4.1. Languages and alphabets](#41-languages-and-alphabets)
+    - [4.2. Checklist](#42-checklist)
+    - [4.3. Test data](#43-test-data)
+    - [4.4. Test data real cases](#44-test-data-real-cases)
   - [5. Further Reading](#5-further-reading)
   - [6. Glossary](#6-glossary)
 
@@ -298,7 +299,11 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 
 ## 4. TLDR
 
-### 4.1. Checklist
+
+### 4.1. Languages and alphabets
+
+The current work in progress version of the data set can be accessed [here](/src/assets/languages.json).
+### 4.2. Checklist
 
 The short compressed form how to deal with potential challenges for failing validation:
 
@@ -314,7 +319,7 @@ The short compressed form how to deal with potential challenges for failing vali
 |Spare whitespace at beginning or end |Trim it. |
 
 
-### 4.2. Test data
+### 4.3. Test data
 
 I started creating a set with test data to be used for manual or automated testing.
 
@@ -332,7 +337,7 @@ Concept:
 
 The current work in progress version of the data set can be accessed [here](/src/assets/test-data.json).
 
-### 4.3. Test data real cases
+### 4.4. Test data real cases
 
 I also started a collection of test cases based on the countless examples from articles and other online mentions.
 

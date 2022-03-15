@@ -1,0 +1,195 @@
+[{
+    "language": "Bulgarian",
+    "iso_639-2": "bul",
+    "spoken_national_level": ["Bulgaria"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "2007",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Croatian",
+    "iso_639-2": "hrv",
+    "spoken_national_level": ["Croatia"],
+    "spoken_subnational_level": ["Austria"],
+    "eu_language_since": "2013",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Czech",
+    "iso_639-2": "ces",
+    "spoken_national_level": ["Czech Republic"],
+    "spoken_subnational_level": ["Slovakia"],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Danish",
+    "iso_639-2": "dan",
+    "spoken_national_level": ["Denmark"],
+    "spoken_subnational_level": ["Germany"],
+    "eu_language_since": "1973",
+    "alphabet_chars": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "æ", "ø", "å"],
+    "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A", "U+00E6", "U+00F8", "U+00E5"]
+}, {
+    "language": "Dutch",
+    "iso_639-2": "nld",
+    "spoken_national_level": ["Belgium", "Netherlands"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "1958",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "English",
+    "iso_639-2": "eng",
+    "spoken_national_level": ["Ireland", "Malta"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "1973",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Estonian",
+    "iso_639-2": "est",
+    "spoken_national_level": ["Estonia"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Finnish",
+    "iso_639-2": "fin",
+    "spoken_national_level": ["Finland"],
+    "spoken_subnational_level": ["Sweden"],
+    "eu_language_since": "1995",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "French",
+    "iso_639-2": "fra",
+    "spoken_national_level": ["Belgium", "France", "Luxembourg"],
+    "spoken_subnational_level": ["Italy"],
+    "eu_language_since": "1958",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "German",
+    "iso_639-2": "deu",
+    "spoken_national_level": ["Austra", "Belgium", "Germany", "Luxembourg"],
+    "spoken_subnational_level": ["Denmark", "Italy", "Poland"],
+    "eu_language_since": "1958",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Greek",
+    "iso_639-2": "ell",
+    "spoken_national_level": ["Cyprus", "Greece"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "1981",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+} , {
+    "language": "Hungarian",
+    "iso_639-2": "hun",
+    "spoken_national_level": ["Hungary"],
+    "spoken_subnational_level": ["Austria", "Romania", "Slovakia", "Slovenia"],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Irish",
+    "iso_639-2": "gle",
+    "spoken_national_level": ["Ireland"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "2007",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Italian",
+    "iso_639-2": "ita",
+    "spoken_national_level": ["Italy"],
+    "spoken_subnational_level": ["Croatia", "Slovenia"],
+    "eu_language_since": "1958",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Latvian",
+    "iso_639-2": "lav",
+    "spoken_national_level": ["Latvia"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Lithuanian",
+    "iso_639-2": "lit",
+    "spoken_national_level": ["Lithuania"],
+    "spoken_subnational_level": ["Poland"],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Maltese",
+    "iso_639-2": "mlt",
+    "spoken_national_level": ["Malta"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Polish",
+    "iso_639-2": "pol",
+    "spoken_national_level": ["Poland"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Portugese",
+    "iso_639-2": "por",
+    "spoken_national_level": ["Portugal"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "1986",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+},
+{
+    "language": "Romanian",
+    "iso_639-2": "ron",
+    "spoken_national_level": ["Romania"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "2007",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Slovak",
+    "iso_639-2": "slk",
+    "spoken_national_level": ["Slovakia"],
+    "spoken_subnational_level": ["Czech Republic", "Hungary"],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Slovene",
+    "iso_639-2": "slv",
+    "spoken_national_level": ["Slovenia"],
+    "spoken_subnational_level": ["Austria", "Hungary", "Italy"],
+    "eu_language_since": "2004",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Spanish",
+    "iso_639-2": "spa",
+    "spoken_national_level": ["Spain"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "1986",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}, {
+    "language": "Swedish",
+    "iso_639-2": "swe",
+    "spoken_national_level": ["Sweden", "Finland"],
+    "spoken_subnational_level": [],
+    "eu_language_since": "1995",
+    "alphabet_chars": [],
+    "alphabet_unicode": []
+}
+]
