@@ -3,7 +3,7 @@
     "example_last_name": "Eladawy",
     "info": "https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs",
     "comment": "From year 2018"
-},{
+}, {
     "example_first_name": "Julius Andreas Gimli Arn MacGyver Chewbacka Highlander",
     "example_last_name": "Elessar-Jankov",
     "info": "https://www.huffpost.com/entry/julius-andreas-gimli-arn_n_284276",
@@ -28,6 +28,11 @@
     "example_last_name": "Null",
     "info": "https://www.wired.com/2015/11/null/",
     "comment": "From year 2015"
+}, {
+    "example_first_name": "Stephen",
+    "example_last_name": "O",
+    "info": "https://www.nytimes.com/1991/08/28/us/why-o-why-doesn-t-that-name-compute.html",
+    "comment": "From year 1991"
 }, {
     "example_first_name": "Miroslav",
     "example_last_name": "Šedivý",
