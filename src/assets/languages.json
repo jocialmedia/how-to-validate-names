@@ -5,8 +5,8 @@
     "spoken_subnational_level": [],
     "eu_language_since": "2007",
     "number_of_letters" : 30,
-    "alphabet_chars": [],
-    "alphabet_unicode": []
+    "alphabet_chars": ["а","б","в","г","д","е","ж","з","и","й","к","л","м","н","о","п","р","с","т","у","ф","х","ц","ч", "ш","щ","ъ","ь","ю","я"],
+    "alphabet_unicode": ["U+0430", "U+0431", "U+0432", "U+0433", "U+0434", "U+0435", "U+0436", "U+0437", "U+0438", "U+0439", "U+043A", "U+043B", "U+043C", "U+043D", "U+043E", "U+043F", "U+0440", "U+0441", "U+0442", "U+0443", "U+0444", "U+0445", "U+0446", "U+0447", "U+0448", "U+0449", "U+044A", "U+044C", "U+044E", "U+044F"]
 }, {
     "language": "Croatian",
     "iso_639-2": "hrv",
@@ -14,8 +14,8 @@
     "spoken_subnational_level": ["Austria"],
     "eu_language_since": "2013",
     "number_of_letters" : 30,
-    "alphabet_chars": [],
-    "alphabet_unicode": []
+    "alphabet_chars": ["a","b","c","č","ć","d","dž","đ","e","f","g","h","i","j","k","l","lj","m","n","nj","o","p","r","s","š","t","u","v","z","ž"],
+    "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+010D", "U+0107", "U+0064", "U+01C6", "U+0111", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+01C9", "U+006D", "U+006E", "U+01CC", "U+006F", "U+0070", "U+0072", "U+0073", "U+0161", "U+0074", "U+0075", "U+0076", "U+007A", "U+017E"]
 }, {
     "language": "Czech",
     "iso_639-2": "ces",
@@ -23,7 +23,7 @@
     "spoken_subnational_level": ["Slovakia"],
     "eu_language_since": "2004",
     "number_of_letters" : 42,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","á","b","c","č","d","ď","e","é","ě","f","g","h","ch","i","í","j","k","l","m","n","ň","o","ó","p","q","r","ř","s","š","t","ť","u","ú","ů","v","w","x","y","ý","z","ž"],
     "alphabet_unicode": []
 }, {
     "language": "Danish",
@@ -41,8 +41,8 @@
     "spoken_subnational_level": [],
     "eu_language_since": "1958",
     "number_of_letters" : 26,
-    "alphabet_chars": [],
-    "alphabet_unicode": []
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
+    "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]
 }, {
     "language": "English",
     "iso_639-2": "eng",
@@ -50,8 +50,8 @@
     "spoken_subnational_level": [],
     "eu_language_since": "1973",
     "number_of_letters" : 26,
-    "alphabet_chars": [],
-    "alphabet_unicode": []
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
+    "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]
 }, {
     "language": "Estonian",
     "iso_639-2": "est",
@@ -59,7 +59,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "2004",
     "number_of_letters" : 32,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","š","z","ž","t","u","v","w","õ","ä","ö","ü","x","y"],
     "alphabet_unicode": []
 }, {
     "language": "Finnish",
@@ -68,7 +68,7 @@
     "spoken_subnational_level": ["Sweden"],
     "eu_language_since": "1995",
     "number_of_letters" : 29,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","å","ä","ö"],
     "alphabet_unicode": []
 }, {
     "language": "French",
@@ -77,7 +77,7 @@
     "spoken_subnational_level": ["Italy"],
     "eu_language_since": "1958",
     "number_of_letters" : 26,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
     "alphabet_unicode": []
 }, {
     "language": "German",
@@ -86,7 +86,7 @@
     "spoken_subnational_level": ["Denmark", "Italy", "Poland"],
     "eu_language_since": "1958",
     "number_of_letters" : 30,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","ä","ö","ü","ß"],
     "alphabet_unicode": []
 }, {
     "language": "Greek",
@@ -95,7 +95,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "1981",
     "number_of_letters" : 24,
-    "alphabet_chars": [],
+    "alphabet_chars": ["α","β","γ","δ","ε","ζ","η","θ","ι","κ","λ","μ","ν","ξ","ο","π","ρ","σ/ς","τ","υ","φ","χ","ψ","ω"],
     "alphabet_unicode": []
 } , {
     "language": "Hungarian",
@@ -104,7 +104,7 @@
     "spoken_subnational_level": ["Austria", "Romania", "Slovakia", "Slovenia"],
     "eu_language_since": "2004",
     "number_of_letters" : 44,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","á","b","c","cs","d","dz","dzs","e","é","f","g","gy","h","i","í","j","k","l","ly","m","n","ny","o","ó","ö","ő","p","q","r","s","sz","t","ty","u","ú","ü","ű","v","w","x","y","z","zs"],
     "alphabet_unicode": []
 }, {
     "language": "Irish",
@@ -113,7 +113,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "2007",
     "number_of_letters" : 18,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","l","m","n","o","p","r","s","t","u"],
     "alphabet_unicode": []
 }, {
     "language": "Italian",
@@ -122,7 +122,7 @@
     "spoken_subnational_level": ["Croatia", "Slovenia"],
     "eu_language_since": "1958",
     "number_of_letters" : 21,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","l","m","n","o","p","q","r","s","t","u","v","z"],
     "alphabet_unicode": []
 }, {
     "language": "Latvian",
@@ -131,7 +131,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "2004",
     "number_of_letters" : 33,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","ā","b","c","č","d","e","ē","f","g","ģ","h","i","ī","j","k","ķ","l","ļ","m","n","ņ","o","p","r","s","š","t","u","ū","v","z","ž"],
     "alphabet_unicode": []
 }, {
     "language": "Lithuanian",
@@ -140,7 +140,7 @@
     "spoken_subnational_level": ["Poland"],
     "eu_language_since": "2004",
     "number_of_letters" : 32,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","ą","b","c","č","d","e","ę","ė","f","g","h","i","į","y","j","k","l","m","n","o","p","r","s","š","t","u","ų","ū","v","z","ž"],
     "alphabet_unicode": []
 }, {
     "language": "Maltese",
@@ -149,7 +149,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "2004",
     "number_of_letters" : 30,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","b","ċ","d","e","f","ġ","g","għ","h","ħ","i","ie","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","ż","z"],
     "alphabet_unicode": []
 }, {
     "language": "Polish",
@@ -158,7 +158,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "2004",
     "number_of_letters" : 32,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","ą","b","c","ć","d","e","ę","f","g","h","i","j","k","l","ł","m","n","ń","o","ó","p","r","s","ś","t","u","w","y","z","ź","ż"],
     "alphabet_unicode": []
 }, {
     "language": "Portugese",
@@ -167,7 +167,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "1986",
     "number_of_letters" : 39,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","à","á","â","ã","b","c","ç","d","e","é","ê","f","g","h","i","í","j","k","l","m","n","o","ó","ô","õ","p","q","r","s","t","u","ú","ü","v","w","x","y","z"],
     "alphabet_unicode": []
 },
 {
@@ -177,7 +177,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "2007",
     "number_of_letters" : 31,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","ă","â","b","c","d","e","f","g","h","i","î","j","k","l","m","n","o","p","q","r","s","ș","t","ț","u","v","w","x","y","z"],
     "alphabet_unicode": []
 }, {
     "language": "Slovak",
@@ -186,7 +186,7 @@
     "spoken_subnational_level": ["Czech Republic", "Hungary"],
     "eu_language_since": "2004",
     "number_of_letters" : 46,
-    "alphabet_chars": [],
+    "alphabet_chars": ["a","á","ä","b","c","č","d","ď","dz","dž","e","é","f","g","h","ch","i","í","j","k","l","ĺ","ľ","m","n","ň","o","ó","ô","p","q","r","ŕ","s","š","t","ť","u","ú","v","w","x","y","ý","z","ž"],
     "alphabet_unicode": []
 }, {
     "language": "Slovene",
@@ -195,8 +195,8 @@
     "spoken_subnational_level": ["Austria", "Hungary", "Italy"],
     "eu_language_since": "2004",
     "number_of_letters" : 25,
-    "alphabet_chars": [],
-    "alphabet_unicode": []
+    "alphabet_chars": ["a","b","c","č","d","e","f","g","h","i","j","k","l","m","n","o","p","r","s","š","t","u","v","z","ž"],
+    "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+010D", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0072", "U+0073", "U+0161", "U+0074", "U+0075", "U+0076", "U+007A", "U+017E"]
 }, {
     "language": "Spanish",
     "iso_639-2": "spa",
@@ -204,8 +204,8 @@
     "spoken_subnational_level": [],
     "eu_language_since": "1986",
     "number_of_letters" : 27,
-    "alphabet_chars": [],
-    "alphabet_unicode": []
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z"],
+    "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+00F1", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]
 }, {
     "language": "Swedish",
     "iso_639-2": "swe",
@@ -213,7 +213,7 @@
     "spoken_subnational_level": [],
     "eu_language_since": "1995",
     "number_of_letters" : 29,
-    "alphabet_chars": [],
-    "alphabet_unicode": []
+    "alphabet_chars": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","å","ä","ö"],
+    "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A", "U+00E5", "U+00E4", "U+00F6"]
 }
 ]
