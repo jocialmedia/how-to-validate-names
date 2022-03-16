@@ -359,6 +359,8 @@ The current work in progress version of the data set can be accessed [here](/src
 
 - **ElAdawy**, Amr: [My name causes an issue with any booking! (names end with MR and MRS)](https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs), Thread on travel.stackexchange.com, 2019-11-05
 
+- **Eversion**, Michael: [The Alphabets of Europe - Version 3.0](https://www.evertype.com/alphabets/), 1993-2015
+
 - **Graham-Cumming**, John: [Your Last Name Contains Invalid Characters](https://blog.jgc.org/2010/06/your-last-name-contains-invalid.html), 2010-06-17
 
 - **Ho**, Charly: [What's in a name (validation)?](https://dev.to/carlymho/whats-in-a-name-validation-4b41), 2018-10-08
