@@ -19,6 +19,16 @@
     "info": "https://dev.to/carlymho/whats-in-a-name-validation-4b41",
     "comment": "From year 2018"
 }, {
+    "example_first_name": "Israel",
+    "example_last_name": "Kaʻanoʻi Kamakawiwoʻole",
+    "info": "https://en.wikipedia.org/wiki/Israel_Kamakawiwo%CA%BBole",
+    "comment": "Will be later moved to test-data.json"
+}, {
+    "example_first_name": "Georg J:son",
+    "example_last_name": "Karlin",
+    "info": "https://en.wikipedia.org/wiki/Georg_J:son_Karlin",
+    "comment": "Will be later moved to test-data.json"
+},{
     "example_first_name": "",
     "example_last_name": "Keihanaikukauakahihulihe'ekahaunaele",
     "info": "https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579",
@@ -38,4 +48,10 @@
     "example_last_name": "Šedivý",
     "info": "https://www.youtube.com/watch?v=telNgfvgmHs",
     "comment": "From year 2021"
-}]
+},
+
+
+
+
+
+]
