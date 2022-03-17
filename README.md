@@ -378,6 +378,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Null**, Christopher: [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/), 2015-11-05
 
+- **Qiu**, J: [Scientific publishing: Identity crisis](https://doi.org/10.1038/451766a), Nature 451, 766–767 (2008)
+
 - **Rogers**, Tony: [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), 2018-01-08
 
 - **Šedivý**, Miroslav: Your Name is Invalid!, 
