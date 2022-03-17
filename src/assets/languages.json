@@ -1,5 +1,6 @@
 [{
     "language": "Bulgarian",
+    "local_name": "български",
     "iso_639-2": "bul",
     "spoken_national_level": ["Bulgaria"],
     "spoken_subnational_level": [],
@@ -9,6 +10,7 @@
     "alphabet_unicode": ["U+0430", "U+0431", "U+0432", "U+0433", "U+0434", "U+0435", "U+0436", "U+0437", "U+0438", "U+0439", "U+043A", "U+043B", "U+043C", "U+043D", "U+043E", "U+043F", "U+0440", "U+0441", "U+0442", "U+0443", "U+0444", "U+0445", "U+0446", "U+0447", "U+0448", "U+0449", "U+044A", "U+044C", "U+044E", "U+044F"]
 }, {
     "language": "Croatian",
+    "local_name": "hrvatski",
     "iso_639-2": "hrv",
     "spoken_national_level": ["Croatia"],
     "spoken_subnational_level": ["Austria"],
@@ -18,6 +20,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+010D", "U+0107", "U+0064", "U+01C6", "U+0111", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+01C9", "U+006D", "U+006E", "U+01CC", "U+006F", "U+0070", "U+0072", "U+0073", "U+0161", "U+0074", "U+0075", "U+0076", "U+007A", "U+017E"]
 }, {
     "language": "Czech",
+    "local_name": "čeština",
     "iso_639-2": "ces",
     "spoken_national_level": ["Czech Republic"],
     "spoken_subnational_level": ["Slovakia"],
@@ -29,6 +32,7 @@
  "U+0070", "U+0071", "U+0072", "U+0159", "U+0073", "U+0165", "U+0074", "U+00FA", "U+016F", "U+0075", "U+0076", "U+0077", "U+0078", "U+00FD", "U+0079", "U+017E", "U+007A"]
 }, {
     "language": "Danish",
+    "local_name": "dansk",
     "iso_639-2": "dan",
     "spoken_national_level": ["Denmark"],
     "spoken_subnational_level": ["Germany"],
@@ -38,6 +42,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A", "U+00E6", "U+00F8", "U+00E5"]
 }, {
     "language": "Dutch",
+    "local_name": "Nederlands",
     "iso_639-2": "nld",
     "spoken_national_level": ["Belgium", "Netherlands"],
     "spoken_subnational_level": [],
@@ -47,6 +52,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]
 }, {
     "language": "English",
+    "local_name": "English",
     "iso_639-2": "eng",
     "spoken_national_level": ["Ireland", "Malta"],
     "spoken_subnational_level": [],
@@ -56,6 +62,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]
 }, {
     "language": "Estonian",
+    "local_name": "eesti keel",
     "iso_639-2": "est",
     "spoken_national_level": ["Estonia"],
     "spoken_subnational_level": [],
@@ -65,6 +72,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0161", "U+007A", "U+017E", "U+0074", "U+0075", "U+0076", "U+0077", "U+00F5", "U+00E4", "U+00F6", "U+00FC", "U+0078", "U+0079"]
 }, {
     "language": "Finnish",
+    "local_name": "suomen kieli",
     "iso_639-2": "fin",
     "spoken_national_level": ["Finland"],
     "spoken_subnational_level": ["Sweden"],
@@ -74,6 +82,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A", "U+00E5", "U+00E4", "U+00F6"]
 }, {
     "language": "French",
+    "local_name": "français",
     "iso_639-2": "fra",
     "spoken_national_level": ["Belgium", "France", "Luxembourg"],
     "spoken_subnational_level": ["Italy"],
@@ -83,6 +92,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]
 }, {
     "language": "German",
+    "local_name": "Deutsch",
     "iso_639-2": "deu",
     "spoken_national_level": ["Austra", "Belgium", "Germany", "Luxembourg"],
     "spoken_subnational_level": ["Denmark", "Italy", "Poland"],
@@ -92,6 +102,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A", "U+00E4", "U+00F6", "U+00FC", "U+00DF"]
 }, {
     "language": "Greek",
+    "local_name": "ελληνικά",
     "iso_639-2": "ell",
     "spoken_national_level": ["Cyprus", "Greece"],
     "spoken_subnational_level": [],
@@ -101,6 +112,7 @@
     "alphabet_unicode": ["U+03B1", "U+03B2", "U+03B3", "U+03B4", "U+03B5", "U+03B6", "U+03B7", "U+03B8","U+03B9", "U+03BA", "U+03BB", "U+03BC", "U+03BD", "U+03BE", "U+03BF", "U+03C0", "U+03C1", "U+03C3", "U+03C4", "U+03C5", "U+03C6", "U+03C7", "U+03C8", "U+03C9"]
 } , {
     "language": "Hungarian",
+    "local_name": "magyar nyelv",
     "iso_639-2": "hun",
     "spoken_national_level": ["Hungary"],
     "spoken_subnational_level": ["Austria", "Romania", "Slovakia", "Slovenia"],
@@ -110,6 +122,7 @@
     "alphabet_unicode": ["U+0061", "U+00E1", "U+0062", "U+0063", ["U+0063", "U+0073"], "U+0064", ["U+0064", "U+007A"], ["U+0064", "U+007A", "U+0073"], "U+0065", "U+00E9", "U+0066", "U+0067", ["U+0067", "U+0079"], "U+0068", "U+0069", "U+00ED", "U+006A", "U+006B", "U+006C", ["U+006C", "U+0079"], "U+006D", "U+006E", ["U+006E", "U+0079"], "U+006F", "U+00F3", "U+00F6", "U+0151", "U+0070", "U+0071", "U+0072", "U+0073", ["U+0073", "U+007A"], "U+0074", ["U+0074", "U+0079"], "U+0075", "U+00FA", "U+00FC", "U+0171", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A", ["U+007A", "U+0073"]]
 }, {
     "language": "Irish",
+    "local_name": "Gaeilge",
     "iso_639-2": "gle",
     "spoken_national_level": ["Ireland"],
     "spoken_subnational_level": [],
@@ -119,6 +132,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0072", "U+0073", "U+0074", "U+0075"]
 }, {
     "language": "Italian",
+    "local_name": "italiano",
     "iso_639-2": "ita",
     "spoken_national_level": ["Italy"],
     "spoken_subnational_level": ["Croatia", "Slovenia"],
@@ -128,6 +142,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+007A"]
     }, {
     "language": "Latvian",
+    "local_name": "latviešu valoda",
     "iso_639-2": "lav",
     "spoken_national_level": ["Latvia"],
     "spoken_subnational_level": [],
@@ -137,6 +152,7 @@
     "alphabet_unicode": ["U+0061", "U+0101", "U+0062", "U+0063", "U+010D", "U+0064","U+0065", "U+0113", "U+0066", "U+0067", "U+0123", "U+0068", "U+0069", "U+012B", "U+006A", "U+006B", "U+0137", "U+006C", "U+013C", "U+006D", "U+006E", "U+0146", "U+006F", "U+0070", "U+0072", "U+0073", "U+0161", "U+0074", "U+0075", "U+016B", "U+0076", "U+007A", "U+017E"]
 }, {
     "language": "Lithuanian",
+    "local_name": "lietuvių kalba",
     "iso_639-2": "lit",
     "spoken_national_level": ["Lithuania"],
     "spoken_subnational_level": ["Poland"],
@@ -146,6 +162,7 @@
     "alphabet_unicode": ["U+0061", "U+0105", "U+0062", "U+0063", "U+010D", "U+0064", "U+0065", "U+0119", "U+0117", "U+0066", "U+0067", "U+0068", "U+0069", "U+012F", "U+0079", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0161", "U+0074", "U+0075", "U+0173", "U+016B", "U+0076", "U+007A", "U+017E"]
 }, {
     "language": "Maltese",
+    "local_name": "Malti",
     "iso_639-2": "mlt",
     "spoken_national_level": ["Malta"],
     "spoken_subnational_level": [],
@@ -155,6 +172,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+010B", "U+0064", "U+0065", "U+0066", "U+0121", "U+0067", ["U+0067", "U+0127"], "U+0068", "U+0127", "U+0069", ["U+0069", "U+0065"], "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+017C", "U+007A"]
 }, {
     "language": "Polish",
+    "local_name": "polski",
     "iso_639-2": "pol",
     "spoken_national_level": ["Poland"],
     "spoken_subnational_level": [],
@@ -164,6 +182,7 @@
     "alphabet_unicode": ["U+0061", "U+0105","U+0062", "U+0063", "U+0107", "U+0064", "U+0065", "U+0119", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+0142", "U+006D", "U+006E", "U+0144","U+006F", "U+00F3", "U+0070", "U+0072", "U+0073", "U+015B", "U+0074", "U+0075", "U+0077", "U+0078", "U+007A", "U+017A", "U+017C"]
 }, {
     "language": "Portugese",
+    "local_name": "português",
     "iso_639-2": "por",
     "spoken_national_level": ["Portugal"],
     "spoken_subnational_level": [],
@@ -173,6 +192,7 @@
     "alphabet_unicode": ["U+0061", "U+00E0", "U+00E1", "U+00E2", "U+00E3", "U+0062", "U+0063", "U+00E7", "U+0064", "U+0065", "U+00E9", "U+00EA", "U+0066", "U+0067", "U+0068", "U+0069", "U+00ED","U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+00F3", "U+00F4", "U+00F5", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+00FA", "U+00FC", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]},
 {
     "language": "Romanian",
+    "local_name": "limba română",
     "iso_639-2": "ron",
     "spoken_national_level": ["Romania"],
     "spoken_subnational_level": [],
@@ -182,6 +202,7 @@
     "alphabet_unicode": ["U+0061", "U+0103", "U+00E2", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+00EE", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0219", "U+0074", "U+021B","U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]
 }, {
     "language": "Slovak",
+    "local_name": "slovenčina",
     "iso_639-2": "slk",
     "spoken_national_level": ["Slovakia"],
     "spoken_subnational_level": ["Czech Republic", "Hungary"],
@@ -191,6 +212,7 @@
     "alphabet_unicode": ["U+0061", "U+00E1", "U+00E4", "U+0062", "U+0063", "U+010D", "U+0064","U+010F", "U+01F3", "U+01C6", "U+0065", "U+00E9", "U+0066", "U+0067", "U+0068", ["U+0063", "U+0068"],"U+0069", "U+00ED", "U+006A", "U+006B", "U+006C", "U+013A", "U+013E", "U+006D", "U+006E", "U+0148","U+006F", "U+00F3", "U+00F4", "U+0070", "U+0071", "U+0072", "U+0155", "U+0073", "U+0161","U+0074", "U+0165", "U+0075", "U+00FA", "U+0076", "U+0077", "U+0078", "U+0079", "U+00FD", "U+007A", "U+017E"]
 }, {
     "language": "Slovene",
+    "local_name": "slovenski jezik",
     "iso_639-2": "slv",
     "spoken_national_level": ["Slovenia"],
     "spoken_subnational_level": ["Austria", "Hungary", "Italy"],
@@ -200,6 +222,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+010D", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+006F", "U+0070", "U+0072", "U+0073", "U+0161", "U+0074", "U+0075", "U+0076", "U+007A", "U+017E"]
 }, {
     "language": "Spanish",
+    "local_name": "español",
     "iso_639-2": "spa",
     "spoken_national_level": ["Spain"],
     "spoken_subnational_level": [],
@@ -209,6 +232,7 @@
     "alphabet_unicode": ["U+0061", "U+0062", "U+0063", "U+0064", "U+0065", "U+0066", "U+0067", "U+0068", "U+0069", "U+006A", "U+006B", "U+006C", "U+006D", "U+006E", "U+00F1", "U+006F", "U+0070", "U+0071", "U+0072", "U+0073", "U+0074", "U+0075", "U+0076", "U+0077", "U+0078", "U+0079", "U+007A"]
 }, {
     "language": "Swedish",
+    "local_name": "svenska",
     "iso_639-2": "swe",
     "spoken_national_level": ["Sweden", "Finland"],
     "spoken_subnational_level": [],

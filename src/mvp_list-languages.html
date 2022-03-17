@@ -22,6 +22,10 @@
             float: left;
             display: block;
         }
+
+        pre {
+            padding-top: 20px;
+        }
     </style>
 </head>
 
@@ -29,7 +33,20 @@
     <div class="container">
 
         <h1>languages.json</h1>
+
         <div class="row">
+
+            <pre>
+Stats:
+Languages: 24
+All letters: 731
+Unique letters: 157
+            </pre>
+
+ 
+
+
+    
 
             <table id="languages" class="table table-bordered table-striped">
                 <thead>
@@ -76,16 +93,16 @@
                     var obj = alphabet[y];
                     let letterElement = document.createElement('span');
                     letterElement.className = "letter";
-                    if (typeof(obj) === "object") {
+                    if (typeof (obj) === "object") {
                         html = "<h2>";
                         code = "";
                         for (key in obj) {
                             html += String.fromCharCode(parseInt(obj[key].replace("U+", ""), 16))
                             code += "( " + obj[key] + ")<br>";
                         }
-                         html += "</h2>";
+                        html += "</h2>";
 
-                         letterElement.innerHTML = html + code
+                        letterElement.innerHTML = html + code
                     } else {
                         letterElement.innerHTML = "<h2>" + String.fromCharCode(parseInt(obj.replace("U+", ""), 16)) +
                             "</h2> (" + obj + ")";
