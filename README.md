@@ -51,6 +51,12 @@ The issue with allowed maximum lengths is often linked to very practical reasons
 
 The [W3C is clear in its recommendation](https://www.w3.org/International/questions/qa-personal-names) "Bear in mind that names in some cultures can be quite a lot longer than your own. ... Avoid limiting the field size for names in your database."
 
+Examples for length standards:
+| Standard | Rules about names |
+|-|-|
+| [ISO/IEC 7813](https://en.m.wikipedia.org/wiki/ISO/IEC_7813), Defines properties of financial transaction cards, such as ATM or credit cards. | Name, 2 to 26 characters (including separators, where appropriate, between surname, first name etc.)|
+
+
 **Suggestion:** Try to avoid any unnecessary minimum or maximum constraints.
 
 ### 2.2. Number of elements
@@ -95,11 +101,21 @@ Suggested solution:
 
 ### 2.5. Similarity to reserved words
 
-Most common case of problems with reserved words in computer systems are people  with the surname "Null". People like Jennifer Null (Baraniuk 2016) from southern Virgina in the US have problems with online shopping, booking flights or entering  details into online forms for taxes or utilities. Journalist Christopher Null (Null 2015) encounters problems receiving physical mail as well as digital email.
+Most common case of problems with reserved words in computer systems are people with the surname "Null". People like Jennifer Null (Baraniuk 2016) from southern Virgina in the US have problems with online shopping, booking flights or entering details into online forms for taxes or utilities. Journalist Christopher Null (Null 2015) encounters problems receiving physical mail as well as digital email.
 
 Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic word as surname. He got stuck in digital hell at the Buenos Aires airport when the airline for his connecting flight could not find his ticket.
 
 There are several possible technical reasons and also different ways to avoid them. Using delimiters in CSV files is an important principle (West 2017). [Testing fields for "null" and escaping them as CDATA values](https://stackoverflow.com/questions/4456438/how-to-pass-null-a-real-surname-to-a-soap-web-service-in-actionscript-3) is another one for Actionscript.
+
+
+|Programming language |Reserved words |
+|- |- |
+|Go |- [Keywords](https://go.dev/ref/spec#Keywords)<br> **Result:** break, default, func, interface, select, case, defer, go, map, struct, chan, else, goto, package, switch, const, fallthrough, if, range, type, continue, for, import, return, var|
+|Java |- [Keywords](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html) |
+|Javascript |- [Reserved keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_keywords_as_of_ecmascript_2015)<br>**Result:** break, case, catch, class, const, continue, debugger, default, delete, do, else, export,extends, finally, for, function, if, import, in, instanceof, new, return, super, switch, this, throw, try, typeof, var, void, while, with, yield |
+|PHP |- [Reserved Keywords](https://www.php.net/manual/en/reserved.keywords.php)<br>- [Other reserved words](https://www.php.net/manual/en/reserved.other-reserved-words.php)|
+|Python|- [Keywords and Softkeywords](https://docs.python.org/3/library/keyword.html)<br>Export with:<br><pre>import keyword<br>keyword.kwlist</pre>**Result:** False, await, else, import, pass, None, break, except, in, raise, True, class, finally, is, return, and, continue, for, lambda, try, as, def, from, nonlocal, while, assert, del, global, not, with, async, elif, if, or, yield|
+
 
 **Suggested solution:** Implement systemtests to make sure that the obvious names are correctly handled during the whole business process.
 
@@ -122,7 +138,7 @@ One alternative is not to block entries but to flag them so that support members
 
 One of the most recent examples is for sure singer Grimes and Elon Musk naming their son [X Æ A-XII](https://en.wikipedia.org/wiki/Grimes_(musician)#Personal_life). In comparison the name [Apple](https://en.wikipedia.org/wiki/Gwyneth_Paltrow#Relationships_and_children) for the daughter of Gwyneth Paltrow and even the names [North, Saint, Chicago and Palm](https://en.wikipedia.org/wiki/Kim_Kardashian#Health_and_pregnancies) for the children of Kim Kardashian are almost boring.
 
-But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name  to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
+But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
 
 A aspect which should be mentioned as well is people with which are unintentionally similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charly Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
 [James Bond](https://www.linkedin.com/pub/dir?firstName=James&lastName=Bond&trk=people-guest_people-search-bar_search-submit) or [Peter Pan](https://www.linkedin.com/pub/dir?firstName=Peter&lastName=Pan&trk=people-guest_people-search-bar_search-submit)?
@@ -146,7 +162,7 @@ Good news: Here trouble is easy to avoid by trimming or stripping possible white
 | Python | [Docs](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.strip) | ```input_trimmed = input_original.strip() ``` |
 | Go | [Docs](https://pkg.go.dev/strings#TrimSpace) | ```var inputTrimmed = strings.TrimSpace(inputOriginal) ``` |
 
-Wikipedia features an even bigger list of [trimming examples in programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)#trim) as well as some basic info about the subject of  [trimming](https://en.wikipedia.org/wiki/Trimming_(computer_programming)).
+Wikipedia features an even bigger list of [trimming examples in programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)#trim) as well as some basic info about the subject of [trimming](https://en.wikipedia.org/wiki/Trimming_(computer_programming)).
 
 Beware about the different kinds of whitespace ([25 examples for whitespace in Unicode on Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character#Spaces_in_Unicode)) and that the interpretation of them can vary from method to method. Luckily our use case should be mostly about the spacebar whitespace ([U+0020](https://www.compart.com/de/unicode/U+0020)) which is part of the 128 characters of the Unicode Latin Basic block and should be covered by most of the methods as standard.
 
@@ -209,7 +225,7 @@ Using trim or strip functions with the input.
 | 6 | [English](https://en.wikipedia.org/wiki/English_alphabet) | 26 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z```<br><br> ```Regex: ^[A-Za-z -]+$ ``` |
 | 7 | [Estonian](https://en.wikipedia.org/wiki/Estonian_orthography) | 32 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,š,z,ž,t,u,v,w,õ,ä,ö,ü,x,y```<br>```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,Š,Z,Ž,T,U,V,W,Õ,Ä,Ö,Ü,X,Y```<br><br> ```Regex: ^[A-Za-z -šžõäöüŠŽÕÄÖÜ]+$ ``` |
 | 8 | [Finnish](https://en.wikipedia.org/wiki/Finnish_orthography) | 29 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,å,ä,ö```<br>```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,Y,Y,Z,Å,Ä,Ö```<br><br> ```Regex: ^[A-Za-z -åäöÅÄÖ]+$ ``` |
-| 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | 26 |  ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z``` <br><br> ```Regex: ^[A-Za-z -]+$ ```|
+| 9 | [French](https://en.wikipedia.org/wiki/French_orthography#Alphabet) | 26 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z``` <br><br> ```Regex: ^[A-Za-z -]+$ ```|
 | 10 | [German](https://en.wikipedia.org/wiki/German_orthography#Alphabet) | 30 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ä,ö,ü,ß``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Ä,Ö,Ü,ß``` <br><br> ```Regex: ^[A-Za-z -äöüßÄÖÜß]+$ ```|
 | 11 | [Greek](https://en.wikipedia.org/wiki/Greek_alphabet) | 24 | ```α,β,γ,δ,ε,ζ,η,θ,ι,κ,λ,μ,ν,ξ,ο,π,ρ,σ/ς,τ,υ,φ,χ,ψ,ω```<br>```Α,Β,Γ,Δ,Ε,Ζ,Η,Θ,Ι,Κ,Λ,Μ,Ν,Ξ,Ο,Π,Ρ,Σ,Τ,Υ,Φ,Χ,Ψ,Ω``` <br><br> ```Regex: ^[A-Za-z -αβγδεζηθικλμνξοπρσςτυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ]+$ ```|
 | 12 | [Hungarian](https://en.wikipedia.org/wiki/Hungarian_alphabet) | 44 | ```a,á,b,c,cs,d,dz,dzs,e,é,f,g,gy,h,i,í,j,k,l,ly,m,n,ny,o,ó,ö,ő,p,q,r,s,sz,t,ty,u,ú,ü,ű,v,w,x,y,z,zs```<br>```A,Á,B,C,Cs,D,Dz,Dzs,E,É,F,G,Gy,H,I,Í,J,K,L,Ly,M,N,Ny,O,Ó,Ö,Ő,P,Q,R,S,Sz,T,Ty,U,Ú,Ü,Ű,V,W,X,Y,Z,Zs``` | ISO ```+ á|cs|dz|dzs|é|í|ly|ny|ó|ö|ő|sz|ty|ú|ü|ű|zs```<br>```Á|Cs|Dz|Dzs|É|Í|Ly|Ny|Ó|Ö|Ő|Sz|Ty|Ú|Ü|Ű|Zs``` <br><br> ```Regex: ^[A-Za-z -áéíóöőúüűÁÉÍÓÖŐÚÜŰ]+$ ```|
@@ -222,7 +238,7 @@ Using trim or strip functions with the input.
 | 19 | [Portugese](https://en.wikipedia.org/wiki/Portuguese_orthography) | 39 | ```a,à,á,â,ã,b,c,ç,d,e,é,ê,f,g,h,i,í,j,k,l,m,n,o,ó,ô,õ,p,q,r,s,t,u,ú,ü,v,w,x,y,z```<br>```A,À,Á,Â,Ã,B,C,Ç,D,E,É,Ê,F,G,H,I,Í,J,K,L,M,N,O,Ó,Ô,Õ,P,Q,R,S,T,U,Ú,Ü,V,W,X,Y,Z```<br><br> ```Regex: ^[A-Za-z -àáâãçéêíóôõúüÀÁÂÃÇÉÊÍÓÔÕÚÜ]+$ ``` |
 | 20 | [Romanian](https://en.wikipedia.org/wiki/Romanian_alphabet) | 31 | ```a,ă,â,b,c,d,e,f,g,h,i,î,j,k,l,m,n,o,p,q,r,s,ș,t,ț,u,v,w,x,y,z```<br> ```A,Ă,Â,B,C,D,E,F,G,H,I,Î,J,K,L,M,N,O,P,Q,R,S,Ș,T,Ț,U,V,W,X,Y,Z```<br><br> ```Regex: ^[A-Za-z -ăâîșțĂÂÎȘȚ]+$ ``` |
 | 21 | [Slovak](https://en.wikipedia.org/wiki/Slovak_orthography#Alphabet) | 46 | ```a,á,ä,b,c,č,d,ď,dz,dž,e,é,f,g,h,ch,i,í,j,k,l,ĺ,ľ,m,n,ň,o,ó,ô,p,q,r,ŕ,s,š,t,ť,u,ú,v,w,x,y,ý,z,ž``` <br>```A,Á,Ä,B,C,Č,D,Ď,Dz,Dž,E,É,F,G,H,Ch,I,Í,J,K,L,Ĺ,Ľ,M,N,Ň,O,Ó,Ô,P,Q,R,Ŕ,S,Š,T,Ť,U,Ú,V,W,X,Y,Ý,Z,Ž```<br><br> ```Regex: ^[A-Za-z -áäčďžéíĺľňóôŕšťúýžÁÄČĎžÉÍĹĽŇÓÔŔŠŤÚÝŽ]+$```|
-| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```a,b,c,č,d,e,f,g,h,i,j,k,l,m,n,o,p,r,s,š,t,u,v,z,ž```  <br>```A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,R,S,Š,T,U,V,Z,Ž```<br><br> ```Regex: ^[A-Za-z -čšžČŠŽ]+$```|
+| 22 | [Slovene](https://en.wikipedia.org/wiki/Slovene_alphabet) | 25 | ```a,b,c,č,d,e,f,g,h,i,j,k,l,m,n,o,p,r,s,š,t,u,v,z,ž``` <br>```A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,R,S,Š,T,U,V,Z,Ž```<br><br> ```Regex: ^[A-Za-z -čšžČŠŽ]+$```|
 | 23 | [Spanish](https://en.wikipedia.org/wiki/Spanish_orthography#Alphabet_in_Spanish) | 27 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s,t,u,v,w,x,y,z``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z``` <br><br> ```Regex: ^[A-Za-z -ñÑ]+$```|
 | 24 | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) | 29 | ```a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,å,ä,ö``` <br> ```A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,Y,Y,Z,Å,Ä,Ö``` <br><br> ```Regex: ^[A-Za-z -åäöÅÄÖ]+$```| 
 
@@ -263,7 +279,7 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 | | Language | Percentage of use | Alphabet / Regex|
 |-|-|-|-|
 | 1 | English | 63.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 2 | Russian | 6.7% | ```33 / а,б,в,г,д,е,ё,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ы,ь,э,ю,я```  <br>```А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ы,Ь,Э,Ю,Я ``` |
+| 2 | Russian | 6.7% | ```33 / а,б,в,г,д,е,ё,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ы,ь,э,ю,я``` <br>```А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ы,Ь,Э,Ю,Я ``` |
 | 3 | Turkish | 3.9% | new |
 | 4 | Spanish | 3.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
 | 5 | Persian | 3.5% | new |
