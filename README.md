@@ -101,7 +101,7 @@ Suggested solution:
 
 ### 2.5. Similarity to reserved words
 
-Most common case of problems with reserved words in computer systems are people with the surname "Null". People like Jennifer Null (Baraniuk 2016) from southern Virgina in the US have problems with online shopping, booking flights or entering details into online forms for taxes or utilities. Journalist Christopher Null (Null 2015) encounters problems receiving physical mail as well as digital email.
+Most common case of problems with reserved words in computer systems are people with the surname "Null". People like Jennifer Null (Baraniuk 2016) from Southern Virginia in the US have problems with online shopping, booking flights or entering details into online forms for taxes or utilities. Journalist Christopher Null (Null 2015) encounters problems receiving physical mail as well as digital email.
 
 Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic word as surname. He got stuck in digital hell at the Buenos Aires airport when the airline for his connecting flight could not find his ticket.
 
@@ -121,13 +121,13 @@ There are several possible technical reasons and also different ways to avoid th
 
 ### 2.6. Similarity to profanity words
 
-Whenever people talk discuss about the sense or nonsense of filtering out possibly obscene words in online communication sooner or later the name of the British town Scunthorpe comes up. Because the so called [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
+Whenever people discuss about the sense or nonsense of filtering out possibly obscene words in online communication sooner or later the name of the British town Scunthorpe comes up. Because the socalled [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
 
-As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The french had similar issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where victims of filtering.
+As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The French had similar issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where victims of filtering.
 
 A quite current and hilarious case happened in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like "bone", "pubic", and "stream" where censored from the conference online forum.
 
-There are several commercial offers for such a kind of validation. [This british company even lets you try their filter product on their website](https://www.data-8.co.uk/data-validation/name-validation/): "Our Name Validation service identifies random, salacious or unusable names from an extensive list of unusable names, and will prevent obviously false or inaccurate data from entering your database."
+There are several commercial offers for such a kind of validation. [This British company even lets you try their filter product on their website](https://www.data-8.co.uk/data-validation/name-validation/): "Our Name Validation service identifies random, salacious or unusable names from an extensive list of unusable names, and will prevent obviously false or inaccurate data from entering your database."
 
 **Suggested solution:** Do not even try to actively filter input in online forms based on lists because: You. Just. Can. Not. Win. This. The small number of people who want to trick such filters will understand them well enough to do so. And at the same time every such filter is potentially worsening the experience for regular users.
 
@@ -140,7 +140,7 @@ One of the most recent examples is for sure singer Grimes and Elon Musk naming t
 
 But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
 
-A aspect which should be mentioned as well is people with which are unintentionally similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charly Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
+An aspect which should be mentioned as well is people with which are unintentionally similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charlie Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
 [James Bond](https://www.linkedin.com/pub/dir?firstName=James&lastName=Bond&trk=people-guest_people-search-bar_search-submit) or [Peter Pan](https://www.linkedin.com/pub/dir?firstName=Peter&lastName=Pan&trk=people-guest_people-search-bar_search-submit)?
 
 
@@ -430,7 +430,7 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 Alphabetical list of terms directly or indirectly associated with validation of online forms.
 
 ### Bowdlerization
-Substitution of anthing deemed unpleasant or offensive from an artistic work, or other type of writing or media. Named after [Thomas Bowdler](https://en.wikipedia.org/wiki/Thomas_Bowdler) (1754–1825) who in 1818 published a censored family friendly version of plays by William Shakespeare. 
+Substitution of anything deemed unpleasant or offensive from an artistic work, or other type of writing or media. Named after [Thomas Bowdler](https://en.wikipedia.org/wiki/Thomas_Bowdler) (1754–1825) who in 1818 published a censored family friendly version of plays by William Shakespeare. 
 See [2.6.](#26-similarity-to-profanity-words)
 
 
