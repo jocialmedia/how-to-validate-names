@@ -363,6 +363,8 @@ The current work in progress version of the data set can be accessed [here](/src
 
 - **Graham-Cumming**, John: [Your Last Name Contains Invalid Characters](https://blog.jgc.org/2010/06/your-last-name-contains-invalid.html), 2010-06-17
 
+- **Goregaokar**, Manish: [Breaking Our Latin-1 Assumptions](https://manishearth.github.io/blog/2017/01/15/breaking-our-latin-1-assumptions/#fnref:6), 2017-01-15 
+
 - **Ho**, Charly: [What's in a name (validation)?](https://dev.to/carlymho/whats-in-a-name-validation-4b41), 2018-10-08
 Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](https://www.youtube.com/watch?v=yuQ5YTNO3I0), 13min, 2017-06-10
 
