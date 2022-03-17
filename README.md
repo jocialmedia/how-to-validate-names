@@ -384,6 +384,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
   - [Presentation at #rC3](https://www.youtube.com/watch?v=ofPZ73Wz4SU), 36min, 2021-02-04
   - [Presentation at PyCascades 2021](https://www.youtube.com/watch?v=telNgfvgmHs), 29min, 2021-02-20
 
+- **Sheherazade** & **Ardiantiono** : [Attention science: some people have only one name](https://www.nature.com/articles/d41586-020-02761-z), Career Column, nature.<area>, 2020-09-29
+
 - **Spolsky**, Joel: [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/), 2003-10-08
 
 - **The Associated Press**: [Why, O Why, Doesn't That Name Compute?](https://www.nytimes.com/1991/08/28/us/why-o-why-doesn-t-that-name-compute.html), 1991-08-28
