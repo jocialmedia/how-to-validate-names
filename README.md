@@ -392,6 +392,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Spolsky**, Joel: [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/), 2003-10-08
 
+- **Strehl**, Manuel: [@CodepointsNET](https://twitter.com/CodepointsNET), Twitter account with examples for Unicode, characters, lettering and language, 2022
+
 - **The Associated Press**: [Why, O Why, Doesn't That Name Compute?](https://www.nytimes.com/1991/08/28/us/why-o-why-doesn-t-that-name-compute.html), 1991-08-28
 
 - **Unknown**: [Name Validation For Developers 101](https://businesscomputingworld.co.uk/name-validation-for-developers-101), businesscomputingworld<area>.co.uk, 2019-02-05
