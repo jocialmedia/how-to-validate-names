@@ -21,6 +21,8 @@
     - [4.2. Checklist](#42-checklist)
     - [4.3. Test data](#43-test-data)
     - [4.4. Test data real cases](#44-test-data-real-cases)
+    - [4.5. Website with analyzing features](#45-website-with-analyzing-features)
+
   - [5. Further Reading](#5-further-reading)
   - [6. Glossary](#6-glossary)
 
@@ -358,6 +360,10 @@ The current work in progress version of the data set can be accessed [here](/src
 I also started a collection of test cases based on the countless examples from articles and other online mentions.
 
 The current work in progress version of the data set can be accessed [here](/src/assets/test-data-real-cases.json).
+
+### 4.5. Website with analyzing features
+
+You can visit the prototype [here](https://jocialmedia.github.io/how-to-validate-names/)
 
 ## 5. Further Reading
 
