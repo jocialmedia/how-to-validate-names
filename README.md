@@ -75,10 +75,10 @@ https://www.w3.org/International/questions/qa-personal-names
 | Possible elements of names | example |
 |-|-|
 | Title | . |
-| **First name** <br> aka Given name <br> aka Christian name | . |
+| **Given name** <br> aka First name<br> aka Christian name | . |
 | **Middle name** | . |
 | **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| . |
-| **Pseudonym** <br> Nick name <br> Stage name | . |
+| **Pseudonym** <br>Nick name <br>Stage name <br>pen name <br>nom de plume <br>literary double| . |
 
 
 **Suggested solution:** No matter if your form has fields for first, middle and last name or like some experts suggest just one field for full name: The best is that you do not validate or filter the number of elements. Als long as the whole name fits into the length limits described later. Also be prepared to allow either the first or last name to be empty.
