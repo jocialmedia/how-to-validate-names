@@ -83,7 +83,7 @@ https://www.w3.org/International/questions/qa-personal-names
 | Possible elements of names | example |
 |-|-|
 | Title | . |
-| **Given name** <br> aka First name<br> aka Christian name | . |
+| **Given name** <br> aka First name<br> aka Forename <br> aka Christian name | . |
 | **Middle name** | . |
 | **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| . |
 | **Pseudonym** <br>Nick name <br>Stage name <br>pen name <br>nom de plume <br>literary double| . |
