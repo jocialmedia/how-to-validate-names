@@ -430,6 +430,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **McKenzie**, Patrick: [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), 2010-06-17
 
+- **McMillan**, Kumar: [Unicode In Python, Completely Demystified](http://farmdev.com/talks/unicode/), Slides for [Talk at Pycon08](https://www.youtube.com/watch?v=cecJ9o5GGmw), 25min, 2008-10-26
+
 - **Moore**, Matthew: [The Clbuttic Mistake: When obscenity filters go wrong](https://www.telegraph.co.uk/news/newstopics/howaboutthat/2667634/The-Clbuttic-Mistake-When-obscenity-filters-go-wrong.html), telegraph<area>.co.uk, 2008-09-02
 
 - **Null**, Christopher: [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/), 2015-11-05
