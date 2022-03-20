@@ -22,13 +22,16 @@
     - [4.3. Test data](#43-test-data)
     - [4.4. Test data real cases](#44-test-data-real-cases)
     - [4.5. Website with analyzing features](#45-website-with-analyzing-features)
-
   - [5. Further Reading](#5-further-reading)
   - [6. Glossary](#6-glossary)
+  - [7. Work in Progress Disclaimer](#7-work-in-progress-disclaimer)
 
 
 
 ## 1. About
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 
 **TLDR:** You need information about name validation in online forms and software applications? After it is finished this project should contain amongst other things a list of suggestions, some prepared snippets and regex formulas for easy implementation.
 
@@ -38,10 +41,12 @@ This whole issue is extremely complex because the factors why forms are like the
 
 So the idea of this collection is to create some specific technical patterns which are easy to adopt. Because what is missing - or at least I did not find it anywhere else - is an out-of-the-box solution. A framework of example regex to use and a set of test-cases to make sure your own application is compliant. Something which is as complete, tested and production ready as possible.
 
-
 ## 2. Potential reasons for failing validation
 
 ### 2.1. Length of elements
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 
 This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fields for first name, middle name and last name.
 
@@ -62,6 +67,9 @@ Examples for length standards:
 **Suggestion:** Try to avoid any unnecessary minimum or maximum constraints.
 
 ### 2.2. Number of elements
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
   
 Did you know that the subject of proper human names is so broad that there is a whole scientific discipline called [anthroponymy](https://en.m.wikipedia.org/wiki/Anthroponymy)?
 
@@ -83,8 +91,9 @@ https://www.w3.org/International/questions/qa-personal-names
 
 **Suggested solution:** No matter if your form has fields for first, middle and last name or like some experts suggest just one field for full name: The best is that you do not validate or filter the number of elements. Als long as the whole name fits into the length limits described later. Also be prepared to allow either the first or last name to be empty.
 
-
 ### 2.3. Order of elements
+
+[Disclaimer](#7-work-in-progress-disclaimer)
 
 E.g. "Western Order" vs. "Eastern Order".
 
@@ -95,6 +104,8 @@ Suggested solution:
 
 ### 2.4. Characters
 
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 ... 
 
 **Suggested solution:** ...
@@ -102,6 +113,9 @@ Suggested solution:
  
 
 ### 2.5. Similarity to reserved words
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 
 Most common case of problems with reserved words in computer systems are people with the surname "Null". People like Jennifer Null (Baraniuk 2016) from Southern Virginia in the US have problems with online shopping, booking flights or entering details into online forms for taxes or utilities. Journalist Christopher Null (Null 2015) encounters problems receiving physical mail as well as digital email.
 
@@ -123,6 +137,8 @@ There are several possible technical reasons and also different ways to avoid th
 
 ### 2.6. Similarity to profanity words
 
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 Whenever people discuss about the sense or nonsense of filtering out possibly obscene words in online communication sooner or later the name of the British town Scunthorpe comes up. Because the socalled [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
 
 As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The French had similar issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where victims of filtering.
@@ -135,8 +151,10 @@ There are several commercial offers for such a kind of validation. [This British
 
 One alternative is not to block entries but to flag them so that support members can take a closer look afterwards.
 
-
 ### 2.7. Symbols or unusual terms as names
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 
 One of the most recent examples is for sure singer Grimes and Elon Musk naming their son [X Æ A-XII](https://en.wikipedia.org/wiki/Grimes_(musician)#Personal_life). In comparison the name [Apple](https://en.wikipedia.org/wiki/Gwyneth_Paltrow#Relationships_and_children) for the daughter of Gwyneth Paltrow and even the names [North, Saint, Chicago and Palm](https://en.wikipedia.org/wiki/Kim_Kardashian#Health_and_pregnancies) for the children of Kim Kardashian are almost boring.
 
@@ -150,6 +168,8 @@ An aspect which should be mentioned as well is people with which are unintention
 
 
 ### 2.8. Redundant space at beginning or end
+
+[Disclaimer](#7-work-in-progress-disclaimer)
 
 Yes, of course this a point which should go without saying but let us look for a moment at the redundant space at the beginning or end of an input which could also trigger a negative validation. We do this not only for the sake of completeness but also because exactly such things have a tendency to cause behaviors which are the hardest to catch for the exact reason that they are so obvious. 
 
@@ -177,6 +197,8 @@ Using trim or strip functions with the input.
 
 
 ### 3.1. Languages of the EU
+
+[Disclaimer](#7-work-in-progress-disclaimer)
 
 24 current EU languages in alphabetical order.
 
@@ -216,6 +238,8 @@ Using trim or strip functions with the input.
 
 ### 3.2. Alphabets of the EU languages
 
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 
 |  | Language | Letters | Alphabet / Regex patterns | 
 | ---- | ---- | ---- | ---- |
@@ -247,6 +271,9 @@ Using trim or strip functions with the input.
 
 
 ### 3.3. General Regex for all 24 EU languages: 
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 ```
 /^[A-Za-z -áÁàÀăĂâÂåÅäÄãÃąĄāĀæÆćĆčČċĊçÇďĎđĐéÉêÊěĚėĖęĘēĒġĠģĢħĦíÍ
 îÎįĮīĪķĶĺĹľĽļĻłŁńŃňŇñÑņŅóÓôÔöÖőŐõÕøØŕŔřŘśŚšŠșȘßťŤțȚúÚůŮüÜűŰųŲū
@@ -263,6 +290,9 @@ an upper and an lower case version of each character:
 
 
 ### 3.4. General Regex without Greek and Bulgarian:
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 ``` 
 /^[A-Za-z -áÁàÀăĂâÂåÅäÄãÃąĄāĀæÆćĆčČċĊçÇďĎđĐéÉêÊěĚėĖęĘēĒġĠģĢħĦíÍîÎįĮīĪ
 ķĶĺĹľĽļĻłŁńŃňŇñÑņŅóÓôÔöÖőŐõÕøØŕŔřŘśŚšŠșȘßťŤțȚúÚůŮüÜűŰųŲūŪýÝźŹžŽżŻ]+$/
@@ -274,6 +304,9 @@ Shorter version with ignore flag:
 
 
 ### 3.5. Languages worldwide
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
 
 As there are about 7.000 languages worldwide I decided to deal only with those which are used on a bigger number of websites. So [this analysis by the experts from W3](https://w3techs.com/technologies/overview/content_language) lists 34 languages from which 19 are already part of the EU languages and 15 new ones.
 
@@ -317,6 +350,7 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 
 ## 4. TLDR
 
+[Disclaimer](#7-work-in-progress-disclaimer)
 
 ### 4.1. Languages and alphabets
 
@@ -447,3 +481,11 @@ See [2.6.](#26-similarity-to-profanity-words)
 ### Scunthorpe
 British town which became a synonym for trouble caused by automated wordfilters. Citizens could not apply for an AOL connection in 1996 because the name of their town contains the substring "cunt".
 See [2.6.](#26-similarity-to-profanity-words)
+
+## 7. Work in Progress Disclaimer
+
+**This project is currently still at early alpha status.** I feel like I should point this out a little stronger because I just saw that in the last two weeks alone this repository was cloned over 170 times. There are still elemental things missing and there have to be made and will be made lots of additions and changes in structure and wording.
+
+I choose this topic because it is important and complex. Personally I wanted to take the challenge to build something useful by using some spare time every day. (By the time I am writing these words my daily commits go back to 18.02.2022 so I already succeeded at least for the first four weeks).
+
+**Btw:** If you have any comments, suggestions or corrections I am happy to receive them via email at "howtovalidatenames AT dethlefs DOT eu"
