@@ -28,11 +28,16 @@
     "example_last_name": "Karlin",
     "info": "https://en.wikipedia.org/wiki/Georg_J:son_Karlin",
     "comment": "Will be later moved to test-data.json"
-},{
+}, {
     "example_first_name": "",
     "example_last_name": "Keihanaikukauakahihulihe'ekahaunaele",
     "info": "https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579",
     "comment": "From year 2013"
+}, {
+    "example_first_name": "Jennifer 8",
+    "example_last_name": "Lee",
+    "info": "https://en.wikipedia.org/wiki/Jennifer_8._Lee#cite_note-12",
+    "comment": "From year 1996"
 }, {
     "example_first_name": "Christopher",
     "example_last_name": "Null",
@@ -48,10 +53,4 @@
     "example_last_name": "Šedivý",
     "info": "https://www.youtube.com/watch?v=telNgfvgmHs",
     "comment": "From year 2021"
-},
-
-
-
-
-
-]
+}]
