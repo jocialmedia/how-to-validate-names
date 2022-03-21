@@ -1,0 +1,18 @@
+.container {
+    max-width: 95%;
+}
+
+.letter {
+    font-size: xx-small;
+    border: 1px #000 solid;
+    width: 60px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    display: block;
+}
+
+pre {
+    padding-top: 20px;
+}
