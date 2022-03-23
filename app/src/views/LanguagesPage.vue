@@ -40,7 +40,7 @@ import axios from 'axios'
     },
     components: {},
     mounted() {
-      axios.get('languages.json')
+      axios.get('data/languages.json')
         .then(response => {
           const languages = response.data
           this.filteredLanguages = languages.filter(language => language.category.includes('eu'))

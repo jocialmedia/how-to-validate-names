@@ -38,7 +38,7 @@ import axios from 'axios'
     },
     components: {},
     mounted() {
-      axios.get('test-data.json')
+      axios.get('data/test-data.json')
         .then(response => {
           const test_cases = response.data
           this.filteredTestCases = test_cases

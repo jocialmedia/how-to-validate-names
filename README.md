@@ -354,7 +354,7 @@ As there are about 7.000 languages worldwide I decided to deal only with those w
 
 ### 4.1. Languages and alphabets
 
-The current work in progress version of the data set can be accessed [here](/src/assets/languages.json).
+The current work in progress version of the data set can be accessed [here](/app/public/data/languages.json).
 ### 4.2. Checklist
 
 The short compressed form how to deal with potential challenges for failing validation:
@@ -387,13 +387,13 @@ Concept:
 
 - If possible for the letters I will use simple names. So instead for "ß" instead of "Franz-Josef Strauß" who has a double-barrel first name I will use composer Johann Strauß. Or instead of [Lina Gálvez Muñoz](https://www.europarl.europa.eu/meps/de/197702/LINA_GALVEZ+MUNOZ/home) I will use [Jordi Cañas](https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home)
 
-The current work in progress version of the data set can be accessed [here](/src/assets/test-data.json).
+The current work in progress version of the data set can be accessed [here](/app/public/data/test-data.json).
 
 ### 4.4. Test data real cases
 
 I also started a collection of test cases based on the countless examples from articles and other online mentions.
 
-The current work in progress version of the data set can be accessed [here](/src/assets/test-data-real-cases.json).
+The current work in progress version of the data set can be accessed [here](/app/public/data/test-data-real-cases.json).
 
 ### 4.5. Website with analyzing features
 
