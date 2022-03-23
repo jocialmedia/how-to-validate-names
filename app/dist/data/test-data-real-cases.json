@@ -1,0 +1,56 @@
+[{
+    "example_first_name": "Amr",
+    "example_last_name": "Eladawy",
+    "info": "https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs",
+    "comment": "From year 2018"
+}, {
+    "example_first_name": "Julius Andreas Gimli Arn MacGyver Chewbacka Highlander",
+    "example_last_name": "Elessar-Jankov",
+    "info": "https://www.huffpost.com/entry/julius-andreas-gimli-arn_n_284276",
+    "comment": "From year 2010"
+}, {
+    "example_first_name": "John",
+    "example_last_name": "Graham-Cumming",
+    "info": "https://blog.jgc.org/2010/06/your-last-name-contains-invalid.html",
+    "comment": "From year 2010"
+}, {
+    "example_first_name": "Charly",
+    "example_last_name": "Ho",
+    "info": "https://dev.to/carlymho/whats-in-a-name-validation-4b41",
+    "comment": "From year 2018"
+}, {
+    "example_first_name": "Israel",
+    "example_last_name": "Kaʻanoʻi Kamakawiwoʻole",
+    "info": "https://en.wikipedia.org/wiki/Israel_Kamakawiwo%CA%BBole",
+    "comment": "Will be later moved to test-data.json"
+}, {
+    "example_first_name": "Georg J:son",
+    "example_last_name": "Karlin",
+    "info": "https://en.wikipedia.org/wiki/Georg_J:son_Karlin",
+    "comment": "Will be later moved to test-data.json"
+}, {
+    "example_first_name": "",
+    "example_last_name": "Keihanaikukauakahihulihe'ekahaunaele",
+    "info": "https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579",
+    "comment": "From year 2013"
+}, {
+    "example_first_name": "Jennifer 8",
+    "example_last_name": "Lee",
+    "info": "https://en.wikipedia.org/wiki/Jennifer_8._Lee#cite_note-12",
+    "comment": "From year 1996"
+}, {
+    "example_first_name": "Christopher",
+    "example_last_name": "Null",
+    "info": "https://www.wired.com/2015/11/null/",
+    "comment": "From year 2015"
+}, {
+    "example_first_name": "Stephen",
+    "example_last_name": "O",
+    "info": "https://www.nytimes.com/1991/08/28/us/why-o-why-doesn-t-that-name-compute.html",
+    "comment": "From year 1991"
+}, {
+    "example_first_name": "Miroslav",
+    "example_last_name": "Šedivý",
+    "info": "https://www.youtube.com/watch?v=telNgfvgmHs",
+    "comment": "From year 2021"
+}]
