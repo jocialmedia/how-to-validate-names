@@ -1,14 +1,15 @@
 <template>
-  <StartPage />
+  <NavBar />
+  <router-view />
 </template>
 
 <script>
-import StartPage from './components/StartPage.vue'
+import NavBar from './views/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
-    StartPage
+    NavBar
   }
 }
 </script>
