@@ -4,7 +4,7 @@
       <h1>Languages and Alphabets</h1>
       <h2>Languages</h2>
 
- <table class="table table-bordered table-striped">
+      <table class="table table-bordered table-striped">
         <thead>
           <th>ID</th>
           <th>Name</th>
@@ -15,22 +15,24 @@
           <th><span class="nowrap">EU language</span> <br>since</th>
         </thead>
         <tbody>
-          <tr v-for="(item, index) in filteredLanguages" :key="item.id">
+          <tr v-for="(item, index) in languages_filtered" :key="item.id">
             <td> {{index+1}} </td>
             <td><a :href="item.wikipedia_en">{{item.language}} </a></td>
             <td> {{item.local_name}} </td>
             <td> {{item.iso_639_2}} </td>
             <td><span v-for="(sub_item) in item.spoken_national_level" :key="sub_item.id">
-             {{sub_item}}, </span></td>
+                {{sub_item}}, </span></td>
             <td><span v-for="(sub_item) in item.spoken_subnational_level" :key="sub_item.id">
-             {{sub_item}}, </span></td>
-             <td> {{item.eu_language_since}} </td>
+                {{sub_item}}, </span></td>
+            <td> {{item.eu_language_since}} </td>
           </tr>
         </tbody>
       </table>
 
 
       <h2>Alphabets</h2>
+
+      <p>Red color marks characters which are not part of ISO Latin 1.</p>
       <table class="table table-bordered table-striped">
         <thead>
           <th>ID</th>
@@ -38,14 +40,13 @@
           <th>Alphabet</th>
         </thead>
         <tbody>
-          <tr v-for="(item, index) in filteredLanguages" :key="item.id">
+          <tr v-for="(item, index) in languages_filtered" :key="item.id">
             <td> {{index+1}} </td>
             <td> {{item.language}} </td>
             <td>
-            <span v-for="(sub_item) in item.alphabet_chars" :key="sub_item.id" class="letter">
-
-             {{sub_item}} </span>
-
+              <span v-for="(sub_item) in item.alphabet_chars_checked" :key="sub_item.id" class="letter" :class="sub_item.split('-')[1]">
+                  {{ sub_item.split("-")[0] }}
+                </span>
             </td>
           </tr>
         </tbody>
@@ -56,24 +57,74 @@
 </template>
 
 <script>
-import axios from 'axios'
-
   export default {
     name: 'LanguagesPage',
     data() {
       return {
+        data: {},
         languages: [],
-        filteredLanguages: []
+        languages_filtered: [],
+        alphabet_chars_checked: []
       }
     },
     components: {},
+    methods: {
+      async getName() {
+        const res = await fetch('https://api.agify.io/?name=michael');
+        const data = await res.json();
+        this.data = data;
+      },
+      async getLanguages() {
+        let path = 'data/languages.json'
+        const res = await fetch(path);
+        const data = await res.json();
+        this.languages = data;
+        this.getFilteredLanguages();
+      },
+      async getFilteredLanguages() {
+        this.languages_filtered = this.languages.filter(language => language.category.includes('eu'));
+        this.getLanguageCoverage();
+      },
+      async getLanguageCoverage() {
+        //let english_alphabet = [];
+        let english_alphabet = this.languages[7].alphabet_chars;
+        console.log(typeof(this.languages[7].alphabet_chars))
+        for (var i = 0; i < this.languages.length; i++) {
+          var language = this.languages[i];
+          let array_length = language.alphabet_chars.length;
+          let alphabet_chars_checked = []
+          for (var j = 0; j < array_length; j++) {
+            if (english_alphabet.includes(language.alphabet_chars[j])) {
+              let thisChar = language.alphabet_chars[j] + "-covered_by_latin_1"
+              alphabet_chars_checked.push(thisChar);
+            } else {
+              let thisChar = language.alphabet_chars[j] + "-not_covered_by_latin_1"
+              alphabet_chars_checked.push(thisChar);
+            }
+          this.languages[i]['alphabet_chars_checked'] = alphabet_chars_checked;
+        }
+}
+        this.languages_filtered = this.languages.filter(language => language.category.includes('eu'))
+      },
+    },
+    watch: {
+
+    },
+    beforeCreate() {
+      console.log("beforeCreate")
+    },
+    beforeMount() {
+      console.log("beforeMount");
+      this.getLanguages();
+    },
     mounted() {
-      axios.get('data/languages.json')
-        .then(response => {
-          const languages = response.data
-          this.filteredLanguages = languages.filter(language => language.category.includes('eu'))
-        })
-    }
+      console.log("mounted")
+      this.getFilteredLanguages();
+    },
+    updated() {
+      console.log("updated");
+    },
+
   }
 </script>
 
@@ -94,4 +145,13 @@ import axios from 'axios'
     white-space: nowrap;
     overflow: hidden;
   }
+
+  .covered_by_latin_1 {
+    background: #FCEDDA;
+  }
+
+  .not_covered_by_latin_1 {
+    background: #EE4E34;
+  }
+
 </style>
