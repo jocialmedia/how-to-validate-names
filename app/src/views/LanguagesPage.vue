@@ -2,12 +2,40 @@
   <div class="container">
     <div class="row">
       <h1>Languages and Alphabets</h1>
-      <p>Official languages of the European Union.</p>
+      <h2>Languages</h2>
+
+ <table class="table table-bordered table-striped">
+        <thead>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Local Name</th>
+          <th>ISO<span class="nowrap">639-2</span></th>
+          <th>On national level</th>
+          <th>On subnational level</th>
+          <th><span class="nowrap">EU language</span> <br>since</th>
+        </thead>
+        <tbody>
+          <tr v-for="(item, index) in filteredLanguages" :key="item.id">
+            <td> {{index+1}} </td>
+            <td><a :href="item.wikipedia_en">{{item.language}} </a></td>
+            <td> {{item.local_name}} </td>
+            <td> {{item.iso_639_2}} </td>
+            <td><span v-for="(sub_item) in item.spoken_national_level" :key="sub_item.id">
+             {{sub_item}}, </span></td>
+            <td><span v-for="(sub_item) in item.spoken_subnational_level" :key="sub_item.id">
+             {{sub_item}}, </span></td>
+             <td> {{item.eu_language_since}} </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Alphabets</h2>
       <table class="table table-bordered table-striped">
         <thead>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Alphabet</th>
         </thead>
         <tbody>
           <tr v-for="(item, index) in filteredLanguages" :key="item.id">
@@ -59,5 +87,11 @@ import axios from 'axios'
     margin: 5px;
     float: left;
     display: block;
+  }
+
+  .nowrap {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 </style>
