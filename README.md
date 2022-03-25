@@ -80,13 +80,13 @@ If designing a form or database that will accept names from people with a variet
 https://www.w3.org/International/questions/qa-personal-names
 
 
-| Possible elements of names | example |
+| Possible elements of names | example |
 |-|-|
 | Title | . |
-| **Given name** <br> aka First name<br> aka Forename <br> aka Christian name | . |
-| **Middle name** | . |
-| **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| . |
-| **Pseudonym** <br>Nick name <br>Stage name <br>pen name <br>nom de plume <br>literary double| . |
+| **Given name** <br> aka First name<br> aka Forename <br> aka Christian name | . |
+| **Middle name** | . |
+| **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| . |
+| **Pseudonym** <br>Nick name <br>Stage name <br>pen name <br>nom de plume <br>literary double| . |
 
 
 **Suggested solution:** No matter if your form has fields for first, middle and last name or like some experts suggest just one field for full name: The best is that you do not validate or filter the number of elements. Als long as the whole name fits into the length limits described later. Also be prepared to allow either the first or last name to be empty.
@@ -128,8 +128,8 @@ There are several possible technical reasons and also different ways to avoid th
 |- |- |
 |Go |- [Keywords](https://go.dev/ref/spec#Keywords)<br> **Result:** break, default, func, interface, select, case, defer, go, map, struct, chan, else, goto, package, switch, const, fallthrough, if, range, type, continue, for, import, return, var|
 |Java |- [Keywords](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html) |
-|Javascript |- [Reserved keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_keywords_as_of_ecmascript_2015)<br>**Result:** break, case, catch, class, const, continue, debugger, default, delete, do, else, export,extends, finally, for, function, if, import, in, instanceof, new, return, super, switch, this, throw, try, typeof, var, void, while, with, yield |
-|PHP |- [Reserved Keywords](https://www.php.net/manual/en/reserved.keywords.php)<br>- [Other reserved words](https://www.php.net/manual/en/reserved.other-reserved-words.php)|
+|Javascript |- [Reserved keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_keywords_as_of_ecmascript_2015)<br>**Result:** break, case, catch, class, const, continue, debugger, default, delete, do, else, export,extends, finally, for, function, if, import, in, instanceof, new, return, super, switch, this, throw, try, typeof, var, void, while, with, yield |
+|PHP |- [Reserved Keywords](https://www.php.net/manual/en/reserved.keywords.php)<br>- [Other reserved words](https://www.php.net/manual/en/reserved.other-reserved-words.php)|
 |Python|- [Keywords and Softkeywords](https://docs.python.org/3/library/keyword.html)<br>Export with:<br><pre>import keyword<br>keyword.kwlist</pre>**Result:** False, await, else, import, pass, None, break, except, in, raise, True, class, finally, is, return, and, continue, for, lambda, try, as, def, from, nonlocal, while, assert, del, global, not, with, async, elif, if, or, yield|
 
 
@@ -143,7 +143,7 @@ Whenever people discuss about the sense or nonsense of filtering out possibly ob
 
 As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The French had similar issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where victims of filtering.
 
-A quite current and hilarious case happened in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like "bone", "pubic", and "stream" where censored from the conference online forum.
+A quite current and hilarious case happened in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like "bone", "pubic", and "stream" where censored from the conference online forum.
 
 There are several commercial offers for such a kind of validation and I personally do not have any experience with the quality of such products. [The British company Data8 lets you try their filter product on their website](https://www.data-8.co.uk/data-validation/name-validation/). The American company Service Objects offers a free API key to test their product [DOTS Name Validation 2](https://www.serviceobjects.com/products-internal/lead-name-validation/name-validation/"). The [British company Melissa](https://www.melissa.com/uk/name-verification#:~:text=Melissa%20Global%20Name%20API%20recognizes,containing%20thousands%20of%20company%20names) lists [arguments for a commercial name validation in a blog post](https://melissa91.webnode.com/l/the-why-and-how-of-global-name-validation/).
 
@@ -180,7 +180,7 @@ Good news: Here trouble is easy to avoid by trimming or stripping possible white
 | Language | Doc | Example |
 | -- | -- | -- | 
 | Javascript | [Docs](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) | ```let inputTrimmed = inputOriginal.trim(); ``` |
-| Java | [Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#trim()) | ```String inputTrimmed = inputOriginal.trim(); ``` |
+| Java | [Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#trim()) | ```String inputTrimmed = inputOriginal.trim(); ``` |
 | PHP | [Docs](https://www.php.net/manual/de/function.trim.php) | ```$input_trimmed = trim($input_original); ``` |
 | Python | [Docs](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.strip) | ```input_trimmed = input_original.strip() ``` |
 | Go | [Docs](https://pkg.go.dev/strings#TrimSpace) | ```var inputTrimmed = strings.TrimSpace(inputOriginal) ``` |
@@ -208,7 +208,7 @@ Using trim or strip functions with the input.
 
 
 
-|  | Language | [ISO_639-2](https://en.wikipedia.org/wiki/ISO_639-2) | National level | Subnational level |Since |
+|  | Language | [ISO_639-2](https://en.wikipedia.org/wiki/ISO_639-2) | National level | Subnational level |Since |
 | - | - | -- |-- |-- |-- |
 | 1 | [Bulgarian](https://en.wikipedia.org/wiki/Bulgarian_language) | bul | Bulgaria | - | 2007 |
 | 2 | [Croatian](https://en.wikipedia.org/wiki/Croatian_language) | hrv | Croatia | Austria | 2013 |
@@ -312,42 +312,42 @@ Shorter version with ignore flag:
 As there are about 7.000 languages worldwide I decided to deal only with those which are used on a bigger number of websites. So [this analysis by the experts from W3](https://w3techs.com/technologies/overview/content_language) lists 34 languages from which 19 are already part of the EU languages and 15 new ones.
 
 
-| | Language | Percentage of use | Alphabet / Regex|
+| | Language | Percentage of use | Alphabet / Regex|
 |-|-|-|-|
-| 1 | English | 63.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 2 | Russian | 6.7% | ```33 / а,б,в,г,д,е,ё,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ы,ь,э,ю,я``` <br>```А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ы,Ь,Э,Ю,Я ``` |
-| 3 | Turkish | 3.9% | new |
-| 4 | Spanish | 3.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 5 | Persian | 3.5% | new |
-| 6 | French |2.5% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 7 | German | 2.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 8 | Japanese | 2.0% | new |
-| 9 | Vietnamese | 1.9% | new |
-| 10 | Chinese | 1.4% | new |
-| 11 | Arabic | 1.3% | new |
-| 12 | Indonesian | 0.8% | new |
-| 13 | Italian | 0.8% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 14 | Portuguese | 0.7% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 15 | Ukrainian	| 0.6% | new |
-| 16 | Dutch, Flemish | 0.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 17 | Thai | 0.5% | new |
-| 18 | Polish | 0.5% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 19 | Hebrew | 0.5% | new |
-| 20 | Korean | 0.5% | new |
-| 21 | Romanian | 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 22 | Greek | 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 23 | Czech	| 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 24 | Swedish |	0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 25 | Serbian | 0.2% | new |
-| 26 | Danish | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 27 | Hungarian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 28 | Finnish | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 29 | Bulgarian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 30 | Croatian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 31 | Hindi	| 0.1% | new |
-| 32 | Slovak | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
-| 33 | Norwegian Bokmål | 0.1% | new |
-| 34 | Lithuanian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 1 | English | 63.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 2 | Russian | 6.7% | ```33 / а,б,в,г,д,е,ё,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ъ,ы,ь,э,ю,я``` <br>```А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ы,Ь,Э,Ю,Я ``` |
+| 3 | Turkish | 3.9% | new |
+| 4 | Spanish | 3.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 5 | Persian | 3.5% | new |
+| 6 | French |2.5% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 7 | German | 2.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 8 | Japanese | 2.0% | new |
+| 9 | Vietnamese | 1.9% | new |
+| 10 | Chinese | 1.4% | new |
+| 11 | Arabic | 1.3% | new |
+| 12 | Indonesian | 0.8% | new |
+| 13 | Italian | 0.8% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 14 | Portuguese | 0.7% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 15 | Ukrainian	| 0.6% | new |
+| 16 | Dutch, Flemish | 0.6% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 17 | Thai | 0.5% | new |
+| 18 | Polish | 0.5% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 19 | Hebrew | 0.5% | new |
+| 20 | Korean | 0.5% | new |
+| 21 | Romanian | 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 22 | Greek | 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 23 | Czech	| 0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 24 | Swedish |	0.2% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 25 | Serbian | 0.2% | new |
+| 26 | Danish | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 27 | Hungarian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 28 | Finnish | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 29 | Bulgarian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 30 | Croatian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 31 | Hindi	| 0.1% | new |
+| 32 | Slovak | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
+| 33 | Norwegian Bokmål | 0.1% | new |
+| 34 | Lithuanian | 0.1% | [See EU table](#32-alphabets-of-the-eu-languages) |
 
 ## 4. TLDR
 
@@ -362,14 +362,14 @@ The short compressed form how to deal with potential challenges for failing vali
 
 |Challenge |Solution |
 |-|-|
-|Length of elements | | 
+|Length of elements | | 
 |Number of elements |Best solution: Only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty. |
-|Order of elements | |
-|Characters | |
-|Similarity to reserved words |Implement systemtests to make sure that the obvious cases like "Null" or "Sample" are correctly handled during the whole business process. |
-|Similarity to profanity words | |
+|Order of elements | |
+|Characters | |
+|Similarity to reserved words |Implement systemtests to make sure that the obvious cases like "Null" or "Sample" are correctly handled during the whole business process. |
+|Similarity to profanity words | |
 |Symbols or unusual terms as names |Accept everything as long as it consists of letters from the regular alphabet(s). |
-|Spare whitespace at beginning or end |Trim it. |
+|Spare whitespace at beginning or end |Trim it. |
 
 
 ### 4.3. Test data
@@ -441,6 +441,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Rogers**, Tony: [Falsehoods programmers believe about names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/), 2018-01-08
 
+- **Scott**, Tom: [Why Web Filters Don't Work: Penistone and the Scunthorpe Problem](https://www.youtube.com/watch?v=CcZdwX4noCE), 4min, 2016-06-06
+
 - **Šedivý**, Miroslav: Your Name is Invalid!, 
   - [Presentation at PyData Berlin 2019](https://www.youtube.com/watch?v=pBuS7EUPnQA), 31min, 2019-10-11
   - [Presentation at EuroPython 2020](https://www.youtube.com/watch?v=IuZBTjaphsY), 27min, 2020-07-23
@@ -466,6 +468,10 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 - **Woods**, Andrew: [Name Validation Regex for People's Names](https://andrewwoods.net/blog/2018/name-validation-regex/), 2018-04-06
 
 - **Zentgraf**, David C.: [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/), 2015-04-27
+
+
+
+
 
 
 ## 6. Glossary
