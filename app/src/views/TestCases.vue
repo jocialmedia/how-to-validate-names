@@ -2,7 +2,14 @@
   <div class="container">
     <div class="row">
       <h1>Test Cases</h1>
-      <p>WIP.</p>
+      <p>
+        <ul>
+          <li>How many languages: 24</li>
+          <li>How many letters alltogether: 731</li>
+          <li>How many unique letters: 157</li>
+          <li>How many unique letters without ISO Basic Latin 1: 131</li>
+        </ul>
+      </p>
       <table class="table table-bordered table-striped">
         <thead>
           <th></th>
