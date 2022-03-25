@@ -32,7 +32,7 @@
 
       <h2>Alphabets</h2>
 
-      <p>Red color marks characters which are not part of ISO Latin 1.</p>
+      <p>Red color marks characters which are not part of <a href="https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet">ISO Basic Latin 1</a>.</p>
       <table class="table table-bordered table-striped">
         <thead>
           <th>ID</th>
