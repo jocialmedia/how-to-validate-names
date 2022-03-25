@@ -12,18 +12,19 @@
       </p>
       <table class="table table-bordered table-striped">
         <thead>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>Id</th>
+          <th>Language</th>
+          <th>Use Case</th>
+          <th>Exampe Given Name</th>
+          <th>Example Family Name</th>
         </thead>
         <tbody>
           <tr v-for="(item, index) in filteredTestCases" :key="item.id">
             <td> {{index+1}} </td>
             <td> {{item.language}} </td>
             <td> {{item.use_case}} </td>
-            <td> {{item.example_first_name}} </td>
-            <td> {{item.example_last_name}} </td>
-            <!-- <td><a href="' {{item.info}} '">Info</a></td> -->
+            <td><a :href="item.info"> {{item.example_first_name}} </a></td>
+            <td><a :href="item.info"> {{item.example_last_name}} </a></td>
           </tr>
         </tbody>
       </table>
