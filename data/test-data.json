@@ -1,638 +1,661 @@
 [{
-    "language": "deu",
-    "use_case": "structure_nobility",
-    "example_first_name": "Ursula Gertrud",
-    "example_last_name": "von der Leyen",
-    "info": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen",
-    "comment": ""
-}, {
-    "language": "deu",
-    "use_case": "structure_mononym",
-    "example_first_name": "Campino",
-    "example_last_name": "",
-    "info": "https://en.wikipedia.org/wiki/Campino_(singer)",
-    "comment": "Not a legal mononym but used until I find something better."
-}, {
-    "language": "deu",
-    "use_case": "structure_polynym_basic",
-    "example_first_name": "Angela",
-    "example_last_name": "Merkel",
-    "info": "https://en.wikipedia.org/wiki/Angela_Merkel",
-    "comment": "Wrong because Angela Dorothea Merkel"
-}, {
-    "language": "deu",
-    "use_case": "structure_double-barrel-surname",
-    "example_first_name": "Sabine",
-    "example_last_name": "Leutheusser-Schnarrenberger",
-    "info": "https://en.wikipedia.org/wiki/Sabine_Leutheusser-Schnarrenberger",
-    "comment": "Name checked. No hidden second first names."
-}, {
-    "language": "hrv",
-    "use_case": "letter_č",
-    "example_first_name": "Sunčana",
-    "example_last_name": "Glavak",
-    "info": "https://www.europarl.europa.eu/meps/de/202036/SUNCANA_GLAVAK/home",
-    "comment": ""
-}, {
-    "language": "hrv",
-    "use_case": "letter_ć",
-    "example_first_name": "Romana",
-    "example_last_name": "Jerković",
-    "info": "https://www.europarl.europa.eu/meps/de/112747/ROMANA_JERKOVIC/home",
-    "comment": ""
-}, {
-    "language": "hrv",
-    "use_case": "letter_ž",
-    "example_first_name": "željana",
-    "example_last_name": "Zovko",
-    "info": "https://www.europarl.europa.eu/meps/de/185341/ZELJANA_ZOVKO/home",
-    "comment": ""
-}, {
-    "language": "hrv",
-    "use_case": "letter_đ",
-    "example_first_name": "Franjo",
-    "example_last_name": "Tuđman",
-    "info": "https://en.wikipedia.org/wiki/Franjo_Tu%C4%91man",
-    "comment": ""
-}, {
-    "language": "hrv",
-    "use_case": "letter_š",
-    "example_first_name": "Zlatko",
-    "example_last_name": "Mateša",
-    "info": "https://en.wikipedia.org/wiki/Zlatko_Mate%C5%A1a",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_á",
-    "example_first_name": "Václav",
-    "example_last_name": "Havel",
-    "info": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_č",
-    "example_first_name": "Petr",
-    "example_last_name": "Nečas",
-    "info": "https://en.wikipedia.org/wiki/Petr_Ne%C4%8Das",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ď",
-    "example_first_name": "Naďa",
-    "example_last_name": "Urbánková",
-    "info": "https://cs.wikipedia.org/wiki/Na%C4%8Fa_Urb%C3%A1nkov%C3%A1",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_é",
-    "example_first_name": "Adéla",
-    "example_last_name": "Matasová",
-    "info": "https://cs.wikipedia.org/wiki/Ad%C3%A9la_Matasov%C3%A1",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ě",
-    "example_first_name": "Luděk",
-    "example_last_name": "Niedermayer",
-    "info": "https://www.europarl.europa.eu/meps/de/124701/LUDEK_NIEDERMAYER/home",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_í",
-    "example_first_name": "Martin",
-    "example_last_name": "Bursík",
-    "info": "https://en.wikipedia.org/wiki/Martin_Burs%C3%ADk",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ň",
-    "example_first_name": "Ruth",
-    "example_last_name": "Fraňkova",
-    "info": "https://english.radio.cz/ruth-frankova-8099586?page=80",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ó",
-    "example_first_name": "Olga",
-    "example_last_name": "Walló",
-    "info": "https://cs.wikipedia.org/wiki/Olga_Wall%C3%B3",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ř",
-    "example_first_name": "Ondřej",
-    "example_last_name": "Knotek",
-    "info": "https://www.europarl.europa.eu/meps/de/197528/ONDREJ_KNOTEK/home",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_š",
-    "example_first_name": "Miloš",
-    "example_last_name": "Zeman",
-    "info": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ť",
-    "example_first_name": "Taťjana",
-    "example_last_name": "Medvecká",
-    "info": "https://en.wikipedia.org/wiki/Ta%C5%A5jana_Medveck%C3%A1",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ú",
-    "example_first_name": "Marie Rút",
-    "example_last_name": "Křížková",
-    "info": "https://cs.wikipedia.org/wiki/Marie_R%C3%BAt_K%C5%99%C3%AD%C5%BEkov%C3%A1",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ů",
-    "example_first_name": "Ladislav",
-    "example_last_name": "Jirků",
-    "info": "https://en.wikipedia.org/wiki/Ladislav_Jirk%C5%AF",
-    "comment": "888"
-}, {
-    "language": "ces",
-    "use_case": "letter_ý",
-    "example_first_name": "Jan",
-    "example_last_name": "Farský",
-    "info": "https://en.wikipedia.org/wiki/Jan_Farsk%C3%BD",
-    "comment": ""
-}, {
-    "language": "ces",
-    "use_case": "letter_ž",
-    "example_first_name": "Pavel",
-    "example_last_name": "Blažek",
-    "info": "https://en.wikipedia.org/wiki/Pavel_Blažek",
-    "comment": ""
-}, {
-    "language": "dan",
-    "use_case": "letter_æ",
-    "example_first_name": "Nick",
-    "example_last_name": "Hækkerup",
-    "info": "https://en.wikipedia.org/wiki/Nick_H%C3%A6kkerup",
-    "comment": ""
-}, {
-    "language": "dan",
-    "use_case": "letter_ø",
-    "example_first_name": "Morten",
-    "example_last_name": "Løkkegaard",
-    "info": "https://www.europarl.europa.eu/meps/de/96709/MORTEN_LOKKEGAARD/home",
-    "comment": ""
-}, {
-    "language": "dan",
-    "use_case": "letter_å",
-    "example_first_name": "Svend Åge",
-    "example_last_name": "Madsen",
-    "info": "https://de.wikipedia.org/wiki/Svend_%C3%85ge_Madsen",
-    "comment": ""
-}, {
-    "language": "est",
-    "use_case": "letter_š",
-    "example_first_name": "",
-    "example_last_name": "",
-    "info": "",
-    "comment": "Only in loanwords"
-}, {
-    "language": "est",
-    "use_case": "letter_ž",
-    "example_first_name": "",
-    "example_last_name": "",
-    "info": "",
-    "comment": "Only in loanwords"
-}, {
-    "language": "est",
-    "use_case": "letter_õ",
-    "example_first_name": "Jaan",
-    "example_last_name": "Tõnisson",
-    "info": "https://en.wikipedia.org/wiki/Jaan_T%C3%B5nisson",
-    "comment": ""
-}, {
-    "language": "est",
-    "use_case": "letter_ä",
-    "example_first_name": "Konstantin",
-    "example_last_name": "Päts",
-    "info": "https://en.wikipedia.org/wiki/Konstantin_P%C3%A4ts",
-    "comment": ""
-}, {
-    "language": "est",
-    "use_case": "letter_ö",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
-}, {
-    "language": "est",
-    "use_case": "letter_ü",
-    "example_first_name": "Arnold",
-    "example_last_name": "Rüütel",
-    "info": "https://en.wikipedia.org/wiki/Arnold_R%C3%BC%C3%BCtel",
-    "comment": ""
-}, {
-    "language": "deu",
-    "use_case": "letter_ä",
-    "example_first_name": "Wolfgang",
-    "example_last_name": "Schäuble",
-    "info": "https://en.wikipedia.org/wiki/Wolfgang_Sch%C3%A4uble",
-    "comment": ""
-}, {
-    "language": "deu",
-    "use_case": "letter_ü",
-    "example_first_name": "Franz",
-    "example_last_name": "Müntefering",
-    "info": "https://en.wikipedia.org/wiki/Franz_M%C3%BCntefering",
-    "comment": ""
-}, {
-    "language": "deu",
-    "use_case": "letter_ö",
-    "example_first_name": "Gerhard",
-    "example_last_name": "Schröder",
-    "info": "https://en.wikipedia.org/wiki/Gerhard_Schr%C3%B6der",
-    "comment": ""
-}, {
-    "language": "deu",
-    "use_case": "letter_ß",
-    "example_first_name": "Johann",
-    "example_last_name": "Strauß",
-    "info": "https://en.wikipedia.org/wiki/Johann_Strauss_I",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_ā",
-    "example_first_name": "Jānis",
-    "example_last_name": "Ādamsons",
-    "info": "https://en.wikipedia.org/wiki/J%C4%81nis_%C4%80damsons",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_č",
-    "example_first_name": "Vjačeslavs",
-    "example_last_name": "Dombrovskis",
-    "info": "https://en.wikipedia.org/wiki/Vja%C4%8Deslavs_Dombrovskis",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_ē",
-    "example_first_name": "Raimonds",
-    "example_last_name": "Vējonis",
-    "info": "https://en.wikipedia.org/wiki/Raimonds_V%C4%93jonis",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_ģ",
-    "example_first_name": "Sandis",
-    "example_last_name": "Ģirģens",
-    "info": "https://en.wikipedia.org/wiki/Sandis_%C4%A2ir%C4%A3ens",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_ī",
-    "example_first_name": "Roberts",
-    "example_last_name": "Zīle",
-    "info": "https://www.europarl.europa.eu/meps/de/28615/ROBERTS_ZILE/home",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_ķ",
-    "example_first_name": "Miķelis",
-    "example_last_name": "Valters",
-    "info": "https://en.wikipedia.org/wiki/Mi%C4%B7elis_Valters",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_ļ",
-    "example_first_name": "Oļegs",
-    "example_last_name": "Batarevskis",
-    "info": "https://lv.wikipedia.org/wiki/O%C4%BCegs_Batarevskis",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_",
-    "example_first_name": "Andris",
-    "example_last_name": "Bērziņš",
-    "info": "https://lv.wikipedia.org/wiki/Andris_B%C4%93rzi%C5%86%C5%A1_(politi%C4%B7is,_1955)",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_š",
-    "example_first_name": "Nils",
-    "example_last_name": "Ušakovs",
-    "info": "https://www.europarl.europa.eu/meps/de/197810/NILS_USAKOVS/home",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_ū",
-    "example_first_name": "Artūrs",
-    "example_last_name": "Rubiks",
-    "info": "https://en.wikipedia.org/wiki/Art%C5%ABrs_Rubiks",
-    "comment": ""
-}, {
-    "language": "lav",
-    "use_case": "letter_ž",
-    "example_first_name": "Tatjana",
-    "example_last_name": "xxxxx",
-    "info": "https://www.europarl.europa.eu/meps/de/28619/TATJANA_ZDANOKA/home",
-    "comment": ""
-}, {
-    "language": "lit",
-    "use_case": "letter_ą",
-    "example_first_name": "Adomas Ąžuolas",
-    "example_last_name": "Audickas",
-    "info": "https://en.wikipedia.org/wiki/Adomas_%C4%84%C5%BEuolas_Audickas",
-    "comment": ""
-}, {
-    "language": "lit",
-    "use_case": "letter_č",
-    "example_first_name": "Rasa",
-    "example_last_name": "Juknevičienė",
-    "info": "https://www.europarl.europa.eu/meps/de/197840/RASA_JUKNEVICIENE/home",
-    "comment": ""
-},{
-    "language": "lit",
-    "use_case": "letter_ę",
-    "example_first_name": "Kęstutis",
-    "example_last_name": "Glaveckas",
-    "info": "https://en.wikipedia.org/wiki/K%C4%99stutis_Glaveckas",
-    "comment": ""
-},{
-    "language": "lit",
-    "use_case": "letter_ė",
-    "example_first_name": "Bronis",
-    "example_last_name": "Ropė",
-    "info": "https://www.europarl.europa.eu/meps/de/125214/BRONIS_ROPE/home",
-    "comment": ""
-},{
-    "language": "lit",
-    "use_case": "letter_į",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
-},{
-    "language": "lit",
-    "use_case": "letter_š",
-    "example_first_name": "Valdemar",
-    "example_last_name": "Tomaševski",
-    "info": "https://www.europarl.europa.eu/meps/de/96697/VALDEMAR_TOMASEVSKI/home",
-    "comment": ""
-},{
-    "language": "lit",
-    "use_case": "letter_ų",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
-},{
-    "language": "lit",
-    "use_case": "letter_ū",
-    "example_first_name": "Stasys",
-    "example_last_name": "Jakeliūnas",
-    "info": "https://www.europarl.europa.eu/meps/de/197837/STASYS_JAKELIUNAS/home",
-    "comment": ""
-},{
-    "language": "lit",
-    "use_case": "letter_ž",
-    "example_first_name": "Liudas",
-    "example_last_name": "Mažylis",
-    "info": "https://www.europarl.europa.eu/meps/de/197841/LIUDAS_MAZYLIS/home",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_ą",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_ć",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_ę",
-    "example_first_name": "Tomasz Piotr",
-    "example_last_name": "Poręba",
-    "info": "https://www.europarl.europa.eu/meps/de/96801/TOMASZ+PIOTR_POREBA/home",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_ł",
-    "example_first_name": "Beata",
-    "example_last_name": "Zydło",
-    "info": "https://www.europarl.europa.eu/meps/de/197553/BEATA_SZYDLO/home",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_ń",
-    "example_first_name": "Joanna",
-    "example_last_name": "Kopcińska",
-    "info": "https://www.europarl.europa.eu/meps/de/197530/JOANNA_KOPCINSKA/home",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_ó",
-    "example_first_name": "Józef",
-    "example_last_name": "Cyrankiewicz",
-    "info": "https://en.wikipedia.org/wiki/J%C3%B3zef_Cyrankiewicz",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_í",
-    "example_first_name": "Jadwiga",
-    "example_last_name": "Wiśniewska",
-    "info": "https://www.europarl.europa.eu/meps/de/124877/JADWIGA_WISNIEWSKA/home",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_ź",
-    "example_first_name": "Zbigniew",
-    "example_last_name": "Kuźmiuk",
-    "info": "https://www.europarl.europa.eu/meps/de/28389/ZBIGNIEW_KUZMIUK/home",
-    "comment": ""
-}, {
-    "language": "pol",
-    "use_case": "letter_ż",
-    "example_first_name": "Elżbieta",
-    "example_last_name": "Kruk",
-    "info": "https://www.europarl.europa.eu/meps/de/197532/ELZBIETA_KRUK/home",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_à",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_á",
-    "example_first_name": "Álvaro",
-    "example_last_name": "Amaro",
-    "info": "https://www.europarl.europa.eu/meps/de/197746/ALVARO_AMARO/home",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_â",
-    "example_first_name": "Amândio",
-    "example_last_name": "de Azevedo",
-    "info": "https://en.wikipedia.org/wiki/Am%C3%A2ndio_de_Azevedo",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_ã",
-    "example_first_name": "João",
-    "example_last_name": "Pimenta Lopes",
-    "info": "https://www.europarl.europa.eu/meps/de/136236/JOAO_PIMENTA+LOPES/home",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_ç",
-    "example_first_name": "Maria da Graça",
-    "example_last_name": "Carvalho",
-    "info": "https://www.europarl.europa.eu/meps/de/96867/MARIA+DA+GRACA_CARVALHO/home",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_é",
-    "example_first_name": "José Manuel",
-    "example_last_name": "Fernandes",
-    "info": "https://www.europarl.europa.eu/meps/de/96899/JOSE+MANUEL_FERNANDES/home",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_ê",
-    "example_first_name": "Inês",
-    "example_last_name": "Sousa Real",
-    "info": "https://en.wikipedia.org/wiki/In%C3%AAs_Sousa_Real",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_í",
-    "example_first_name": "Lídia",
-    "example_last_name": "Pereira",
-    "info": "https://www.europarl.europa.eu/meps/de/197738/LIDIA_PEREIRA/home",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_ó",
-    "example_first_name": "Jerónimo",
-    "example_last_name": "de Sousa",
-    "info": "https://en.wikipedia.org/wiki/Jer%C3%B3nimo_de_Sousa",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_ô",
-    "example_first_name": "Paulo",
-    "example_last_name": "Cafôfo",
-    "info": "https://en.wikipedia.org/wiki/Paulo_Caf%C3%B4fo",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_õ",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_ú",
-    "example_first_name": "Kaúlza",
-    "example_last_name": "de Arriaga",
-    "info": "https://en.wikipedia.org/wiki/Ka%C3%BAlza_de_Arriaga",
-    "comment": ""
-}, {
-    "language": "por",
-    "use_case": "letter_ü",
-    "example_first_name": "missing",
-    "example_last_name": "missing",
-    "info": "missing",
-    "comment": ""
-}, {
-    "language": "ron",
-    "use_case": "letter_ă",
-    "example_first_name": "Gheorghe",
-    "example_last_name": "Falcă",
-    "info": "https://www.europarl.europa.eu/meps/de/197649/GHEORGHE_FALCA/home",
-    "comment": ""
-}, {
-    "language": "ron",
-    "use_case": "letter_â",
-    "example_first_name": "Radu-Anton",
-    "example_last_name": "Câmpeanu",
-    "info": "https://en.wikipedia.org/wiki/Radu_C%C3%A2mpeanu",
-    "comment": ""
-}, {
-    "language": "ron",
-    "use_case": "letter_î",
-    "example_first_name": "Sorin Mihai",
-    "example_last_name": "Cîmpeanu",
-    "info": "https://en.wikipedia.org/wiki/Sorin_C%C3%AEmpeanu",
-    "comment": ""
-}, {
-    "language": "ron",
-    "use_case": "letter_ș",
-    "example_first_name": "Nicolae",
-    "example_last_name": "Ceaușescu",
-    "info": "https://en.wikipedia.org/wiki/Nicolae_Ceau%C8%99escu",
-    "comment": ""
-}, {
-    "language": "ron",
-    "use_case": "letter_ț",
-    "example_first_name": "Daniel",
-    "example_last_name": "Chițoiu",
-    "info": "https://en.wikipedia.org/wiki/Daniel_Chi%C8%9Boiu",
-    "comment": ""
-}, {
-    "language": "slv",
-    "use_case": "letter_č",
-    "example_first_name": "Franz",
-    "example_last_name": "Bogovič",
-    "info": "https://www.europarl.europa.eu/meps/de/125004/FRANC_BOGOVIC/home",
-    "comment": ""
-}, {
-    "language": "slv",
-    "use_case": "letter_š",
-    "example_first_name": "Robert",
-    "example_last_name": "Hajšel",
-    "info": "https://www.europarl.europa.eu/meps/de/34578/ROBERT_HAJSEL/home",
-    "comment": ""
-}, {
-    "language": "slv",
-    "use_case": "letter_ž",
-    "example_first_name": "Dejan",
-    "example_last_name": "Židan",
-    "info": "https://en.wikipedia.org/wiki/Dejan_%C5%BDidan",
-    "comment": ""
-}, {
-    "language": "spa",
-    "use_case": "letter_ñ",
-    "example_first_name": "Jordi",
-    "example_last_name": "Cañas",
-    "info": "https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home",
-    "comment": ""
-}, {
-    "language": "swe",
-    "use_case": "letter_ä",
-    "example_first_name": "Jessica",
-    "example_last_name": "Polfjärd",
-    "info": "https://www.europarl.europa.eu/meps/de/197404/JESSICA_POLFJARD/home",
-    "comment": ""
-}, {
-    "language": "swe",
-    "use_case": "letter_ö",
-    "example_first_name": "Malin",
-    "example_last_name": "Björk",
-    "info": "https://www.europarl.europa.eu/meps/de/124992/MALIN_BJORK/home",
-    "comment": ""
-}, {
-    "language": "swe",
-    "use_case": "letter_å",
-    "example_first_name": "Gustaf",
-    "example_last_name": "Åkerhielm",
-    "info": "https://en.wikipedia.org/wiki/Gustaf_%C3%85kerhielm",
-    "comment": "Letter: https://www.compart.com/de/unicode/U+00E5"
-}]
+        "language": "hrv",
+        "use_case": "letter_č",
+        "example_first_name": "Sunčana",
+        "example_last_name": "Glavak",
+        "info": "https://www.europarl.europa.eu/meps/de/202036/SUNCANA_GLAVAK/home",
+        "comment": ""
+    }, {
+        "language": "hrv",
+        "use_case": "letter_ć",
+        "example_first_name": "Romana",
+        "example_last_name": "Jerković",
+        "info": "https://www.europarl.europa.eu/meps/de/112747/ROMANA_JERKOVIC/home",
+        "comment": ""
+    }, {
+        "language": "hrv",
+        "use_case": "letter_đ",
+        "example_first_name": "Franjo",
+        "example_last_name": "Tuđman",
+        "info": "https://en.wikipedia.org/wiki/Franjo_Tu%C4%91man",
+        "comment": ""
+    }, {
+        "language": "hrv",
+        "use_case": "letter_š",
+        "example_first_name": "Zlatko",
+        "example_last_name": "Mateša",
+        "info": "https://en.wikipedia.org/wiki/Zlatko_Mate%C5%A1a",
+        "comment": ""
+    }, {
+        "language": "hrv",
+        "use_case": "letter_ž",
+        "example_first_name": "željana",
+        "example_last_name": "Zovko",
+        "info": "https://www.europarl.europa.eu/meps/de/185341/ZELJANA_ZOVKO/home",
+        "comment": ""
+    }, {
+        "language": "fin",
+        "use_case": "letter_å",
+        "example_first_name": "Åke",
+        "example_last_name": "Hellman",
+        "info": "https://en.wikipedia.org/wiki/%C3%85ke_Hellman",
+        "comment": ""
+    }, {
+        "language": "fin",
+        "use_case": "letter_ä",
+        "example_first_name": "Anneli",
+        "example_last_name": "Jäätteenmäki",
+        "info": "https://en.wikipedia.org/wiki/Anneli_J%C3%A4%C3%A4tteenm%C3%A4ki",
+        "comment": ""
+    }, {
+        "language": "fin",
+        "use_case": "letter_ö",
+        "example_first_name": "Ville",
+        "example_last_name": "Niinisto",
+        "info": "https://www.europarl.europa.eu/meps/de/197802/VILLE_NIINISTO/home",
+        "comment": ""
+    },
+    {
+        "language": "deu",
+        "use_case": "structure_nobility",
+        "example_first_name": "Ursula Gertrud",
+        "example_last_name": "von der Leyen",
+        "info": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "structure_mononym",
+        "example_first_name": "Campino",
+        "example_last_name": "",
+        "info": "https://en.wikipedia.org/wiki/Campino_(singer)",
+        "comment": "Not a legal mononym but used until I find something better."
+    }, {
+        "language": "deu",
+        "use_case": "structure_polynym_basic",
+        "example_first_name": "Angela",
+        "example_last_name": "Merkel",
+        "info": "https://en.wikipedia.org/wiki/Angela_Merkel",
+        "comment": "Wrong because Angela Dorothea Merkel"
+    }, {
+        "language": "deu",
+        "use_case": "structure_double-barrel-surname",
+        "example_first_name": "Sabine",
+        "example_last_name": "Leutheusser-Schnarrenberger",
+        "info": "https://en.wikipedia.org/wiki/Sabine_Leutheusser-Schnarrenberger",
+        "comment": "Name checked. No hidden second first names."
+    }, {
+        "language": "ces",
+        "use_case": "letter_á",
+        "example_first_name": "Václav",
+        "example_last_name": "Havel",
+        "info": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_č",
+        "example_first_name": "Petr",
+        "example_last_name": "Nečas",
+        "info": "https://en.wikipedia.org/wiki/Petr_Ne%C4%8Das",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ď",
+        "example_first_name": "Naďa",
+        "example_last_name": "Urbánková",
+        "info": "https://cs.wikipedia.org/wiki/Na%C4%8Fa_Urb%C3%A1nkov%C3%A1",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_é",
+        "example_first_name": "Adéla",
+        "example_last_name": "Matasová",
+        "info": "https://cs.wikipedia.org/wiki/Ad%C3%A9la_Matasov%C3%A1",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ě",
+        "example_first_name": "Luděk",
+        "example_last_name": "Niedermayer",
+        "info": "https://www.europarl.europa.eu/meps/de/124701/LUDEK_NIEDERMAYER/home",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_í",
+        "example_first_name": "Martin",
+        "example_last_name": "Bursík",
+        "info": "https://en.wikipedia.org/wiki/Martin_Burs%C3%ADk",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ň",
+        "example_first_name": "Ruth",
+        "example_last_name": "Fraňkova",
+        "info": "https://english.radio.cz/ruth-frankova-8099586?page=80",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ó",
+        "example_first_name": "Olga",
+        "example_last_name": "Walló",
+        "info": "https://cs.wikipedia.org/wiki/Olga_Wall%C3%B3",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ř",
+        "example_first_name": "Ondřej",
+        "example_last_name": "Knotek",
+        "info": "https://www.europarl.europa.eu/meps/de/197528/ONDREJ_KNOTEK/home",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_š",
+        "example_first_name": "Miloš",
+        "example_last_name": "Zeman",
+        "info": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ť",
+        "example_first_name": "Taťjana",
+        "example_last_name": "Medvecká",
+        "info": "https://en.wikipedia.org/wiki/Ta%C5%A5jana_Medveck%C3%A1",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ú",
+        "example_first_name": "Marie Rút",
+        "example_last_name": "Křížková",
+        "info": "https://cs.wikipedia.org/wiki/Marie_R%C3%BAt_K%C5%99%C3%AD%C5%BEkov%C3%A1",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ů",
+        "example_first_name": "Ladislav",
+        "example_last_name": "Jirků",
+        "info": "https://en.wikipedia.org/wiki/Ladislav_Jirk%C5%AF",
+        "comment": "888"
+    }, {
+        "language": "ces",
+        "use_case": "letter_ý",
+        "example_first_name": "Jan",
+        "example_last_name": "Farský",
+        "info": "https://en.wikipedia.org/wiki/Jan_Farsk%C3%BD",
+        "comment": ""
+    }, {
+        "language": "ces",
+        "use_case": "letter_ž",
+        "example_first_name": "Pavel",
+        "example_last_name": "Blažek",
+        "info": "https://en.wikipedia.org/wiki/Pavel_Blažek",
+        "comment": ""
+    }, {
+        "language": "dan",
+        "use_case": "letter_æ",
+        "example_first_name": "Nick",
+        "example_last_name": "Hækkerup",
+        "info": "https://en.wikipedia.org/wiki/Nick_H%C3%A6kkerup",
+        "comment": ""
+    }, {
+        "language": "dan",
+        "use_case": "letter_ø",
+        "example_first_name": "Morten",
+        "example_last_name": "Løkkegaard",
+        "info": "https://www.europarl.europa.eu/meps/de/96709/MORTEN_LOKKEGAARD/home",
+        "comment": ""
+    }, {
+        "language": "dan",
+        "use_case": "letter_å",
+        "example_first_name": "Svend Åge",
+        "example_last_name": "Madsen",
+        "info": "https://de.wikipedia.org/wiki/Svend_%C3%85ge_Madsen",
+        "comment": ""
+    }, {
+        "language": "est",
+        "use_case": "letter_š",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": "Only in loanwords"
+    }, {
+        "language": "est",
+        "use_case": "letter_ž",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": "Only in loanwords"
+    }, {
+        "language": "est",
+        "use_case": "letter_õ",
+        "example_first_name": "Jaan",
+        "example_last_name": "Tõnisson",
+        "info": "https://en.wikipedia.org/wiki/Jaan_T%C3%B5nisson",
+        "comment": ""
+    }, {
+        "language": "est",
+        "use_case": "letter_ä",
+        "example_first_name": "Konstantin",
+        "example_last_name": "Päts",
+        "info": "https://en.wikipedia.org/wiki/Konstantin_P%C3%A4ts",
+        "comment": ""
+    }, {
+        "language": "est",
+        "use_case": "letter_ö",
+        "example_first_name": "missing",
+        "example_last_name": "missing",
+        "info": "missing",
+        "comment": ""
+    }, {
+        "language": "est",
+        "use_case": "letter_ü",
+        "example_first_name": "Arnold",
+        "example_last_name": "Rüütel",
+        "info": "https://en.wikipedia.org/wiki/Arnold_R%C3%BC%C3%BCtel",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "letter_ä",
+        "example_first_name": "Wolfgang",
+        "example_last_name": "Schäuble",
+        "info": "https://en.wikipedia.org/wiki/Wolfgang_Sch%C3%A4uble",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "letter_ü",
+        "example_first_name": "Franz",
+        "example_last_name": "Müntefering",
+        "info": "https://en.wikipedia.org/wiki/Franz_M%C3%BCntefering",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "letter_ö",
+        "example_first_name": "Gerhard",
+        "example_last_name": "Schröder",
+        "info": "https://en.wikipedia.org/wiki/Gerhard_Schr%C3%B6der",
+        "comment": ""
+    }, {
+        "language": "deu",
+        "use_case": "letter_ß",
+        "example_first_name": "Johann",
+        "example_last_name": "Strauß",
+        "info": "https://en.wikipedia.org/wiki/Johann_Strauss_I",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_ā",
+        "example_first_name": "Jānis",
+        "example_last_name": "Ādamsons",
+        "info": "https://en.wikipedia.org/wiki/J%C4%81nis_%C4%80damsons",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_č",
+        "example_first_name": "Vjačeslavs",
+        "example_last_name": "Dombrovskis",
+        "info": "https://en.wikipedia.org/wiki/Vja%C4%8Deslavs_Dombrovskis",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_ē",
+        "example_first_name": "Raimonds",
+        "example_last_name": "Vējonis",
+        "info": "https://en.wikipedia.org/wiki/Raimonds_V%C4%93jonis",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_ģ",
+        "example_first_name": "Sandis",
+        "example_last_name": "Ģirģens",
+        "info": "https://en.wikipedia.org/wiki/Sandis_%C4%A2ir%C4%A3ens",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_ī",
+        "example_first_name": "Roberts",
+        "example_last_name": "Zīle",
+        "info": "https://www.europarl.europa.eu/meps/de/28615/ROBERTS_ZILE/home",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_ķ",
+        "example_first_name": "Miķelis",
+        "example_last_name": "Valters",
+        "info": "https://en.wikipedia.org/wiki/Mi%C4%B7elis_Valters",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_ļ",
+        "example_first_name": "Oļegs",
+        "example_last_name": "Batarevskis",
+        "info": "https://lv.wikipedia.org/wiki/O%C4%BCegs_Batarevskis",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_",
+        "example_first_name": "Andris",
+        "example_last_name": "Bērziņš",
+        "info": "https://lv.wikipedia.org/wiki/Andris_B%C4%93rzi%C5%86%C5%A1_(politi%C4%B7is,_1955)",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_š",
+        "example_first_name": "Nils",
+        "example_last_name": "Ušakovs",
+        "info": "https://www.europarl.europa.eu/meps/de/197810/NILS_USAKOVS/home",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_ū",
+        "example_first_name": "Artūrs",
+        "example_last_name": "Rubiks",
+        "info": "https://en.wikipedia.org/wiki/Art%C5%ABrs_Rubiks",
+        "comment": ""
+    }, {
+        "language": "lav",
+        "use_case": "letter_ž",
+        "example_first_name": "Tatjana",
+        "example_last_name": "xxxxx",
+        "info": "https://www.europarl.europa.eu/meps/de/28619/TATJANA_ZDANOKA/home",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_ą",
+        "example_first_name": "Adomas Ąžuolas",
+        "example_last_name": "Audickas",
+        "info": "https://en.wikipedia.org/wiki/Adomas_%C4%84%C5%BEuolas_Audickas",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_č",
+        "example_first_name": "Rasa",
+        "example_last_name": "Juknevičienė",
+        "info": "https://www.europarl.europa.eu/meps/de/197840/RASA_JUKNEVICIENE/home",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_ę",
+        "example_first_name": "Kęstutis",
+        "example_last_name": "Glaveckas",
+        "info": "https://en.wikipedia.org/wiki/K%C4%99stutis_Glaveckas",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_ė",
+        "example_first_name": "Bronis",
+        "example_last_name": "Ropė",
+        "info": "https://www.europarl.europa.eu/meps/de/125214/BRONIS_ROPE/home",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_į",
+        "example_first_name": "missing",
+        "example_last_name": "missing",
+        "info": "missing",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_š",
+        "example_first_name": "Valdemar",
+        "example_last_name": "Tomaševski",
+        "info": "https://www.europarl.europa.eu/meps/de/96697/VALDEMAR_TOMASEVSKI/home",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_ų",
+        "example_first_name": "missing",
+        "example_last_name": "missing",
+        "info": "missing",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_ū",
+        "example_first_name": "Stasys",
+        "example_last_name": "Jakeliūnas",
+        "info": "https://www.europarl.europa.eu/meps/de/197837/STASYS_JAKELIUNAS/home",
+        "comment": ""
+    }, {
+        "language": "lit",
+        "use_case": "letter_ž",
+        "example_first_name": "Liudas",
+        "example_last_name": "Mažylis",
+        "info": "https://www.europarl.europa.eu/meps/de/197841/LIUDAS_MAZYLIS/home",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_ą",
+        "example_first_name": "missing",
+        "example_last_name": "missing",
+        "info": "missing",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_ć",
+        "example_first_name": "missing",
+        "example_last_name": "missing",
+        "info": "missing",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_ę",
+        "example_first_name": "Tomasz Piotr",
+        "example_last_name": "Poręba",
+        "info": "https://www.europarl.europa.eu/meps/de/96801/TOMASZ+PIOTR_POREBA/home",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_ł",
+        "example_first_name": "Beata",
+        "example_last_name": "Zydło",
+        "info": "https://www.europarl.europa.eu/meps/de/197553/BEATA_SZYDLO/home",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_ń",
+        "example_first_name": "Joanna",
+        "example_last_name": "Kopcińska",
+        "info": "https://www.europarl.europa.eu/meps/de/197530/JOANNA_KOPCINSKA/home",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_ó",
+        "example_first_name": "Józef",
+        "example_last_name": "Cyrankiewicz",
+        "info": "https://en.wikipedia.org/wiki/J%C3%B3zef_Cyrankiewicz",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_í",
+        "example_first_name": "Jadwiga",
+        "example_last_name": "Wiśniewska",
+        "info": "https://www.europarl.europa.eu/meps/de/124877/JADWIGA_WISNIEWSKA/home",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_ź",
+        "example_first_name": "Zbigniew",
+        "example_last_name": "Kuźmiuk",
+        "info": "https://www.europarl.europa.eu/meps/de/28389/ZBIGNIEW_KUZMIUK/home",
+        "comment": ""
+    }, {
+        "language": "pol",
+        "use_case": "letter_ż",
+        "example_first_name": "Elżbieta",
+        "example_last_name": "Kruk",
+        "info": "https://www.europarl.europa.eu/meps/de/197532/ELZBIETA_KRUK/home",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_à",
+        "example_first_name": "missing",
+        "example_last_name": "missing",
+        "info": "missing",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_á",
+        "example_first_name": "Álvaro",
+        "example_last_name": "Amaro",
+        "info": "https://www.europarl.europa.eu/meps/de/197746/ALVARO_AMARO/home",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_â",
+        "example_first_name": "Amândio",
+        "example_last_name": "de Azevedo",
+        "info": "https://en.wikipedia.org/wiki/Am%C3%A2ndio_de_Azevedo",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_ã",
+        "example_first_name": "João",
+        "example_last_name": "Pimenta Lopes",
+        "info": "https://www.europarl.europa.eu/meps/de/136236/JOAO_PIMENTA+LOPES/home",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_ç",
+        "example_first_name": "Maria da Graça",
+        "example_last_name": "Carvalho",
+        "info": "https://www.europarl.europa.eu/meps/de/96867/MARIA+DA+GRACA_CARVALHO/home",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_é",
+        "example_first_name": "José Manuel",
+        "example_last_name": "Fernandes",
+        "info": "https://www.europarl.europa.eu/meps/de/96899/JOSE+MANUEL_FERNANDES/home",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_ê",
+        "example_first_name": "Inês",
+        "example_last_name": "Sousa Real",
+        "info": "https://en.wikipedia.org/wiki/In%C3%AAs_Sousa_Real",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_í",
+        "example_first_name": "Lídia",
+        "example_last_name": "Pereira",
+        "info": "https://www.europarl.europa.eu/meps/de/197738/LIDIA_PEREIRA/home",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_ó",
+        "example_first_name": "Jerónimo",
+        "example_last_name": "de Sousa",
+        "info": "https://en.wikipedia.org/wiki/Jer%C3%B3nimo_de_Sousa",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_ô",
+        "example_first_name": "Paulo",
+        "example_last_name": "Cafôfo",
+        "info": "https://en.wikipedia.org/wiki/Paulo_Caf%C3%B4fo",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_õ",
+        "example_first_name": "missing",
+        "example_last_name": "missing",
+        "info": "missing",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_ú",
+        "example_first_name": "Kaúlza",
+        "example_last_name": "de Arriaga",
+        "info": "https://en.wikipedia.org/wiki/Ka%C3%BAlza_de_Arriaga",
+        "comment": ""
+    }, {
+        "language": "por",
+        "use_case": "letter_ü",
+        "example_first_name": "missing",
+        "example_last_name": "missing",
+        "info": "missing",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_ă",
+        "example_first_name": "Gheorghe",
+        "example_last_name": "Falcă",
+        "info": "https://www.europarl.europa.eu/meps/de/197649/GHEORGHE_FALCA/home",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_â",
+        "example_first_name": "Radu-Anton",
+        "example_last_name": "Câmpeanu",
+        "info": "https://en.wikipedia.org/wiki/Radu_C%C3%A2mpeanu",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_î",
+        "example_first_name": "Sorin Mihai",
+        "example_last_name": "Cîmpeanu",
+        "info": "https://en.wikipedia.org/wiki/Sorin_C%C3%AEmpeanu",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_ș",
+        "example_first_name": "Nicolae",
+        "example_last_name": "Ceaușescu",
+        "info": "https://en.wikipedia.org/wiki/Nicolae_Ceau%C8%99escu",
+        "comment": ""
+    }, {
+        "language": "ron",
+        "use_case": "letter_ț",
+        "example_first_name": "Daniel",
+        "example_last_name": "Chițoiu",
+        "info": "https://en.wikipedia.org/wiki/Daniel_Chi%C8%9Boiu",
+        "comment": ""
+    }, {
+        "language": "slv",
+        "use_case": "letter_č",
+        "example_first_name": "Franz",
+        "example_last_name": "Bogovič",
+        "info": "https://www.europarl.europa.eu/meps/de/125004/FRANC_BOGOVIC/home",
+        "comment": ""
+    }, {
+        "language": "slv",
+        "use_case": "letter_š",
+        "example_first_name": "Robert",
+        "example_last_name": "Hajšel",
+        "info": "https://www.europarl.europa.eu/meps/de/34578/ROBERT_HAJSEL/home",
+        "comment": ""
+    }, {
+        "language": "slv",
+        "use_case": "letter_ž",
+        "example_first_name": "Dejan",
+        "example_last_name": "Židan",
+        "info": "https://en.wikipedia.org/wiki/Dejan_%C5%BDidan",
+        "comment": ""
+    }, {
+        "language": "spa",
+        "use_case": "letter_ñ",
+        "example_first_name": "Jordi",
+        "example_last_name": "Cañas",
+        "info": "https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home",
+        "comment": ""
+    }, {
+        "language": "swe",
+        "use_case": "letter_ä",
+        "example_first_name": "Jessica",
+        "example_last_name": "Polfjärd",
+        "info": "https://www.europarl.europa.eu/meps/de/197404/JESSICA_POLFJARD/home",
+        "comment": ""
+    }, {
+        "language": "swe",
+        "use_case": "letter_ö",
+        "example_first_name": "Malin",
+        "example_last_name": "Björk",
+        "info": "https://www.europarl.europa.eu/meps/de/124992/MALIN_BJORK/home",
+        "comment": ""
+    }, {
+        "language": "swe",
+        "use_case": "letter_å",
+        "example_first_name": "Gustaf",
+        "example_last_name": "Åkerhielm",
+        "info": "https://en.wikipedia.org/wiki/Gustaf_%C3%85kerhielm",
+        "comment": "Letter: https://www.compart.com/de/unicode/U+00E5"
+    }
+]
