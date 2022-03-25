@@ -2,19 +2,19 @@
   <div class="container">
     <div class="row">
       
-      <PlayWithNames />
+      <HowHardIsMyNameToValidate />
 
     </div>
   </div>
 </template>
 
 <script>
-import PlayWithNames from '../components/PlayWithNames.vue'
+import HowHardIsMyNameToValidate from '../components/HowHardIsMyNameToValidate.vue'
 
   export default {
     name: 'HomePage',
     components: {
-      PlayWithNames
+      HowHardIsMyNameToValidate
     }
   }
 </script>

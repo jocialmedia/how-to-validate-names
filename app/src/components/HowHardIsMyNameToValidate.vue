@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h2>Play With Names</h2>
+    <h2>How hard is my name to validate?</h2>
 
     <form>
       <input class="form-control input-lg" v-model="input_full_name" id="input_full_name" placeholder="Full name" type="text">
@@ -21,7 +21,7 @@
 
 <script>
   export default {
-    name: 'PlayWithNames',
+    name: 'HowHardIsMyNameToValidate',
     props: {
       msg: String
     },
