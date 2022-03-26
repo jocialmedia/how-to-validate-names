@@ -402,6 +402,8 @@ You can visit the prototype [here](https://jocialmedia.github.io/how-to-validate
 
 ## 5. Further Reading
 
+- **Adams**, Angela: [Law Enforcement Guide to International Names](https://info.publicintelligence.net/ROCICInternationalNames.pdf), Regional Organized Crime Information Center (ROCIC), 2010
+
 - **Adzic**, Gojko: [People that make computers go crazy](https://gojko.net/2017/12/08/people-making-computers-crazy.html), 2017-12-08 
   - [Talk at Øredev](https://vimeo.com/243152077), 38min, 2017-11-10
   - [Talk at NDC Oslo](https://www.youtube.com/watch?v=1Rna6NvIIDk), 60min, 2018-06-11
@@ -426,6 +428,8 @@ You can visit the prototype [here](https://jocialmedia.github.io/how-to-validate
 
 - **Ho**, Charly: [What's in a name (validation)?](https://dev.to/carlymho/whats-in-a-name-validation-4b41), 2018-10-08
 Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](https://www.youtube.com/watch?v=yuQ5YTNO3I0), 13min, 2017-06-10
+
+- **Hoogerbeets**, Edwin: [Repository for locale data for phone numbers, addresses, and names](https://github.com/pan-i18n/pan-data), Github-Repository, 2019-2021
 
 - **Ishida**, Richard (W3C): [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), 2011-08-17
 
@@ -463,6 +467,12 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Unknown**: [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
 
+- **Various authors**: [A Guide to Names and Naming Practices](https://www.fbiic.gov/public/2008/nov/Naming_practice_guide_UK_2006.pdf), International Criminal Police Organization (Interpol), 2006-03-31
+
+- **Various authors**: [CLDR Person Name Formatting](https://www.unicode.org/review/pri434/pri434-person-name-formatting-backgnd.pdf), Unicode Common Locale Data Repository (CLDR), 2021-11-01, [Ticket](https://www.unicode.org/review/pri434/)
+
+- **Various authors**: [Getting It Right. Reference Guides for Registering Students with Non-English Names, 2nd Edition](https://files.eric.ed.gov/fulltext/ED572938.pdf), Education Northwest, 2017-03
+
 - **Waugh**, Andrew: [Representing Peoples Names in Dublin Core](https://www.dublincore.org/specifications/dublin-core/name-representation/), 1998-02-03
 
 - **West**, Randolph: [My surname is NULL](https://bornsql.ca/blog/my-surname-is-null), 2017-01-18
@@ -471,6 +481,7 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Zentgraf**, David C.: [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/), 2015-04-27
 
+  
 
 
 
