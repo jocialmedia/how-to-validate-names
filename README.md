@@ -412,6 +412,8 @@ You can visit the prototype [here](https://jocialmedia.github.io/how-to-validate
 
 - **Baraniuk**, Chris: [These unlucky people have names that break computers](https://www.bbc.com/future/article/20160325-the-names-that-break-computer-systems), bbc.<area>com, 2016-03-25
 
+- **Davies**, Mark: [Personal Name Validation Characters](http://unicode.org/L2/L2009/09232-name-validation.html), 2009-07-07 and [Personal Name Validation Characters](https://www.macchiato.com/unicode-intl-sw/utc/personal-name-validation-characters), 2009-08-14 (revised)
+
 - **Deldycke**, Kevin: [Awesome Falsehood - A curated list of falsehoods programmers believe in](https://github.com/kdeldycke/awesome-falsehood), ongoing collection
 
 - **ElAdawy**, Amr: [My name causes an issue with any booking! (names end with MR and MRS)](https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs), Thread on travel.stackexchange.com, 2019-11-05
