@@ -14,6 +14,9 @@
                             <router-link class="nav-link" to="/languages">Languages</router-link>
                         </li>
                         <li class="nav-item">
+                            <router-link class="nav-link" to="/regex">Regex</router-link>
+                        </li>
+                        <li class="nav-item">
                             <router-link class="nav-link" to="/test-cases">Test Cases</router-link>
                         </li>
                         <li class="nav-item">
