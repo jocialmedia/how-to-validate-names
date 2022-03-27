@@ -54,8 +54,7 @@
         "example_last_name": "Niinisto",
         "info": "https://www.europarl.europa.eu/meps/de/197802/VILLE_NIINISTO/home",
         "comment": ""
-    },
-    {
+    }, {
         "language": "deu",
         "use_case": "structure_nobility",
         "example_first_name": "Ursula Gertrud",
