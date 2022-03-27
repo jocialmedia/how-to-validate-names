@@ -47,12 +47,13 @@ So the idea of this collection is to create some specific technical patterns whi
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
+The length of all full names that came up during the research for this project ranges from 1 to 747 characters.
 
-This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fields for first name, middle name and last name.
+This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fields for given name, middle name and family name.
 
 Let us first start with the allowed minimum length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
 
-The smallest common first names in western countries are written with 3 letters like "Jim", "Joe", "Max", "Sam", "Sue" or "Tom". But as countless examples over the years document especially online users with an asian background may have first or last names with just two letters like software developer [Charly Ho](https://dev.to/carlymho/whats-in-a-name-validation-4b41) or pro golfer [Lucy Li](https://en.wikipedia.org/wiki/Lucy_Li).
+The smallest common given names in western countries are written with 3 letters like "Jim", "Joe", "Max", "Sam", "Sue" or "Tom". But as countless examples over the years document especially online users with an asian background may have first or last names with just two letters like software developer [Charly Ho](https://dev.to/carlymho/whats-in-a-name-validation-4b41) or pro golfer [Lucy Li](https://en.wikipedia.org/wiki/Lucy_Li).
 
 The issue with allowed maximum lengths is often linked to very practical reasons like technical limits in IT systems. For example until 2013 the infrastructure used by the authorities in the US state of Hawaii could only process names with up to 35 characters. Then Hawaiian woman [Janice "Lokelani" Keihanaikukauakahihulihe'ekahaunaele](https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579) had to take legal measures to make the state change this. Under the new policy, the state's cards will have room for 40 characters in "first and last names and 35 characters for middle names.
 
@@ -61,8 +62,10 @@ The [W3C is clear in its recommendation](https://www.w3.org/International/questi
 Examples for length standards:
 | Standard | Rules about names |
 |-|-|
-| [ISO/IEC 7813](https://en.m.wikipedia.org/wiki/ISO/IEC_7813), Defines properties of financial transaction cards, such as ATM or credit cards. | Name, 2 to 26 characters (including separators, where appropriate, between surname, first name etc.)|
+| [ISO/IEC 7813](https://en.m.wikipedia.org/wiki/ISO/IEC_7813), Defines properties of financial transaction cards, such as ATM or credit cards. | Name, 2 to 26 characters (including separators, where appropriate, between surname, given name etc.)|
 
+
+The Guinness World Records - formerly the Guinness Book of Records - currently lists as [longest personal name](https://www.guinnessworldrecords.com/world-records/67285-longest-personal-name) Hubert Blaine Wolfe­schlegel­stein­hausen­berger­dorff Sr. The name in full is * *Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvin John Kenneth Lloyd Martin Nero Oliver Paul Quincy Randolph Sherman Thomas Uncas Victor William Xerxes Yancy Zeus Wolfeschlegelsteinhausenbergerdorffwelchevoralternwarengewissenhaftschaferswessenschafewarenwohlgepflegeundsorgfaltigkeitbeschutzenvonangreifendurchihrraubgierigfeindewelchevoralternzwolftausendjahresvorandieerscheinenvanderersteerdemenschderraumschiffgebrauchlichtalsseinursprungvonkraftgestartseinlangefahrthinzwischensternartigraumaufdersuchenachdiesternwelchegehabtbewohnbarplanetenkreisedrehensichundwohinderneurassevonverstandigmenschlichkeitkonntefortpflanzenundsicherfreuenanlebenslanglichfreudeundruhemitnichteinfurchtvorangreifenvonandererintelligentgeschopfsvonhinzwischensternartigraum* and features a length of 747 characters.
 
 **Suggestion:** Try to avoid any unnecessary minimum or maximum constraints.
 
@@ -76,7 +79,7 @@ Did you know that the subject of proper human names is so broad that there is a 
 Next to the common names with two or more elements ([polynym](https://en.wiktionary.org/wiki/polynym)) there are also some with just one ([mononym](https://en.m.wikipedia.org/wiki/Mononymous_person)). In this case we are not talking about artistic pseudonyms like Cher, Prince, Bono, Otto but about people who really have just one legal name like [Wookey](http://wookware.org/name.html).
 
 W3C's recommendation:
-If designing a form or database that will accept names from people with a variety of backgrounds, you should ask yourself whether you really need to have separate fields for given name and family name.
+If designing a form or database that will accept names from people with a variety of backgrounds, you should ask yourself whether you really need to have separate fields for given name and Surname.
 https://www.w3.org/International/questions/qa-personal-names
 
 
@@ -386,7 +389,7 @@ Concept:
 
 - At first my idea was to use a smaller number of names which cover as many cases as possible then I realized it is better to have one name for each letter so the result is much more clearer if a test fails.
 
-- If possible for the letters I will use simple names. So instead for "ß" instead of "Franz-Josef Strauß" who has a double-barrel first name I will use composer Johann Strauß. Or instead of [Lina Gálvez Muñoz](https://www.europarl.europa.eu/meps/de/197702/LINA_GALVEZ+MUNOZ/home) I will use [Jordi Cañas](https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home)
+- If possible for the letters I will use simple names. So instead for "ß" instead of "Franz-Josef Strauß" who has a double-barrel given name I will use composer Johann Strauß. Or instead of [Lina Gálvez Muñoz](https://www.europarl.europa.eu/meps/de/197702/LINA_GALVEZ+MUNOZ/home) I will use [Jordi Cañas](https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home)
 
 The current work in progress version of the data set can be accessed [here](/app/public/data/test-data.json).
 
