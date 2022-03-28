@@ -120,15 +120,15 @@ Suggested solution:
 [Disclaimer](#7-work-in-progress-disclaimer)
 
 - **Numbers** are used in names. (Examples: 
-[Jennifer 8. Lee](https://en.wikipedia.org/wiki/Jennifer_8._Lee)
+[Jennifer 8. Lee](https://en.wikipedia.org/wiki/Jennifer_8._Lee)).
 
-- **Hyphens** are used in names, especially double-barrelled ones. (Examples: [Sabine Leutheusser-Schnarrenberger](https://en.wikipedia.org/wiki/Sabine_Leutheusser-Schnarrenberger), [Winnie Madikizela-Mandela](https://en.m.wikipedia.org/wiki/Winnie_Madikizela-Mandela)). Until 2010 in France there was even a practice to use **two consecutive hyphens** to distinguish between recently formed double surnames and ancient hyphenated family names. ([Source](https://en.m.wikipedia.org/wiki/Double-barrelled_name))
+- **Hyphens** are used in names, especially double-barrelled ones. (Examples: [Sabine Leutheusser-Schnarrenberger](https://en.wikipedia.org/wiki/Sabine_Leutheusser-Schnarrenberger), [Winnie Madikizela-Mandela](https://en.m.wikipedia.org/wiki/Winnie_Madikizela-Mandela)). Until 2010 in France there was even a practice to use **two consecutive hyphens** to distinguish between recently formed double surnames and ancient hyphenated family names. ([Source](https://en.m.wikipedia.org/wiki/Double-barrelled_name)).
 
-- **Dots** are used in names. (Examples: [Harry S. Truman](https://en.wikipedia.org/wiki/Harry_S._Truman).
+- **Dots** are used in names. (Examples: [Harry S. Truman](https://en.wikipedia.org/wiki/Harry_S._Truman)).
 
-- **Apostrophes** are used in names. (Examples: [Seán T. O’Kelly](https://en.wikipedia.org/wiki/Seán_T._O%27Kelly), [Darragh O’Brien](https://en.wikipedia.org/wiki/), [Peter Seamus O'Toole](https://en.wikipedia.org/wiki/Peter_O%27Toole).
+- **Apostrophes** are used in names. (Examples: [Seán T. O’Kelly](https://en.wikipedia.org/wiki/Seán_T._O%27Kelly), [Darragh O’Brien](https://en.wikipedia.org/wiki/), [Peter Seamus O'Toole](https://en.wikipedia.org/wiki/Peter_O%27Toole)).
 
-- **Colons** are used in names. (Examples: [Georg J:son Karlin](https://en.wikipedia.org/wiki/Georg_J:son_Karlin))
+- **Colons** are used in names. (Examples: [Georg J:son Karlin](https://en.wikipedia.org/wiki/Georg_J:son_Karlin)).
 
 #### Table of Special Characters
 
