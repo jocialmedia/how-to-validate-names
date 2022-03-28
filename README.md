@@ -6,10 +6,11 @@
     - [2.2. Number of elements](#22-number-of-elements)
     - [2.3. Order of elements](#23-order-of-elements)
     - [2.4. Characters](#24-characters)
-    - [2.5. Similarity to reserved words](#25-similarity-to-reserved-words)
-    - [2.6. Similarity to profanity words](#26-similarity-to-profanity-words)
-    - [2.7. Symbols or unusual terms as names](#27-symbols-or-unusual-terms-as-names)
-    - [2.8. Spare whitespace at beginning or end](#28-spare-whitespace-at-beginning-or-end)
+    - [2.5. Special characters](#25-special-characters)
+    - [2.6. Similarity to reserved words](#26-similarity-to-reserved-words)
+    - [2.7. Similarity to profanity words](#27-similarity-to-profanity-words)
+    - [2.8. Symbols or unusual terms as names](#28-symbols-or-unusual-terms-as-names)
+    - [2.9. Spare whitespace at beginning or end](#29-spare-whitespace-at-beginning-or-end)
   - [3. Languages](#3-languages)
     - [3.1. Languages of the EU](#31-languages-of-the-eu)
     - [3.2. Alphabets of the EU languages](#32-alphabets-of-the-eu-languages)
@@ -114,8 +115,48 @@ Suggested solution:
 **Suggested solution:** ...
 
  
+ ### 2.5. Special characters
 
-### 2.5. Similarity to reserved words
+[Disclaimer](#7-work-in-progress-disclaimer)
+
+- **Numbers** are used in names. (Examples: 
+[Jennifer 8. Lee](https://en.wikipedia.org/wiki/Jennifer_8._Lee)
+
+- **Hyphens** are used in names, especially double-barrelled ones. (Examples: [Sabine Leutheusser-Schnarrenberger](https://en.wikipedia.org/wiki/Sabine_Leutheusser-Schnarrenberger), [Winnie Madikizela-Mandela](https://en.m.wikipedia.org/wiki/Winnie_Madikizela-Mandela)). Until 2010 in France there was even a practice to use **two consecutive hyphens** to distinguish between recently formed double surnames and ancient hyphenated family names. ([Source](https://en.m.wikipedia.org/wiki/Double-barrelled_name))
+
+- **Dots** are used in names. (Examples: [Harry S. Truman](https://en.wikipedia.org/wiki/Harry_S._Truman).
+
+- **Apostrophes** are used in names. (Examples: [Seán T. O’Kelly](https://en.wikipedia.org/wiki/Seán_T._O%27Kelly), [Darragh O’Brien](https://en.wikipedia.org/wiki/), [Peter Seamus O'Toole](https://en.wikipedia.org/wiki/Peter_O%27Toole).
+
+- **Colons** are used in names. (Examples: [Georg J:son Karlin](https://en.wikipedia.org/wiki/Georg_J:son_Karlin))
+
+#### Table of Special Characters
+
+| Character | English |
+|-|-|
+| , | Comma |
+| ; | Semicolon |
+| : | Colon |
+| . | period |
+| … | ellipsis |
+| · | Interpunct, interpoint, middle dot |
+| • | Bullet |
+| ? | Question mark |
+| ! | Exclamation mark, exclamation point, bang |
+| ’ | Apostrophe |
+| / | Slash |
+| \ | Backslash |
+| ‐ - | Hyphen |
+| – | Dash |
+| [ ] | Brackets, Square brackets |
+| { } | Braces, Curly brackets |
+| ( ) | Parentheses, Round brackets |
+
+**Suggested solution:** ...
+
+
+
+### 2.6. Similarity to reserved words
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
@@ -138,7 +179,7 @@ There are several possible technical reasons and also different ways to avoid th
 
 **Suggested solution:** Implement systemtests to make sure that the obvious names are correctly handled during the whole business process.
 
-### 2.6. Similarity to profanity words
+### 2.7. Similarity to profanity words
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
@@ -155,7 +196,7 @@ There are several commercial offers for such a kind of validation and I personal
 
 One alternative is not to block entries but to flag them so that support members can take a closer look afterwards.
 
-### 2.7. Symbols or unusual terms as names
+### 2.8. Symbols or unusual terms as names
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
@@ -171,7 +212,7 @@ An aspect which should be mentioned as well is people with which are unintention
 **Suggested solution:** As far as I know it is a really rare occasion that people use symbols as names. So nobody can expect forms to handle this. Another story are names which sound unusual because they are lent from cities, countries, celebrities or fictional characters. Who would we be to judge the name choices of other people no matter if we personally think it is esthetic or not? As long as letters from the regular alphabet are used, we should not filter names because we can not.
 
 
-### 2.8. Redundant space at beginning or end
+### 2.9. Spare whitespace
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
