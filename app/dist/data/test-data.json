@@ -608,18 +608,166 @@
         "info": "https://en.wikipedia.org/wiki/Daniel_Chi%C8%9Boiu",
         "comment": ""
     }, {
+        "language": "slk",
+        "use_case": "letter_á",
+        "example_first_name": "Peter",
+        "example_last_name": "Pollák",
+        "info": "https://www.europarl.europa.eu/meps/de/197765/PETER_POLLAK/home",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ä",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_č",
+        "example_first_name": "Igor",
+        "example_last_name": "Matovič",
+        "info": "https://en.wikipedia.org/wiki/Igor_Matovič",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ď",
+        "example_first_name": "Jaroslav",
+        "example_last_name": "Naď",
+        "info": "https://en.wikipedia.org/wiki/Jaroslav_Naď",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_dz",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_dž",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+
+    }, {
+        "language": "slk",
+        "use_case": "letter_é",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ch",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_í",
+        "example_first_name": "Martin",
+        "example_last_name": "Hojsík",
+        "info": "https://www.europarl.europa.eu/meps/de/197770/MARTIN_HOJSIK/home",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ĺ",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_í",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ľ",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ň",
+        "example_first_name": "Monika",
+        "example_last_name": "Beňová",
+        "info": "https://en.wikipedia.org/wiki/Monika_Beňová",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ó",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ô",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ŕ",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_š",
+        "example_first_name": "Robert",
+        "example_last_name": "Hajšel",
+        "info": "https: //www.europarl.europa.eu/meps/de/34578/ROBERT_HAJSEL/home",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ť",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ú",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ý",
+        "example_first_name": "Vladimír",
+        "example_last_name": "Lengvarský",
+        "info": "https: //en.wikipedia.org/wiki/Vladim%C3%ADr_Lengvarský",
+        "comment": ""
+    }, {
+        "language": "slk",
+        "use_case": "letter_ž",
+        "example_first_name": "Andrej",
+        "example_last_name": "Doležal",
+        "info": "https: //en.wikipedia.org/wiki/Andrej_Doležal",
+        "comment": ""
+    }, {
         "language": "slv",
         "use_case": "letter_č",
-        "example_first_name": "Franz",
+        "example_first_name": "Franc",
         "example_last_name": "Bogovič",
         "info": "https://www.europarl.europa.eu/meps/de/125004/FRANC_BOGOVIC/home",
         "comment": ""
     }, {
         "language": "slv",
         "use_case": "letter_š",
-        "example_first_name": "Robert",
-        "example_last_name": "Hajšel",
-        "info": "https://www.europarl.europa.eu/meps/de/34578/ROBERT_HAJSEL/home",
+        "example_first_name": "Klemen",
+        "example_last_name": "Grošelj",
+        "info": "https://www.europarl.europa.eu/meps/de/197452/KLEMEN_GROSELJ/home",
         "comment": ""
     }, {
         "language": "slv",
