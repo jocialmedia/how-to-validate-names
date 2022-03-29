@@ -1,0 +1,944 @@
+{
+    "a": {
+        "id": 1,
+        "unicode_name": "LATIN SMALL LETTER A",
+        "unicode_dec": 97,
+        "unicode_hex": "0x61"
+    },
+    "b": {
+        "id": 2,
+        "unicode_name": "LATIN SMALL LETTER B",
+        "unicode_dec": 98,
+        "unicode_hex": "0x62"
+    },
+    "c": {
+        "id": 3,
+        "unicode_name": "LATIN SMALL LETTER C",
+        "unicode_dec": 99,
+        "unicode_hex": "0x63"
+    },
+    "ch": {
+        "id": 4,
+        "unicode_name": [],
+        "unicode_dec": [99, 104],
+        "unicode_hex": ["0x63", "0x68"]
+    },
+    "cs": {
+        "id": 5,
+        "unicode_name": [],
+        "unicode_dec": [99, 115],
+        "unicode_hex": ["0x63", "0x73"]
+    },
+    "d": {
+        "id": 6,
+        "unicode_name": "LATIN SMALL LETTER D",
+        "unicode_dec": 100,
+        "unicode_hex": "0x64"
+    },
+    "dz": {
+        "id": 7,
+        "unicode_name": [],
+        "unicode_dec": [100, 122],
+        "unicode_hex": ["0x64", "0x7a"]
+    },
+    "dzs": {
+        "id": 8,
+        "unicode_name": [],
+        "unicode_dec": [100, 122, 115],
+        "unicode_hex": ["0x64", "0x7a", "0x73"]
+    },
+    "dž": {
+        "id": 9,
+        "unicode_name": [],
+        "unicode_dec": [100, 382],
+        "unicode_hex": ["0x64", "0x17e"]
+    },
+    "e": {
+        "id": 10,
+        "unicode_name": "LATIN SMALL LETTER E",
+        "unicode_dec": 101,
+        "unicode_hex": "0x65"
+    },
+    "f": {
+        "id": 11,
+        "unicode_name": "LATIN SMALL LETTER F",
+        "unicode_dec": 102,
+        "unicode_hex": "0x66"
+    },
+    "g": {
+        "id": 12,
+        "unicode_name": "LATIN SMALL LETTER G",
+        "unicode_dec": 103,
+        "unicode_hex": "0x67"
+    },
+    "gy": {
+        "id": 13,
+        "unicode_name": [],
+        "unicode_dec": [103, 121],
+        "unicode_hex": ["0x67", "0x79"]
+    },
+    "għ": {
+        "id": 14,
+        "unicode_name": [],
+        "unicode_dec": [103, 295],
+        "unicode_hex": ["0x67", "0x127"]
+    },
+    "h": {
+        "id": 15,
+        "unicode_name": "LATIN SMALL LETTER H",
+        "unicode_dec": 104,
+        "unicode_hex": "0x68"
+    },
+    "i": {
+        "id": 16,
+        "unicode_name": "LATIN SMALL LETTER I",
+        "unicode_dec": 105,
+        "unicode_hex": "0x69"
+    },
+    "ie": {
+        "id": 17,
+        "unicode_name": [],
+        "unicode_dec": [105, 101],
+        "unicode_hex": ["0x69", "0x65"]
+    },
+    "j": {
+        "id": 18,
+        "unicode_name": "LATIN SMALL LETTER J",
+        "unicode_dec": 106,
+        "unicode_hex": "0x6a"
+    },
+    "k": {
+        "id": 19,
+        "unicode_name": "LATIN SMALL LETTER K",
+        "unicode_dec": 107,
+        "unicode_hex": "0x6b"
+    },
+    "l": {
+        "id": 20,
+        "unicode_name": "LATIN SMALL LETTER L",
+        "unicode_dec": 108,
+        "unicode_hex": "0x6c"
+    },
+    "lj": {
+        "id": 21,
+        "unicode_name": [],
+        "unicode_dec": [108, 106],
+        "unicode_hex": ["0x6c", "0x6a"]
+    },
+    "ly": {
+        "id": 22,
+        "unicode_name": [],
+        "unicode_dec": [108, 121],
+        "unicode_hex": ["0x6c", "0x79"]
+    },
+    "m": {
+        "id": 23,
+        "unicode_name": "LATIN SMALL LETTER M",
+        "unicode_dec": 109,
+        "unicode_hex": "0x6d"
+    },
+    "n": {
+        "id": 24,
+        "unicode_name": "LATIN SMALL LETTER N",
+        "unicode_dec": 110,
+        "unicode_hex": "0x6e"
+    },
+    "nj": {
+        "id": 25,
+        "unicode_name": [],
+        "unicode_dec": [110, 106],
+        "unicode_hex": ["0x6e", "0x6a"]
+    },
+    "ny": {
+        "id": 26,
+        "unicode_name": [],
+        "unicode_dec": [110, 121],
+        "unicode_hex": ["0x6e", "0x79"]
+    },
+    "o": {
+        "id": 27,
+        "unicode_name": "LATIN SMALL LETTER O",
+        "unicode_dec": 111,
+        "unicode_hex": "0x6f"
+    },
+    "p": {
+        "id": 28,
+        "unicode_name": "LATIN SMALL LETTER P",
+        "unicode_dec": 112,
+        "unicode_hex": "0x70"
+    },
+    "q": {
+        "id": 29,
+        "unicode_name": "LATIN SMALL LETTER Q",
+        "unicode_dec": 113,
+        "unicode_hex": "0x71"
+    },
+    "r": {
+        "id": 30,
+        "unicode_name": "LATIN SMALL LETTER R",
+        "unicode_dec": 114,
+        "unicode_hex": "0x72"
+    },
+    "s": {
+        "id": 31,
+        "unicode_name": "LATIN SMALL LETTER S",
+        "unicode_dec": 115,
+        "unicode_hex": "0x73"
+    },
+    "sz": {
+        "id": 32,
+        "unicode_name": [],
+        "unicode_dec": [115, 122],
+        "unicode_hex": ["0x73", "0x7a"]
+    },
+    "t": {
+        "id": 33,
+        "unicode_name": "LATIN SMALL LETTER T",
+        "unicode_dec": 116,
+        "unicode_hex": "0x74"
+    },
+    "ty": {
+        "id": 34,
+        "unicode_name": [],
+        "unicode_dec": [116, 121],
+        "unicode_hex": ["0x74", "0x79"]
+    },
+    "u": {
+        "id": 35,
+        "unicode_name": "LATIN SMALL LETTER U",
+        "unicode_dec": 117,
+        "unicode_hex": "0x75"
+    },
+    "v": {
+        "id": 36,
+        "unicode_name": "LATIN SMALL LETTER V",
+        "unicode_dec": 118,
+        "unicode_hex": "0x76"
+    },
+    "w": {
+        "id": 37,
+        "unicode_name": "LATIN SMALL LETTER W",
+        "unicode_dec": 119,
+        "unicode_hex": "0x77"
+    },
+    "x": {
+        "id": 38,
+        "unicode_name": "LATIN SMALL LETTER X",
+        "unicode_dec": 120,
+        "unicode_hex": "0x78"
+    },
+    "y": {
+        "id": 39,
+        "unicode_name": "LATIN SMALL LETTER Y",
+        "unicode_dec": 121,
+        "unicode_hex": "0x79"
+    },
+    "z": {
+        "id": 40,
+        "unicode_name": "LATIN SMALL LETTER Z",
+        "unicode_dec": 122,
+        "unicode_hex": "0x7a"
+    },
+    "zs": {
+        "id": 41,
+        "unicode_name": [],
+        "unicode_dec": [122, 115],
+        "unicode_hex": ["0x7a", "0x73"]
+    },
+    "ß": {
+        "id": 42,
+        "unicode_name": "LATIN SMALL LETTER SHARP S",
+        "unicode_dec": 223,
+        "unicode_hex": "0xdf"
+    },
+    "à": {
+        "id": 43,
+        "unicode_name": "LATIN SMALL LETTER A WITH GRAVE",
+        "unicode_dec": 224,
+        "unicode_hex": "0xe0"
+    },
+    "á": {
+        "id": 44,
+        "unicode_name": "LATIN SMALL LETTER A WITH ACUTE",
+        "unicode_dec": 225,
+        "unicode_hex": "0xe1"
+    },
+    "â": {
+        "id": 45,
+        "unicode_name": "LATIN SMALL LETTER A WITH CIRCUMFLEX",
+        "unicode_dec": 226,
+        "unicode_hex": "0xe2"
+    },
+    "ã": {
+        "id": 46,
+        "unicode_name": "LATIN SMALL LETTER A WITH TILDE",
+        "unicode_dec": 227,
+        "unicode_hex": "0xe3"
+    },
+    "ä": {
+        "id": 47,
+        "unicode_name": "LATIN SMALL LETTER A WITH DIAERESIS",
+        "unicode_dec": 228,
+        "unicode_hex": "0xe4"
+    },
+    "å": {
+        "id": 48,
+        "unicode_name": "LATIN SMALL LETTER A WITH RING ABOVE",
+        "unicode_dec": 229,
+        "unicode_hex": "0xe5"
+    },
+    "æ": {
+        "id": 49,
+        "unicode_name": "LATIN SMALL LETTER AE",
+        "unicode_dec": 230,
+        "unicode_hex": "0xe6"
+    },
+    "ç": {
+        "id": 50,
+        "unicode_name": "LATIN SMALL LETTER C WITH CEDILLA",
+        "unicode_dec": 231,
+        "unicode_hex": "0xe7"
+    },
+    "é": {
+        "id": 51,
+        "unicode_name": "LATIN SMALL LETTER E WITH ACUTE",
+        "unicode_dec": 233,
+        "unicode_hex": "0xe9"
+    },
+    "ê": {
+        "id": 52,
+        "unicode_name": "LATIN SMALL LETTER E WITH CIRCUMFLEX",
+        "unicode_dec": 234,
+        "unicode_hex": "0xea"
+    },
+    "í": {
+        "id": 53,
+        "unicode_name": "LATIN SMALL LETTER I WITH ACUTE",
+        "unicode_dec": 237,
+        "unicode_hex": "0xed"
+    },
+    "î": {
+        "id": 54,
+        "unicode_name": "LATIN SMALL LETTER I WITH CIRCUMFLEX",
+        "unicode_dec": 238,
+        "unicode_hex": "0xee"
+    },
+    "ñ": {
+        "id": 55,
+        "unicode_name": "LATIN SMALL LETTER N WITH TILDE",
+        "unicode_dec": 241,
+        "unicode_hex": "0xf1"
+    },
+    "ó": {
+        "id": 56,
+        "unicode_name": "LATIN SMALL LETTER O WITH ACUTE",
+        "unicode_dec": 243,
+        "unicode_hex": "0xf3"
+    },
+    "ô": {
+        "id": 57,
+        "unicode_name": "LATIN SMALL LETTER O WITH CIRCUMFLEX",
+        "unicode_dec": 244,
+        "unicode_hex": "0xf4"
+    },
+    "õ": {
+        "id": 58,
+        "unicode_name": "LATIN SMALL LETTER O WITH TILDE",
+        "unicode_dec": 245,
+        "unicode_hex": "0xf5"
+    },
+    "ö": {
+        "id": 59,
+        "unicode_name": "LATIN SMALL LETTER O WITH DIAERESIS",
+        "unicode_dec": 246,
+        "unicode_hex": "0xf6"
+    },
+    "ø": {
+        "id": 60,
+        "unicode_name": "LATIN SMALL LETTER O WITH STROKE",
+        "unicode_dec": 248,
+        "unicode_hex": "0xf8"
+    },
+    "ú": {
+        "id": 61,
+        "unicode_name": "LATIN SMALL LETTER U WITH ACUTE",
+        "unicode_dec": 250,
+        "unicode_hex": "0xfa"
+    },
+    "ü": {
+        "id": 62,
+        "unicode_name": "LATIN SMALL LETTER U WITH DIAERESIS",
+        "unicode_dec": 252,
+        "unicode_hex": "0xfc"
+    },
+    "ý": {
+        "id": 63,
+        "unicode_name": "LATIN SMALL LETTER Y WITH ACUTE",
+        "unicode_dec": 253,
+        "unicode_hex": "0xfd"
+    },
+    "ā": {
+        "id": 64,
+        "unicode_name": "LATIN SMALL LETTER A WITH MACRON",
+        "unicode_dec": 257,
+        "unicode_hex": "0x101"
+    },
+    "ă": {
+        "id": 65,
+        "unicode_name": "LATIN SMALL LETTER A WITH BREVE",
+        "unicode_dec": 259,
+        "unicode_hex": "0x103"
+    },
+    "ą": {
+        "id": 66,
+        "unicode_name": "LATIN SMALL LETTER A WITH OGONEK",
+        "unicode_dec": 261,
+        "unicode_hex": "0x105"
+    },
+    "ć": {
+        "id": 67,
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE",
+        "unicode_dec": 263,
+        "unicode_hex": "0x107"
+    },
+    "ċ": {
+        "id": 68,
+        "unicode_name": "LATIN SMALL LETTER C WITH DOT ABOVE",
+        "unicode_dec": 267,
+        "unicode_hex": "0x10b"
+    },
+    "č": {
+        "id": 69,
+        "unicode_name": "LATIN SMALL LETTER C WITH CARON",
+        "unicode_dec": 269,
+        "unicode_hex": "0x10d"
+    },
+    "ď": {
+        "id": 70,
+        "unicode_name": "LATIN SMALL LETTER D WITH CARON",
+        "unicode_dec": 271,
+        "unicode_hex": "0x10f"
+    },
+    "đ": {
+        "id": 71,
+        "unicode_name": "LATIN SMALL LETTER D WITH STROKE",
+        "unicode_dec": 273,
+        "unicode_hex": "0x111"
+    },
+    "ē": {
+        "id": 72,
+        "unicode_name": "LATIN SMALL LETTER E WITH MACRON",
+        "unicode_dec": 275,
+        "unicode_hex": "0x113"
+    },
+    "ė": {
+        "id": 73,
+        "unicode_name": "LATIN SMALL LETTER E WITH DOT ABOVE",
+        "unicode_dec": 279,
+        "unicode_hex": "0x117"
+    },
+    "ę": {
+        "id": 74,
+        "unicode_name": "LATIN SMALL LETTER E WITH OGONEK",
+        "unicode_dec": 281,
+        "unicode_hex": "0x119"
+    },
+    "ě": {
+        "id": 75,
+        "unicode_name": "LATIN SMALL LETTER E WITH CARON",
+        "unicode_dec": 283,
+        "unicode_hex": "0x11b"
+    },
+    "ġ": {
+        "id": 76,
+        "unicode_name": "LATIN SMALL LETTER G WITH DOT ABOVE",
+        "unicode_dec": 289,
+        "unicode_hex": "0x121"
+    },
+    "ģ": {
+        "id": 77,
+        "unicode_name": "LATIN SMALL LETTER G WITH CEDILLA",
+        "unicode_dec": 291,
+        "unicode_hex": "0x123"
+    },
+    "ħ": {
+        "id": 78,
+        "unicode_name": "LATIN SMALL LETTER H WITH STROKE",
+        "unicode_dec": 295,
+        "unicode_hex": "0x127"
+    },
+    "ī": {
+        "id": 79,
+        "unicode_name": "LATIN SMALL LETTER I WITH MACRON",
+        "unicode_dec": 299,
+        "unicode_hex": "0x12b"
+    },
+    "į": {
+        "id": 80,
+        "unicode_name": "LATIN SMALL LETTER I WITH OGONEK",
+        "unicode_dec": 303,
+        "unicode_hex": "0x12f"
+    },
+    "ķ": {
+        "id": 81,
+        "unicode_name": "LATIN SMALL LETTER K WITH CEDILLA",
+        "unicode_dec": 311,
+        "unicode_hex": "0x137"
+    },
+    "ĺ": {
+        "id": 82,
+        "unicode_name": "LATIN SMALL LETTER L WITH ACUTE",
+        "unicode_dec": 314,
+        "unicode_hex": "0x13a"
+    },
+    "ļ": {
+        "id": 83,
+        "unicode_name": "LATIN SMALL LETTER L WITH CEDILLA",
+        "unicode_dec": 316,
+        "unicode_hex": "0x13c"
+    },
+    "ľ": {
+        "id": 84,
+        "unicode_name": "LATIN SMALL LETTER L WITH CARON",
+        "unicode_dec": 318,
+        "unicode_hex": "0x13e"
+    },
+    "ł": {
+        "id": 85,
+        "unicode_name": "LATIN SMALL LETTER L WITH STROKE",
+        "unicode_dec": 322,
+        "unicode_hex": "0x142"
+    },
+    "ń": {
+        "id": 86,
+        "unicode_name": "LATIN SMALL LETTER N WITH ACUTE",
+        "unicode_dec": 324,
+        "unicode_hex": "0x144"
+    },
+    "ņ": {
+        "id": 87,
+        "unicode_name": "LATIN SMALL LETTER N WITH CEDILLA",
+        "unicode_dec": 326,
+        "unicode_hex": "0x146"
+    },
+    "ň": {
+        "id": 88,
+        "unicode_name": "LATIN SMALL LETTER N WITH CARON",
+        "unicode_dec": 328,
+        "unicode_hex": "0x148"
+    },
+    "ő": {
+        "id": 89,
+        "unicode_name": "LATIN SMALL LETTER O WITH DOUBLE ACUTE",
+        "unicode_dec": 337,
+        "unicode_hex": "0x151"
+    },
+    "ŕ": {
+        "id": 90,
+        "unicode_name": "LATIN SMALL LETTER R WITH ACUTE",
+        "unicode_dec": 341,
+        "unicode_hex": "0x155"
+    },
+    "ř": {
+        "id": 91,
+        "unicode_name": "LATIN SMALL LETTER R WITH CARON",
+        "unicode_dec": 345,
+        "unicode_hex": "0x159"
+    },
+    "ś": {
+        "id": 92,
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE",
+        "unicode_dec": 347,
+        "unicode_hex": "0x15b"
+    },
+    "š": {
+        "id": 93,
+        "unicode_name": "LATIN SMALL LETTER S WITH CARON",
+        "unicode_dec": 353,
+        "unicode_hex": "0x161"
+    },
+    "ť": {
+        "id": 94,
+        "unicode_name": "LATIN SMALL LETTER T WITH CARON",
+        "unicode_dec": 357,
+        "unicode_hex": "0x165"
+    },
+    "ū": {
+        "id": 95,
+        "unicode_name": "LATIN SMALL LETTER U WITH MACRON",
+        "unicode_dec": 363,
+        "unicode_hex": "0x16b"
+    },
+    "ů": {
+        "id": 96,
+        "unicode_name": "LATIN SMALL LETTER U WITH RING ABOVE",
+        "unicode_dec": 367,
+        "unicode_hex": "0x16f"
+    },
+    "ű": {
+        "id": 97,
+        "unicode_name": "LATIN SMALL LETTER U WITH DOUBLE ACUTE",
+        "unicode_dec": 369,
+        "unicode_hex": "0x171"
+    },
+    "ų": {
+        "id": 98,
+        "unicode_name": "LATIN SMALL LETTER U WITH OGONEK",
+        "unicode_dec": 371,
+        "unicode_hex": "0x173"
+    },
+    "ź": {
+        "id": 99,
+        "unicode_name": "LATIN SMALL LETTER Z WITH ACUTE",
+        "unicode_dec": 378,
+        "unicode_hex": "0x17a"
+    },
+    "ż": {
+        "id": 100,
+        "unicode_name": "LATIN SMALL LETTER Z WITH DOT ABOVE",
+        "unicode_dec": 380,
+        "unicode_hex": "0x17c"
+    },
+    "ž": {
+        "id": 101,
+        "unicode_name": "LATIN SMALL LETTER Z WITH CARON",
+        "unicode_dec": 382,
+        "unicode_hex": "0x17e"
+    },
+    "ș": {
+        "id": 102,
+        "unicode_name": "LATIN SMALL LETTER S WITH COMMA BELOW",
+        "unicode_dec": 537,
+        "unicode_hex": "0x219"
+    },
+    "ț": {
+        "id": 103,
+        "unicode_name": "LATIN SMALL LETTER T WITH COMMA BELOW",
+        "unicode_dec": 539,
+        "unicode_hex": "0x21b"
+    },
+    "α": {
+        "id": 104,
+        "unicode_name": "GREEK SMALL LETTER ALPHA",
+        "unicode_dec": 945,
+        "unicode_hex": "0x3b1"
+    },
+    "β": {
+        "id": 105,
+        "unicode_name": "GREEK SMALL LETTER BETA",
+        "unicode_dec": 946,
+        "unicode_hex": "0x3b2"
+    },
+    "γ": {
+        "id": 106,
+        "unicode_name": "GREEK SMALL LETTER GAMMA",
+        "unicode_dec": 947,
+        "unicode_hex": "0x3b3"
+    },
+    "δ": {
+        "id": 107,
+        "unicode_name": "GREEK SMALL LETTER DELTA",
+        "unicode_dec": 948,
+        "unicode_hex": "0x3b4"
+    },
+    "ε": {
+        "id": 108,
+        "unicode_name": "GREEK SMALL LETTER EPSILON",
+        "unicode_dec": 949,
+        "unicode_hex": "0x3b5"
+    },
+    "ζ": {
+        "id": 109,
+        "unicode_name": "GREEK SMALL LETTER ZETA",
+        "unicode_dec": 950,
+        "unicode_hex": "0x3b6"
+    },
+    "η": {
+        "id": 110,
+        "unicode_name": "GREEK SMALL LETTER ETA",
+        "unicode_dec": 951,
+        "unicode_hex": "0x3b7"
+    },
+    "θ": {
+        "id": 111,
+        "unicode_name": "GREEK SMALL LETTER THETA",
+        "unicode_dec": 952,
+        "unicode_hex": "0x3b8"
+    },
+    "ι": {
+        "id": 112,
+        "unicode_name": "GREEK SMALL LETTER IOTA",
+        "unicode_dec": 953,
+        "unicode_hex": "0x3b9"
+    },
+    "κ": {
+        "id": 113,
+        "unicode_name": "GREEK SMALL LETTER KAPPA",
+        "unicode_dec": 954,
+        "unicode_hex": "0x3ba"
+    },
+    "λ": {
+        "id": 114,
+        "unicode_name": "GREEK SMALL LETTER LAMDA",
+        "unicode_dec": 955,
+        "unicode_hex": "0x3bb"
+    },
+    "μ": {
+        "id": 115,
+        "unicode_name": "GREEK SMALL LETTER MU",
+        "unicode_dec": 956,
+        "unicode_hex": "0x3bc"
+    },
+    "ν": {
+        "id": 116,
+        "unicode_name": "GREEK SMALL LETTER NU",
+        "unicode_dec": 957,
+        "unicode_hex": "0x3bd"
+    },
+    "ξ": {
+        "id": 117,
+        "unicode_name": "GREEK SMALL LETTER XI",
+        "unicode_dec": 958,
+        "unicode_hex": "0x3be"
+    },
+    "ο": {
+        "id": 118,
+        "unicode_name": "GREEK SMALL LETTER OMICRON",
+        "unicode_dec": 959,
+        "unicode_hex": "0x3bf"
+    },
+    "π": {
+        "id": 119,
+        "unicode_name": "GREEK SMALL LETTER PI",
+        "unicode_dec": 960,
+        "unicode_hex": "0x3c0"
+    },
+    "ρ": {
+        "id": 120,
+        "unicode_name": "GREEK SMALL LETTER RHO",
+        "unicode_dec": 961,
+        "unicode_hex": "0x3c1"
+    },
+    "σ/ς": {
+        "id": 121,
+        "unicode_name": [],
+        "unicode_dec": [963, 47, 962],
+        "unicode_hex": ["0x3c3", "0x2f", "0x3c2"]
+    },
+    "τ": {
+        "id": 122,
+        "unicode_name": "GREEK SMALL LETTER TAU",
+        "unicode_dec": 964,
+        "unicode_hex": "0x3c4"
+    },
+    "υ": {
+        "id": 123,
+        "unicode_name": "GREEK SMALL LETTER UPSILON",
+        "unicode_dec": 965,
+        "unicode_hex": "0x3c5"
+    },
+    "φ": {
+        "id": 124,
+        "unicode_name": "GREEK SMALL LETTER PHI",
+        "unicode_dec": 966,
+        "unicode_hex": "0x3c6"
+    },
+    "χ": {
+        "id": 125,
+        "unicode_name": "GREEK SMALL LETTER CHI",
+        "unicode_dec": 967,
+        "unicode_hex": "0x3c7"
+    },
+    "ψ": {
+        "id": 126,
+        "unicode_name": "GREEK SMALL LETTER PSI",
+        "unicode_dec": 968,
+        "unicode_hex": "0x3c8"
+    },
+    "ω": {
+        "id": 127,
+        "unicode_name": "GREEK SMALL LETTER OMEGA",
+        "unicode_dec": 969,
+        "unicode_hex": "0x3c9"
+    },
+    "а": {
+        "id": 128,
+        "unicode_name": "CYRILLIC SMALL LETTER A",
+        "unicode_dec": 1072,
+        "unicode_hex": "0x430"
+    },
+    "б": {
+        "id": 129,
+        "unicode_name": "CYRILLIC SMALL LETTER BE",
+        "unicode_dec": 1073,
+        "unicode_hex": "0x431"
+    },
+    "в": {
+        "id": 130,
+        "unicode_name": "CYRILLIC SMALL LETTER VE",
+        "unicode_dec": 1074,
+        "unicode_hex": "0x432"
+    },
+    "г": {
+        "id": 131,
+        "unicode_name": "CYRILLIC SMALL LETTER GHE",
+        "unicode_dec": 1075,
+        "unicode_hex": "0x433"
+    },
+    "д": {
+        "id": 132,
+        "unicode_name": "CYRILLIC SMALL LETTER DE",
+        "unicode_dec": 1076,
+        "unicode_hex": "0x434"
+    },
+    "е": {
+        "id": 133,
+        "unicode_name": "CYRILLIC SMALL LETTER IE",
+        "unicode_dec": 1077,
+        "unicode_hex": "0x435"
+    },
+    "ж": {
+        "id": 134,
+        "unicode_name": "CYRILLIC SMALL LETTER ZHE",
+        "unicode_dec": 1078,
+        "unicode_hex": "0x436"
+    },
+    "з": {
+        "id": 135,
+        "unicode_name": "CYRILLIC SMALL LETTER ZE",
+        "unicode_dec": 1079,
+        "unicode_hex": "0x437"
+    },
+    "и": {
+        "id": 136,
+        "unicode_name": "CYRILLIC SMALL LETTER I",
+        "unicode_dec": 1080,
+        "unicode_hex": "0x438"
+    },
+    "й": {
+        "id": 137,
+        "unicode_name": "CYRILLIC SMALL LETTER SHORT I",
+        "unicode_dec": 1081,
+        "unicode_hex": "0x439"
+    },
+    "к": {
+        "id": 138,
+        "unicode_name": "CYRILLIC SMALL LETTER KA",
+        "unicode_dec": 1082,
+        "unicode_hex": "0x43a"
+    },
+    "л": {
+        "id": 139,
+        "unicode_name": "CYRILLIC SMALL LETTER EL",
+        "unicode_dec": 1083,
+        "unicode_hex": "0x43b"
+    },
+    "м": {
+        "id": 140,
+        "unicode_name": "CYRILLIC SMALL LETTER EM",
+        "unicode_dec": 1084,
+        "unicode_hex": "0x43c"
+    },
+    "н": {
+        "id": 141,
+        "unicode_name": "CYRILLIC SMALL LETTER EN",
+        "unicode_dec": 1085,
+        "unicode_hex": "0x43d"
+    },
+    "о": {
+        "id": 142,
+        "unicode_name": "CYRILLIC SMALL LETTER O",
+        "unicode_dec": 1086,
+        "unicode_hex": "0x43e"
+    },
+    "п": {
+        "id": 143,
+        "unicode_name": "CYRILLIC SMALL LETTER PE",
+        "unicode_dec": 1087,
+        "unicode_hex": "0x43f"
+    },
+    "р": {
+        "id": 144,
+        "unicode_name": "CYRILLIC SMALL LETTER ER",
+        "unicode_dec": 1088,
+        "unicode_hex": "0x440"
+    },
+    "с": {
+        "id": 145,
+        "unicode_name": "CYRILLIC SMALL LETTER ES",
+        "unicode_dec": 1089,
+        "unicode_hex": "0x441"
+    },
+    "т": {
+        "id": 146,
+        "unicode_name": "CYRILLIC SMALL LETTER TE",
+        "unicode_dec": 1090,
+        "unicode_hex": "0x442"
+    },
+    "у": {
+        "id": 147,
+        "unicode_name": "CYRILLIC SMALL LETTER U",
+        "unicode_dec": 1091,
+        "unicode_hex": "0x443"
+    },
+    "ф": {
+        "id": 148,
+        "unicode_name": "CYRILLIC SMALL LETTER EF",
+        "unicode_dec": 1092,
+        "unicode_hex": "0x444"
+    },
+    "х": {
+        "id": 149,
+        "unicode_name": "CYRILLIC SMALL LETTER HA",
+        "unicode_dec": 1093,
+        "unicode_hex": "0x445"
+    },
+    "ц": {
+        "id": 150,
+        "unicode_name": "CYRILLIC SMALL LETTER TSE",
+        "unicode_dec": 1094,
+        "unicode_hex": "0x446"
+    },
+    "ч": {
+        "id": 151,
+        "unicode_name": "CYRILLIC SMALL LETTER CHE",
+        "unicode_dec": 1095,
+        "unicode_hex": "0x447"
+    },
+    "ш": {
+        "id": 152,
+        "unicode_name": "CYRILLIC SMALL LETTER SHA",
+        "unicode_dec": 1096,
+        "unicode_hex": "0x448"
+    },
+    "щ": {
+        "id": 153,
+        "unicode_name": "CYRILLIC SMALL LETTER SHCHA",
+        "unicode_dec": 1097,
+        "unicode_hex": "0x449"
+    },
+    "ъ": {
+        "id": 154,
+        "unicode_name": "CYRILLIC SMALL LETTER HARD SIGN",
+        "unicode_dec": 1098,
+        "unicode_hex": "0x44a"
+    },
+    "ь": {
+        "id": 155,
+        "unicode_name": "CYRILLIC SMALL LETTER SOFT SIGN",
+        "unicode_dec": 1100,
+        "unicode_hex": "0x44c"
+    },
+    "ю": {
+        "id": 156,
+        "unicode_name": "CYRILLIC SMALL LETTER YU",
+        "unicode_dec": 1102,
+        "unicode_hex": "0x44e"
+    },
+    "я": {
+        "id": 157,
+        "unicode_name": "CYRILLIC SMALL LETTER YA",
+        "unicode_dec": 1103,
+        "unicode_hex": "0x44f"
+    }
+}

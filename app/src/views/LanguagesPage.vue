@@ -69,11 +69,6 @@
     },
     components: {},
     methods: {
-      async getName() {
-        const res = await fetch('https://api.agify.io/?name=michael');
-        const data = await res.json();
-        this.data = data;
-      },
       async getLanguages() {
         let path = 'data/languages.json'
         const res = await fetch(path);
