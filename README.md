@@ -161,11 +161,13 @@ Suggested solution:
 [Disclaimer](#7-work-in-progress-disclaimer)
 
 
-Most common case of problems with reserved words in computer systems are people with the surname "Null". People like Jennifer Null (Baraniuk 2016) from Southern Virginia in the US have problems with online shopping, booking flights or entering details into online forms for taxes or utilities. Journalist Christopher Null (Null 2015) encounters problems receiving physical mail as well as digital email.
-
-Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic word as surname. He got stuck in digital hell at the Buenos Aires airport when the airline for his connecting flight could not find his ticket.
+Some of the most known problems with reserved words in computer systems are people with the surname "Null". People like Jennifer Null (Baraniuk 2016) from Southern Virginia in the US have problems with online shopping, booking flights or entering details into online forms for taxes or utilities. Journalist Christopher Null (Null 2015) encounters problems receiving physical mail as well as digital email.
 
 There are several possible technical reasons and also different ways to avoid them. Using delimiters in CSV files is an important principle (West 2017). [Testing fields for "null" and escaping them as CDATA values](https://stackoverflow.com/questions/4456438/how-to-pass-null-a-real-surname-to-a-soap-web-service-in-actionscript-3) is another one for Actionscript.
+
+On Ycombinator Hackernews a software developer told the story of a customer with who could not make payments because a credit card processor [recognized his surname "Echo" as common Unix shell command and filtered it out](](https://news.ycombinator.com/item?id=12426315)). 
+
+Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic word as surname. He got stuck at the Buenos Aires airport when the airline for his connecting flight could not find his ticket. It turned out that a software developer used the surname "Sample" for a systemtest to book and cancel tickets every 10 minutes. The same happened several times to Flickr co-founder [Caterina Fake](https://www.fastcompany.com/1402994/flickr-co-founder-caterina-fake-value-viral-loops-exclusive-qa) who found out at airports that her bookings had been automatically cancelled.
 
 
 |Programming language |Reserved words |
