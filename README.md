@@ -126,7 +126,7 @@ Suggested solution:
 
 - **Dots** are used in names. (Examples: [Harry S. Truman](https://en.wikipedia.org/wiki/Harry_S._Truman)).
 
-- **Apostrophes** are used in names. (Examples: [Seán T. O’Kelly](https://en.wikipedia.org/wiki/Seán_T._O%27Kelly), [Darragh O’Brien](https://en.wikipedia.org/wiki/), [Peter Seamus O'Toole](https://en.wikipedia.org/wiki/Peter_O%27Toole)).
+- **Apostrophes** are used in names. (Examples: [Seán T. O’Kelly](https://en.wikipedia.org/wiki/Seán_T._O%27Kelly), [Darragh O’Brien](https://en.wikipedia.org/wiki/) and [Peter Seamus O'Toole](https://en.wikipedia.org/wiki/Peter_O%27Toole). Dutch physicist [Gerard 't Hooft](https://en.wikipedia.org/wiki/Gerard_%27t_Hooft) even wrote [a website about the apostrophe in his name](http://www.staff.science.uu.nl/~hooft101/ap.html).)
 
 - **Colons** are used in names. (Examples: [Georg J:son Karlin](https://en.wikipedia.org/wiki/Georg_J:son_Karlin)).
 
