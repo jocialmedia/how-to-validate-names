@@ -1,4 +1,64 @@
 {
+    "0": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [48],
+        "unicode_hex": "0x30"
+    },
+    "1": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [49],
+        "unicode_hex": "0x31"
+    },
+    "2": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [50],
+        "unicode_hex": "0x32"
+    },
+    "3": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [51],
+        "unicode_hex": "0x33"
+    },
+    "4": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [52],
+        "unicode_hex": "0x34"
+    },
+    "5": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [53],
+        "unicode_hex": "0x35"
+    },
+    "6": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [54],
+        "unicode_hex": "0x36"
+    },
+    "7": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [55],
+        "unicode_hex": "0x37"
+    },
+    "8": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [56],
+        "unicode_hex": "0x38"
+    },
+    "9": {
+        "id": 0,
+        "unicode_name": "NUMBER",
+        "unicode_dec": [57],
+        "unicode_hex": "0x39"
+    },
     "a": {
         "id": 1,
         "unicode_name": "LATIN SMALL LETTER A",
