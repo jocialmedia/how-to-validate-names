@@ -3,39 +3,30 @@
     <h2>How hard is my name to validate?</h2>
     <br><br>
     <form>
-      <input class="form-control input-lg" v-model="input_full_name" id="input_full_name" placeholder="Full name"
-        type="text">
+      <input class="form-control input-lg" v-model="input" id="input_full_name" placeholder="Full name" type="text">
     </form>
 
     <div class="panel-body">
       <br><br>
-      <table class="">
-        <tr>
-          <td>Input:</td>
-          <td>{{ original_input }}</td>
-        </tr>
-        <tr>
-          <td>Number of characters:</td>
-          <td>{{ number_of_chars }}</td>
-        </tr>
-        <tr>
-          <td>Number of individual characters:</td>
-          <td>{{ number_of_individual_chars }}</td>
-        </tr>
-      </table>
 
+      <span>Number of characters: {{ number_of_chars }} (Number of individual characters:
+        {{ number_of_individual_chars }})</span>
+      <br><br>
       <b>Individual Characters:</b>
 
       <div>
-
-        <span class="letter" v-for="(item) in input" :key="item.id">
+        <span class="letter" v-for="(item) in input_array" :key="item.id">
           <h2>{{ item }}</h2>
-          <small>{{ characters[item]['unicode_name'] }}<br>
-            {{ characters[item]['unicode_hex'] }} </small>
+          <span class="letter_info"
+            v-if="characters">{{ characters[item]['unicode_hex'] }}
+            <br>{{ characters[item]['unicode_name'] }}
+          </span>
         </span>
       </div>
       <br><br>
     </div>
+
+
 
   </div>
 </template>
@@ -48,11 +39,10 @@
     },
     data() {
       return {
-        input_full_name: "",
-        original_input: "",
+        input: this.$route.query.input,
+        input_array: [],
         number_of_chars: 0,
         number_of_individual_chars: 0,
-        input: "",
         characters: [],
         characters_info: []
       }
@@ -60,8 +50,19 @@
     setup() {
 
     },
-    mounted() {
-      document.getElementById("input_full_name").addEventListener("keyup", this.analyze)
+    watch: {
+      input(newVal) {
+
+        this.$router.push({
+          query: {
+            ...this.$route.query,
+            input: newVal
+          }
+        });
+      },
+      '$route.query.input': function (val) {
+        this.input = val;
+      }
     },
     methods: {
       async getCharacters() {
@@ -73,44 +74,58 @@
       analyze: function () {
         // Get input
         let input = "";
+        let input_work = "";
         input = document.getElementById("input_full_name").value;
-        this.original_input = input;
 
         // Get input trimmed
-        input = input.trim();
+        input_work = input.trim();
 
         // Get whitespace removed
-        input = input.replace(/\s/g, '');
+        input_work = input_work.replace(/\s/g, '');
 
         // Get input lowercase
-        input = input.toLowerCase();
+        input_work = input_work.toLowerCase();
 
         // Get input number of characters
-        this.number_of_chars = input.length;
+        this.number_of_chars = input_work.length;
 
         // Remove duplicates from input by using Set constructor
-        input = Array.from(new Set(input));
+        input_work = Array.from(new Set(input_work));
 
-        this.number_of_individual_chars = input.length;
+        this.number_of_individual_chars = input_work.length;
 
         // Order items in array
         function SortArray(x, y) {
           return x.localeCompare(y);
         }
-        this.input = input.sort(SortArray);
-
-      }
+        this.input_array = input_work.sort(SortArray);
+      },
     },
     beforeMount() {
       this.getCharacters();
+      if (this.$route.query.input === undefined) {
+        this.$router.push({
+          query: {
+            input: ""
+          }
+        });
+      }
     },
-
+    mounted() {
+      this.analyze();
+      document.getElementById("input_full_name").addEventListener("input", this.analyze);
+    }
   }
 </script>
 
 <style scoped>
   .letter {
     width: 80px;
-    height: 200px;
+    height: 160px;
+    line-height: 1.1 !important;
+  }
+
+  .letter_info {
+    font-size: x-small;
   }
 </style>
