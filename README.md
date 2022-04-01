@@ -461,6 +461,8 @@ You can visit the prototype [here](https://jocialmedia.github.io/how-to-validate
 
 - **Deldycke**, Kevin: [Awesome Falsehood - A curated list of falsehoods programmers believe in](https://github.com/kdeldycke/awesome-falsehood), ongoing collection
 
+- **Downing**, John: [Irish ‘fada’ to get legal protection – and must appear in all State IT systems and computer keyboards](https://www.independent.ie/irish-news/politics/irish-fadato-get-legal-protection-and-must-appear-in-all-state-it-systems-and-computer-keyboards-40631034.html), independent<area>.ie, 2021-07-08
+
 - **ElAdawy**, Amr: [My name causes an issue with any booking! (names end with MR and MRS)](https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs), Thread on travel.stackexchange.com, 2019-11-05
 
 - **Eversion**, Michael: [The Alphabets of Europe - Version 3.0](https://www.evertype.com/alphabets/), 1993-2015
@@ -475,6 +477,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 - **Hoogerbeets**, Edwin: [Repository for locale data for phone numbers, addresses, and names](https://github.com/pan-i18n/pan-data), Github-Repository, 2019-2021
 
 - **Ishida**, Richard (W3C): [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), 2011-08-17
+
+- **McEvoy**, Gearóidín: [Opinion: My name is Gearóidín and I want the Irish State to give me back my fadas](https://www.thejournal.ie/readme/opinion-my-name-is-integral-to-my-identity-and-i-want-the-irish-state-to-give-me-back-my-fadas-4588701-Apr2019/), 2019-04-19
 
 - **McGuire**, Caroline: [Cleverest con of all time? Man claims he gets free holidays and car rentals after changing his surname to 'Null'](https://www.dailymail.co.uk/travel/travel_news/article-3513652/The-cleverest-time-Man-gets-free-holidays-car-rentals-changing-surname-Null.html), dailymail<area>.co.uk, 2016-03-29
 
