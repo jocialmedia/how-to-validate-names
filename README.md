@@ -2,15 +2,16 @@
 
   - [1. About](#1-about)
   - [2. Potential challenges for validation](#2-potential-reasons-for-failing-validation)
-    - [2.1. Length of elements](#21-length-of-elements)
-    - [2.2. Number of elements](#22-number-of-elements)
-    - [2.3. Order of elements](#23-order-of-elements)
-    - [2.4. Characters](#24-characters)
-    - [2.5. Special characters](#25-special-characters)
-    - [2.6. Similarity to reserved words](#26-similarity-to-reserved-words)
-    - [2.7. Similarity to profanity words](#27-similarity-to-profanity-words)
-    - [2.8. Symbols or unusual terms as names](#28-symbols-or-unusual-terms-as-names)
-    - [2.9. Spare whitespace at beginning or end](#29-spare-whitespace-at-beginning-or-end)
+    - [2.1. Characters](#21-characters)
+    - [2.2. Special characters](#22-special-characters)
+    - [2.3. Symbols or unusual terms](#23-symbols-or-unusual-terms)
+    - [2.4. Spaces](#24-spaces)
+    - [2.5. Case sensitivity](#25-case-sensitivity)
+    - [2.6. Number of elements](#26-number-of-elements)
+    - [2.7. Length of elements](#27-length-of-elements)
+    - [2.8. Order of elements](#28-order-of-elements)
+    - [2.9. Reserved words](#29-similarity-to-reserved-words)
+    - [2.10. Profanity filtering](#210-similarity-to-profanity-words)
   - [3. Languages](#3-languages)
     - [3.1. Languages of the EU](#31-languages-of-the-eu)
     - [3.2. Alphabets of the EU languages](#32-alphabets-of-the-eu-languages)
@@ -44,69 +45,8 @@ So the idea of this collection is to create some specific technical patterns whi
 
 ## 2. Potential reasons for failing validation
 
-### 2.1. Length of elements
 
-[Disclaimer](#7-work-in-progress-disclaimer)
-
-The length of all full names that came up during the research for this project ranges from 1 to 747 characters.
-
-This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fields for given name, middle name and family name.
-
-Let us first start with the allowed minimum length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
-
-The smallest common given names in western countries are written with 3 letters like "Jim", "Joe", "Max", "Sam", "Sue" or "Tom". But as countless examples over the years document especially online users with an asian background may have first or last names with just two letters like software developer [Charly Ho](https://dev.to/carlymho/whats-in-a-name-validation-4b41) or pro golfer [Lucy Li](https://en.wikipedia.org/wiki/Lucy_Li).
-
-The issue with allowed maximum lengths is often linked to very practical reasons like technical limits in IT systems. For example until 2013 the infrastructure used by the authorities in the US state of Hawaii could only process names with up to 35 characters. Then Hawaiian woman [Janice "Lokelani" Keihanaikukauakahihulihe'ekahaunaele](https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579) had to take legal measures to make the state change this. Under the new policy, the state's cards will have room for 40 characters in "first and last names and 35 characters for middle names.
-
-The [W3C is clear in its recommendation](https://www.w3.org/International/questions/qa-personal-names) "Bear in mind that names in some cultures can be quite a lot longer than your own. ... Avoid limiting the field size for names in your database."
-
-Examples for length standards:
-| Standard | Rules about names |
-|-|-|
-| [ISO/IEC 7813](https://en.m.wikipedia.org/wiki/ISO/IEC_7813), Defines properties of financial transaction cards, such as ATM or credit cards. | Name, 2 to 26 characters (including separators, where appropriate, between surname, given name etc.)|
-
-
-The Guinness World Records - formerly the Guinness Book of Records - currently lists as [longest personal name](https://www.guinnessworldrecords.com/world-records/67285-longest-personal-name) Hubert Blaine Wolfe­schlegel­stein­hausen­berger­dorff Sr. The name in full is * *Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvin John Kenneth Lloyd Martin Nero Oliver Paul Quincy Randolph Sherman Thomas Uncas Victor William Xerxes Yancy Zeus Wolfeschlegelsteinhausenbergerdorffwelchevoralternwarengewissenhaftschaferswessenschafewarenwohlgepflegeundsorgfaltigkeitbeschutzenvonangreifendurchihrraubgierigfeindewelchevoralternzwolftausendjahresvorandieerscheinenvanderersteerdemenschderraumschiffgebrauchlichtalsseinursprungvonkraftgestartseinlangefahrthinzwischensternartigraumaufdersuchenachdiesternwelchegehabtbewohnbarplanetenkreisedrehensichundwohinderneurassevonverstandigmenschlichkeitkonntefortpflanzenundsicherfreuenanlebenslanglichfreudeundruhemitnichteinfurchtvorangreifenvonandererintelligentgeschopfsvonhinzwischensternartigraum* and features a length of 747 characters.
-
-**Suggestion:** Try to avoid any unnecessary minimum or maximum constraints.
-
-### 2.2. Number of elements
-
-[Disclaimer](#7-work-in-progress-disclaimer)
-
-  
-Did you know that the subject of proper human names is so broad that there is a whole scientific discipline called [anthroponymy](https://en.m.wikipedia.org/wiki/Anthroponymy)?
-
-Next to the common names with two or more elements ([polynym](https://en.wiktionary.org/wiki/polynym)) there are also some with just one ([mononym](https://en.m.wikipedia.org/wiki/Mononymous_person)). In this case we are not talking about artistic pseudonyms like Cher, Prince, Bono, Otto but about people who really have just one legal name like [Wookey](http://wookware.org/name.html).
-
-W3C's recommendation:
-If designing a form or database that will accept names from people with a variety of backgrounds, you should ask yourself whether you really need to have separate fields for given name and Surname.
-https://www.w3.org/International/questions/qa-personal-names
-
-
-| Possible elements of names | example |
-|-|-|
-| Title | . |
-| **Given name** <br> aka First name<br> aka Forename <br> aka Christian name | . |
-| **Middle name** | . |
-| **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| . |
-| **Pseudonym** <br>Nick name <br>Stage name <br>pen name <br>nom de plume <br>literary double| . |
-
-
-**Suggested solution:** No matter if your form has fields for first, middle and last name or like some experts suggest just one field for full name: The best is that you do not validate or filter the number of elements. Als long as the whole name fits into the length limits described later. Also be prepared to allow either the first or last name to be empty.
-
-### 2.3. Order of elements
-
-[Disclaimer](#7-work-in-progress-disclaimer)
-
-E.g. "Western Order" vs. "Eastern Order".
-
-Suggested solution:
-...
-
- 
-
-### 2.4. Characters
+### 2.1. Characters
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
@@ -115,7 +55,7 @@ Suggested solution:
 **Suggested solution:** ...
 
  
- ### 2.5. Special characters
+### 2.2. Special characters
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
@@ -156,7 +96,115 @@ Suggested solution:
 
 
 
-### 2.6. Similarity to reserved words
+### 2.3. Symbols or unusual terms
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
+
+One of the most recent examples is for sure singer Grimes and Elon Musk naming their son [X Æ A-XII](https://en.wikipedia.org/wiki/Grimes_(musician)#Personal_life). In comparison the name [Apple](https://en.wikipedia.org/wiki/Gwyneth_Paltrow#Relationships_and_children) for the daughter of Gwyneth Paltrow and even the names [North, Saint, Chicago and Palm](https://en.wikipedia.org/wiki/Kim_Kardashian#Health_and_pregnancies) for the children of Kim Kardashian are almost boring.
+
+But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
+
+An aspect which should be mentioned as well is people with which are unintentionally similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charlie Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
+[James Bond](https://www.linkedin.com/pub/dir?firstName=James&lastName=Bond&trk=people-guest_people-search-bar_search-submit) or [Peter Pan](https://www.linkedin.com/pub/dir?firstName=Peter&lastName=Pan&trk=people-guest_people-search-bar_search-submit)?
+
+
+**Suggested solution:** As far as I know it is a really rare occasion that people use symbols as names. So nobody can expect forms to handle this. Another story are names which sound unusual because they are lent from cities, countries, celebrities or fictional characters. Who would we be to judge the name choices of other people no matter if we personally think it is esthetic or not? As long as letters from the regular alphabet are used, we should not filter names because we can not.
+
+
+
+### 2.4. Spaces
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
+Yes, of course this a point which should go without saying but let us look for a moment at the redundant space at the beginning or end of an input which could also trigger a negative validation. We do this not only for the sake of completeness but also because exactly such things have a tendency to cause behaviors which are the hardest to catch for the exact reason that they are so obvious. 
+
+Good news: Here trouble is easy to avoid by trimming or stripping possible whitespace with the respectable functions.
+
+
+| Language | Doc | Example |
+| -- | -- | -- | 
+| Javascript | [Docs](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) | ```let inputTrimmed = inputOriginal.trim(); ``` |
+| Java | [Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#trim()) | ```String inputTrimmed = inputOriginal.trim(); ``` |
+| PHP | [Docs](https://www.php.net/manual/de/function.trim.php) | ```$input_trimmed = trim($input_original); ``` |
+| Python | [Docs](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.strip) | ```input_trimmed = input_original.strip() ``` |
+| Go | [Docs](https://pkg.go.dev/strings#TrimSpace) | ```var inputTrimmed = strings.TrimSpace(inputOriginal) ``` |
+
+Wikipedia features an even bigger list of [trimming examples in programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)#trim) as well as some basic info about the subject of [trimming](https://en.wikipedia.org/wiki/Trimming_(computer_programming)).
+
+Beware about the different kinds of whitespace ([25 examples for whitespace in Unicode on Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character#Spaces_in_Unicode)) and that the interpretation of them can vary from method to method. Luckily our use case should be mostly about the spacebar whitespace ([U+0020](https://www.compart.com/de/unicode/U+0020)) which is part of the 128 characters of the Unicode Latin Basic block and should be covered by most of the methods as standard.
+
+Suggested solution:
+Using trim or strip functions with the input. 
+
+
+### 2.5. Case sensitivity
+
+
+### 2.6. Number of elements
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
+  
+Did you know that the subject of proper human names is so broad that there is a whole scientific discipline called [anthroponymy](https://en.m.wikipedia.org/wiki/Anthroponymy)?
+
+Next to the common names with two or more elements ([polynym](https://en.wiktionary.org/wiki/polynym)) there are also some with just one ([mononym](https://en.m.wikipedia.org/wiki/Mononymous_person)). In this case we are not talking about artistic pseudonyms like Cher, Prince, Bono, Otto but about people who really have just one legal name like [Wookey](http://wookware.org/name.html).
+
+W3C's recommendation:
+If designing a form or database that will accept names from people with a variety of backgrounds, you should ask yourself whether you really need to have separate fields for given name and Surname.
+https://www.w3.org/International/questions/qa-personal-names
+
+
+| Possible elements of names | example |
+|-|-|
+| Title | . |
+| **Given name** <br> aka First name<br> aka Forename <br> aka Christian name | . |
+| **Middle name** | . |
+| **Surname** <br> aka Last name <br> aka Family name <br><br> also <br> Maiden name <br> Birth name| . |
+| **Pseudonym** <br>Nick name <br>Stage name <br>pen name <br>nom de plume <br>literary double| . |
+
+
+**Suggested solution:** No matter if your form has fields for first, middle and last name or like some experts suggest just one field for full name: The best is that you do not validate or filter the number of elements. Als long as the whole name fits into the length limits described later. Also be prepared to allow either the first or last name to be empty.
+
+
+### 2.7. Length of elements
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
+The length of all full names that came up during the research for this project ranges from 1 to 747 characters.
+
+This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fields for given name, middle name and family name.
+
+Let us first start with the allowed minimum length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
+
+The smallest common given names in western countries are written with 3 letters like "Jim", "Joe", "Max", "Sam", "Sue" or "Tom". But as countless examples over the years document especially online users with an asian background may have first or last names with just two letters like software developer [Charly Ho](https://dev.to/carlymho/whats-in-a-name-validation-4b41) or pro golfer [Lucy Li](https://en.wikipedia.org/wiki/Lucy_Li).
+
+The issue with allowed maximum lengths is often linked to very practical reasons like technical limits in IT systems. For example until 2013 the infrastructure used by the authorities in the US state of Hawaii could only process names with up to 35 characters. Then Hawaiian woman [Janice "Lokelani" Keihanaikukauakahihulihe'ekahaunaele](https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579) had to take legal measures to make the state change this. Under the new policy, the state's cards will have room for 40 characters in "first and last names and 35 characters for middle names.
+
+The [W3C is clear in its recommendation](https://www.w3.org/International/questions/qa-personal-names) "Bear in mind that names in some cultures can be quite a lot longer than your own. ... Avoid limiting the field size for names in your database."
+
+Examples for length standards:
+| Standard | Rules about names |
+|-|-|
+| [ISO/IEC 7813](https://en.m.wikipedia.org/wiki/ISO/IEC_7813), Defines properties of financial transaction cards, such as ATM or credit cards. | Name, 2 to 26 characters (including separators, where appropriate, between surname, given name etc.)|
+
+
+The Guinness World Records - formerly the Guinness Book of Records - currently lists as [longest personal name](https://www.guinnessworldrecords.com/world-records/67285-longest-personal-name) Hubert Blaine Wolfe­schlegel­stein­hausen­berger­dorff Sr. The name in full is * *Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvin John Kenneth Lloyd Martin Nero Oliver Paul Quincy Randolph Sherman Thomas Uncas Victor William Xerxes Yancy Zeus Wolfeschlegelsteinhausenbergerdorffwelchevoralternwarengewissenhaftschaferswessenschafewarenwohlgepflegeundsorgfaltigkeitbeschutzenvonangreifendurchihrraubgierigfeindewelchevoralternzwolftausendjahresvorandieerscheinenvanderersteerdemenschderraumschiffgebrauchlichtalsseinursprungvonkraftgestartseinlangefahrthinzwischensternartigraumaufdersuchenachdiesternwelchegehabtbewohnbarplanetenkreisedrehensichundwohinderneurassevonverstandigmenschlichkeitkonntefortpflanzenundsicherfreuenanlebenslanglichfreudeundruhemitnichteinfurchtvorangreifenvonandererintelligentgeschopfsvonhinzwischensternartigraum* and features a length of 747 characters.
+
+**Suggestion:** Try to avoid any unnecessary minimum or maximum constraints.
+
+
+### 2.8. Order of elements
+
+[Disclaimer](#7-work-in-progress-disclaimer)
+
+E.g. "Western Order" vs. "Eastern Order".
+
+Suggested solution:
+...
+
+ 
+### 2.9. Reserved words
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
@@ -181,7 +229,7 @@ Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic wo
 
 **Suggested solution:** Implement systemtests to make sure that the obvious names are correctly handled during the whole business process.
 
-### 2.7. Similarity to profanity words
+### 2.10. Profanity filtering
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
@@ -195,45 +243,6 @@ A quite current and hilarious case happened in late 2020 at a paleontologists co
 
 One alternative is not to block entries but to flag them so that support members can take a closer look afterwards.
 
-### 2.8. Symbols or unusual terms as names
-
-[Disclaimer](#7-work-in-progress-disclaimer)
-
-
-One of the most recent examples is for sure singer Grimes and Elon Musk naming their son [X Æ A-XII](https://en.wikipedia.org/wiki/Grimes_(musician)#Personal_life). In comparison the name [Apple](https://en.wikipedia.org/wiki/Gwyneth_Paltrow#Relationships_and_children) for the daughter of Gwyneth Paltrow and even the names [North, Saint, Chicago and Palm](https://en.wikipedia.org/wiki/Kim_Kardashian#Health_and_pregnancies) for the children of Kim Kardashian are almost boring.
-
-But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
-
-An aspect which should be mentioned as well is people with which are unintentionally similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charlie Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
-[James Bond](https://www.linkedin.com/pub/dir?firstName=James&lastName=Bond&trk=people-guest_people-search-bar_search-submit) or [Peter Pan](https://www.linkedin.com/pub/dir?firstName=Peter&lastName=Pan&trk=people-guest_people-search-bar_search-submit)?
-
-
-**Suggested solution:** As far as I know it is a really rare occasion that people use symbols as names. So nobody can expect forms to handle this. Another story are names which sound unusual because they are lent from cities, countries, celebrities or fictional characters. Who would we be to judge the name choices of other people no matter if we personally think it is esthetic or not? As long as letters from the regular alphabet are used, we should not filter names because we can not.
-
-
-### 2.9. Spare whitespace
-
-[Disclaimer](#7-work-in-progress-disclaimer)
-
-Yes, of course this a point which should go without saying but let us look for a moment at the redundant space at the beginning or end of an input which could also trigger a negative validation. We do this not only for the sake of completeness but also because exactly such things have a tendency to cause behaviors which are the hardest to catch for the exact reason that they are so obvious. 
-
-Good news: Here trouble is easy to avoid by trimming or stripping possible whitespace with the respectable functions.
-
-
-| Language | Doc | Example |
-| -- | -- | -- | 
-| Javascript | [Docs](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) | ```let inputTrimmed = inputOriginal.trim(); ``` |
-| Java | [Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#trim()) | ```String inputTrimmed = inputOriginal.trim(); ``` |
-| PHP | [Docs](https://www.php.net/manual/de/function.trim.php) | ```$input_trimmed = trim($input_original); ``` |
-| Python | [Docs](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.strip) | ```input_trimmed = input_original.strip() ``` |
-| Go | [Docs](https://pkg.go.dev/strings#TrimSpace) | ```var inputTrimmed = strings.TrimSpace(inputOriginal) ``` |
-
-Wikipedia features an even bigger list of [trimming examples in programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)#trim) as well as some basic info about the subject of [trimming](https://en.wikipedia.org/wiki/Trimming_(computer_programming)).
-
-Beware about the different kinds of whitespace ([25 examples for whitespace in Unicode on Wikipedia](https://en.wikipedia.org/wiki/Whitespace_character#Spaces_in_Unicode)) and that the interpretation of them can vary from method to method. Luckily our use case should be mostly about the spacebar whitespace ([U+0020](https://www.compart.com/de/unicode/U+0020)) which is part of the 128 characters of the Unicode Latin Basic block and should be covered by most of the methods as standard.
-
-Suggested solution:
-Using trim or strip functions with the input. 
 
 
 ## 3. Languages
