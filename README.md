@@ -487,6 +487,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Ishida**, Richard (W3C): [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), 2011-08-17
 
+- **Larson**, Seth Michael: [How does UTF-8 turn “😂” into “F09F9882”?](https://sethmlarson.dev/blog/utf-8), 2022-02-08
+
 - **McEvoy**, Gearóidín: [Opinion: My name is Gearóidín and I want the Irish State to give me back my fadas](https://www.thejournal.ie/readme/opinion-my-name-is-integral-to-my-identity-and-i-want-the-irish-state-to-give-me-back-my-fadas-4588701-Apr2019/), 2019-04-19
 
 - **McGuire**, Caroline: [Cleverest con of all time? Man claims he gets free holidays and car rentals after changing his surname to 'Null'](https://www.dailymail.co.uk/travel/travel_news/article-3513652/The-cleverest-time-Man-gets-free-holidays-car-rentals-changing-surname-Null.html), dailymail<area>.co.uk, 2016-03-29
