@@ -5,7 +5,7 @@ const https = require('https');
 
 const LOCAL_BUILD_DIRECTORY = "test_deploy"
 const DEPLOY_DIRECTORY_NAME = "/"
-const PRODUCTION_DIRECTORY_NAME = "master"
+const PRODUCTION_DIRECTORY_NAME = "/"
 const BROKEN_BUILD = "broken"
 const PRODUCTION_URL = "https://name-validation.com/"
 
