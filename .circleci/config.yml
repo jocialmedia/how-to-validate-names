@@ -1,29 +1,23 @@
-version: 2.1
-orbs:
-  node: circleci/node@5.0.2
-
+version: 2
 jobs:
-  build-deploy:
-    executor:
-      name: node/default
-      tag: '12.16.1'
-    # working_directory: ~/temp
+  build:
+    docker:
+      - image: circleci/node:10
     steps:
       - checkout
-      - node/install-packages
-      # - run: npm run build
-      - run:
-          name: PWD
-          command: pwd
-      - run:
-          name: Deploying
-          command: node ./ftp-deploy.js $FTP_ADDRESS $FTP_USER $FTP_PASSWORD
-
-workflows:
-  version: 2
-  main:
-    jobs:
-      - build-deploy:
-          filters:
-            branches:
-              only: main
+      # Download and cache dependencies.
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # Fallback to using the latest cache if no exact match is found.
+          - v1-dependencies-
+      - run: yarn install
+      - save_cache:
+           paths:
+             - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      # Build the application.
+      # - run: yarn generate
+      # Run the FTP deployment script.
+      # - run: yarn ftp-deploy
+      - run: node deploy.js
