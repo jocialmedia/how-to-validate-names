@@ -7,11 +7,15 @@ jobs:
     executor:
       name: node/default
       tag: '12.16.1'
-    working_directory: ~/temp
+    # working_directory: ~/temp
     steps:
       - checkout
+      - pwd
       # - node/install-packages
       # - run: npm run build
+      - run:
+          name: PWD
+          command: pwd
       - run:
           name: Deploying
           command: node ./ftp-deploy.js $FTP_ADDRESS $FTP_USER $FTP_PASSWORD
