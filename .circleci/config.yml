@@ -9,8 +9,8 @@ jobs:
       tag: '12.16.1'
     steps:
       - checkout
-      - node/install-packages
-      - run: npm run build
+      # - node/install-packages
+      # - run: npm run build
       - run:
           name: Deploying
           command: node ./ftp-deploy.js $FTP_ADDRESS $FTP_USER $FTP_PASSWORD
