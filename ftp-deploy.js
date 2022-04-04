@@ -4,7 +4,7 @@ const basicFtpClient = new ftp.Client()
 const https = require('https');
 
 const LOCAL_BUILD_DIRECTORY = "test_deploy"
-const DEPLOY_DIRECTORY_NAME = "temp"
+const DEPLOY_DIRECTORY_NAME = "/"
 const PRODUCTION_DIRECTORY_NAME = "master"
 const BROKEN_BUILD = "broken"
 const PRODUCTION_URL = "https://name-validation.com/"
