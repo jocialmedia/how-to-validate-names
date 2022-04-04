@@ -7,7 +7,7 @@ jobs:
     executor:
       name: node/default
       tag: '12.16.1'
-    working_directory: ~/cc_test
+    working_directory: ~/
     steps:
       - checkout
       # - node/install-packages
