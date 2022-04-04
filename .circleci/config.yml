@@ -10,7 +10,6 @@ jobs:
     # working_directory: ~/temp
     steps:
       - checkout
-      - pwd
       # - node/install-packages
       # - run: npm run build
       - run:
