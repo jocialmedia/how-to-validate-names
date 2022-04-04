@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "ftp-deploy": "^2.4.1"
+    "basic-ftp": "^4.6.6",
+    "ftp-deploy": "^2.4.1",
+    "https": "^1.0.0"
   }
 }
