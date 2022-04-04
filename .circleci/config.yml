@@ -1,17 +1,25 @@
-version: '2.1'
+version: 2.1
 orbs:
   node: circleci/node@5.0.2
+
 jobs:
-  install-node-example:
-    docker:
-      - image: 'cimg/base:stable'
+  build-deploy:
+    executor:
+      name: node/default
+      tag: '12.16.1'
     steps:
       - checkout
-      - node/install:
-          install-yarn: true
-          node-version: '16.13'
-      - run: node --version
+      - node/install-packages
+      - run: npm run build
+      - run:
+          name: Deploying
+          command: node ./ftp-deploy.js $FTP_ADDRESS $FTP_USER $FTP_PASSWORD
+
 workflows:
-  test_my_app:
+  version: 2
+  main:
     jobs:
-      - install-node-example
+      - build-deploy:
+          filters:
+            branches:
+              only: master
