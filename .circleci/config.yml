@@ -13,11 +13,10 @@ jobs:
           - v1-dependencies-
       - run: yarn install
       - save_cache:
-           paths:
-             - node_modules
+          paths:
+            - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       # Build the application.
-      # - run: yarn generate
+      - run: yarn generate
       # Run the FTP deployment script.
-      # - run: yarn ftp-deploy
-      - run: node deploy.js
+      - run: node ftp-deploy.js
