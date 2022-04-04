@@ -81,10 +81,10 @@ function createBackupDirectoryName(directories) {
   const productionDirectory = directories
     .find(fileInfo => fileInfo.name === PRODUCTION_DIRECTORY_NAME)
 
-  const formattedDate = formatDate(productionDirectory.modifiedAt)
+  //const formattedDate = formatDate(productionDirectory.modifiedAt)
 
   const numberOfDateOccurrences = directories
-    .filter(fileInfo => fileInfo.name.includes(formattedDate))
+    //.filter(fileInfo => fileInfo.name.includes(formattedDate))
     .length
 
   if(numberOfDateOccurrences === 0){
