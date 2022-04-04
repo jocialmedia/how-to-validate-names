@@ -17,6 +17,6 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       # Build the application.
-      - run: yarn generate
+      # - run: yarn generate
       # Run the FTP deployment script.
       - run: node ftp-deploy.js
