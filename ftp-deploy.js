@@ -11,7 +11,7 @@ const config = {
   // We store the credentials for
   // our FTP server as environemnt
   // variables for security reasons.
-  host: process.env.FTP_HOST,
+  host: process.env.FTP_ADDRESS,
   password: process.env.FTP_PASSWORD,
   user: process.env.FTP_USER,
 };
