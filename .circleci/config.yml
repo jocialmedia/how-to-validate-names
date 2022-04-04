@@ -14,7 +14,7 @@ jobs:
       # - run: npm run build
       - run:
           name: Deploying
-          command: node .ftp-deploy.js $FTP_ADDRESS $FTP_USER $FTP_PASSWORD
+          command: node ./ftp-deploy.js $FTP_ADDRESS $FTP_USER $FTP_PASSWORD
 
 workflows:
   version: 2
