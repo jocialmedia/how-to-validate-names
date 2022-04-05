@@ -122,6 +122,36 @@ Yes, of course this a point which should go without saying but let us look for a
 Good news: Here trouble is easy to avoid by trimming or stripping possible whitespace with the respectable functions.
 
 
+List of whitespaces
+
+| Unicode | Name |
+|-|-|
+| U+000B | Line Tabulation (\v) <VT> |
+| U+000C | Form Feed (\f) <FF> |
+| U+00A0 | No-Break Space <NBSP> |
+| U+0085 | Next Line |
+| U+1680 | Ogham Space Mark |
+| U+180E | Mongolian Vowel Separator <MVS> |
+| U+feff | Zero Width No-Break Space <BOM> |
+| U+2000 | En Quad |
+| U+2001 | Em Quad |
+| U+2002 | En Space <ENSP> |
+| U+2003 | Em Space <EMSP> |
+| U+2004 | Three-Per-Em |
+| U+2005 | Four-Per-Em |
+| U+2006 | Six-Per-Em |
+| U+2007 | Figure Space |
+| U+2008 | Punctuation Space <PUNCSP> |
+| U+2009 | Thin Space|
+| U+200A | Hair Space|
+| U+200B | Zero Width Space <ZWSP> |
+| U+2028 | Line Separator |
+| U+2029 | Paragraph Separator |
+| U+202F | Narrow No-Break Space |
+| U+205f | Medium Mathematical Space |
+| U+3000 | Ideographic Space |
+
+
 | Language | Doc | Example |
 | -- | -- | -- | 
 | Javascript | [Docs](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) | ```let inputTrimmed = inputOriginal.trim(); ``` |
