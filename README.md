@@ -442,16 +442,18 @@ The current work in progress version of the data set can be accessed [here](/app
 
 The short compressed form how to deal with potential challenges for failing validation:
 
-|Challenge |Solution |
+| Challenge | Solution |
 |-|-|
-|Length of elements | | 
-|Number of elements |Best solution: Only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty. |
-|Order of elements | |
-|Characters | |
-|Similarity to reserved words |Implement systemtests to make sure that the obvious cases like "Null" or "Sample" are correctly handled during the whole business process. |
-|Similarity to profanity words | |
-|Symbols or unusual terms as names |Accept everything as long as it consists of letters from the regular alphabet(s). |
-|Spare whitespace at beginning or end |Trim it. |
+| 2.1. Characters | Use utf8 where possible|
+| 2.2. Special characters | Allow characters like commas, apostrophes |
+| 2.3. Symbols or unusual terms | Accept everything as long as it consists of letters from the regular alphabet(s). |
+| 2.4. Spaces | Trim it at the beginning or end of the name. |
+| 2.5. Case sensitivity | There are so many specia cases that it makes sense to ignore this by setting all input to lower case for validation . |
+| 2.6. Number of elements | Best solution: Only one field for all name elements.<br>Second best solution: Fields for first and last name but one may stay empty. |
+| 2.7. Length of elements | |
+| 2.8. Order of elements | |
+| 2.9. Reserved words | Implement systemtests to make sure that the often troubling cases like "Null" or "Sample" are correctly handled during the whole business process. |
+| 2.10. Profanity filtering | If you must use filter only for flagging entries but not for immediate blocking. |
 
 
 ### 4.3. Test data
@@ -570,9 +572,6 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 - **Zentgraf**, David C.: [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/), 2015-04-27
 
   
-
-
-
 
 
 ## 6. Glossary
