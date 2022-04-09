@@ -352,7 +352,7 @@
         "language": "lav",
         "use_case": "letter_ž",
         "example_first_name": "Tatjana",
-        "example_last_name": "Ždanoka",
+        "example_last_name": "xxxxx",
         "info": "https://www.europarl.europa.eu/meps/de/28619/TATJANA_ZDANOKA/home",
         "comment": ""
     }, {
@@ -653,9 +653,9 @@
     }, {
         "language": "slk",
         "use_case": "letter_é",
-        "example_first_name": "Ivan",
-        "example_last_name": "Dérer",
-        "info": "https://en.wikipedia.org/wiki/Ivan_D%C3%A9rer",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
         "comment": ""
     }, {
         "language": "slk",
@@ -681,16 +681,16 @@
     }, {
         "language": "slk",
         "use_case": "letter_í",
-        "example_first_name": "Simona",
-        "example_last_name": "Petrík",
-        "info": "https://en.wikipedia.org/wiki/Simona_Petr%C3%ADk",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
         "comment": ""
     }, {
         "language": "slk",
         "use_case": "letter_ľ",
-        "example_first_name": "Vasiľ",
-        "example_last_name": "Biľak",
-        "info": "https://en.wikipedia.org/wiki/Vasi%C4%BE_Bi%C4%BEak",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
         "comment": ""
     }, {
         "language": "slk",
@@ -702,9 +702,9 @@
     }, {
         "language": "slk",
         "use_case": "letter_ó",
-        "example_first_name": "Róbert",
-        "example_last_name": "Vittek",
-        "info": "https://sk.wikipedia.org/wiki/R%C3%B3bert_Vittek",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
         "comment": ""
     }, {
         "language": "slk",
@@ -737,9 +737,9 @@
     }, {
         "language": "slk",
         "use_case": "letter_ú",
-        "example_first_name": "Martin",
-        "example_last_name": "Bútora",
-        "info": "https://en.wikipedia.org/wiki/Martin_B%C3%BAtora",
+        "example_first_name": "",
+        "example_last_name": "",
+        "info": "",
         "comment": ""
     }, {
         "language": "slk",
