@@ -553,6 +553,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **The Associated Press**: [Why, O Why, Doesn't That Name Compute?](https://www.nytimes.com/1991/08/28/us/why-o-why-doesn-t-that-name-compute.html), 1991-08-28
 
+- **Unknown**: [Ġanni becomes first baby named using Maltese fonts after IT system change](https://timesofmalta.com/articles/view/ganni-becomes-first-baby-named-using-maltese-fonts-after-it-system.840896), Times of Malta, 2020-12-23
+
 - **Unknown**: [Name Validation For Developers 101](https://businesscomputingworld.co.uk/name-validation-for-developers-101), businesscomputingworld<area>.co.uk, 2019-02-05
 
 - **Unknown**: [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
@@ -572,6 +574,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 - **Zentgraf**, David C.: [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/), 2015-04-27
 
   
+
+
 
 
 ## 6. Glossary
