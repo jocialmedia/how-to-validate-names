@@ -239,9 +239,9 @@
     }, {
         "language": "est",
         "use_case": "letter_ö",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "est",
@@ -386,9 +386,9 @@
     }, {
         "language": "lit",
         "use_case": "letter_į",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "lit",
@@ -400,9 +400,9 @@
     }, {
         "language": "lit",
         "use_case": "letter_ų",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "lit",
@@ -421,16 +421,16 @@
     }, {
         "language": "pol",
         "use_case": "letter_ą",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "pol",
         "use_case": "letter_ć",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "pol",
@@ -484,9 +484,9 @@
     }, {
         "language": "por",
         "use_case": "letter_à",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "por",
@@ -554,9 +554,9 @@
     }, {
         "language": "por",
         "use_case": "letter_õ",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "por",
@@ -568,9 +568,9 @@
     }, {
         "language": "por",
         "use_case": "letter_ü",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "ron",
