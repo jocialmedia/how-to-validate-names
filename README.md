@@ -37,7 +37,7 @@
 
 **TLDR:** You need information about name validation in online forms and software applications? After it is finished this project should contain amongst other things a list of suggestions, some prepared snippets and regex formulas for easy implementation.
 
-**Long Read:** Software developers are powerful. A small decision in a online form can impact the lives of thousands of people. If the validation is to strict, it can prevent humans with a more complex name from traveling or accessing financial support from the state. If a shopping platform does not accept your name, you can choose another one. But the more essential services are managed online, the more often people have no alternative to apply for drivers licenses, passports or certificates and if the only available form tells them that their name is not valid they are stuck.
+**Long Read:** Software developers are powerful. A small decision in an online form can impact the lives of thousands of people. If the validation is too strict, it can prevent humans with a more complex name from traveling or accessing financial support from the state. If a shopping platform does not accept your name, you can choose another one. But the more essential services are managed online, the more often people have no alternative to apply for drivers licenses, passports or certificates and if the only available form tells them that their name is not valid they are stuck.
 
 This whole issue is extremely complex because the factors why forms are like they are can be juridical, technical or sometimes simply based on human assumptions. In the everyday life of a software developer nobody has the time to dig into this whole issue. And also the existing articles and sources about this topic still demand some time to study and implement them.
 
@@ -105,11 +105,11 @@ One of the most recent examples is for sure singer Grimes and Elon Musk naming t
 
 But also grown ups voluntarily change their names to [Tyrannosaurus Rex Joseph Gold](https://www.npr.org/sections/thetwo-way/2012/05/08/152251210/nebraska-man-changes-his-name-to-tyrannosaurus-rex) (2012) or [Beezow Doo-Doo Zopittybop-Bop-Bop](https://www.npr.org/sections/thetwo-way/2012/01/09/144933779/wisconsin-police-arrest-beezow-doo-doo-zopittybop-bop-bop) (2011). Then there is the case of David Fearn from Walsall who changed his name to a collection of all James Bond movies. His official name now is ["James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty's Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"](https://www.scotsman.com/news/uk-news/names-bond-times-21-2510485) (2006).
 
-An aspect which should be mentioned as well is people with which are unintentionally similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how do you want to distinguish between fake entries and people who are really named [Charlie Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
+An aspect which should be mentioned as well is people with which are unintentionally similar to celebrities or fictional characters. Developers could try to avoid fake entries by filtering those out. But how could anyone distinguish between fake entries and people who are really named [Charlie Brown](https://www.linkedin.com/pub/dir?firstName=charly&lastName=brown&trk=guest_homepage-basic_people-search-bar_search-submit), 
 [James Bond](https://www.linkedin.com/pub/dir?firstName=James&lastName=Bond&trk=people-guest_people-search-bar_search-submit) or [Peter Pan](https://www.linkedin.com/pub/dir?firstName=Peter&lastName=Pan&trk=people-guest_people-search-bar_search-submit)?
 
 
-**Suggested solution:** As far as I know it is a really rare occasion that people use symbols as names. So nobody can expect forms to handle this. Another story are names which sound unusual because they are lent from cities, countries, celebrities or fictional characters. Who would we be to judge the name choices of other people no matter if we personally think it is esthetic or not? As long as letters from the regular alphabet are used, we should not filter names because we can not.
+**Suggested solution:** As far as I know it is a really rare occasion that people use symbols as names. So nobody can expect forms to handle this. Another story are names which sound unusual because they are lend from cities, countries, celebrities or fictional characters. Who would we be to judge the name choices of other people no matter if we personally think it is aesthetic or not? As long as letters from the regular alphabet are used, we should not filter names because we can not.
 
 
 
@@ -117,7 +117,7 @@ An aspect which should be mentioned as well is people with which are unintention
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
-Yes, of course this a point which should go without saying but let us look for a moment at the redundant space at the beginning or end of an input which could also trigger a negative validation. We do this not only for the sake of completeness but also because exactly such things have a tendency to cause behaviors which are the hardest to catch for the exact reason that they are so obvious. 
+Yes, of course this is a point which should go without saying but let us look for a moment at the redundant space at the beginning or end of an input which could also trigger a negative validation. We do this not only for the sake of completeness but also because exactly such things have a tendency to cause behaviors which are the hardest to catch for the exact reason that they are so obvious. 
 
 Good news: Here trouble is easy to avoid by trimming or stripping possible whitespace with the respectable functions.
 
@@ -205,9 +205,9 @@ The length of all full names that came up during the research for this project r
 
 This topic overlaps with [2.2. Number of elements](#22-number-of-elements) because when you talk about the accepted length of input it matters if you offer just one field for the whole name or two or more fields for given name, middle name and family name.
 
-Let us first start with the allowed minimum length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so is a good example of the cultural issue I mentioned above when somebody implements restrictions based on the own limited knowledge. 
+Let us first start with the allowed minimum length of an entry. In many cases developers expect at least two to three characters for a name input. It is indeed uncommon for legal names in western society to be shorter so this is a good example of the cultural issue I mentioned above when somebody implements restrictions based on their own limited knowledge. 
 
-The smallest common given names in western countries are written with 3 letters like "Jim", "Joe", "Max", "Sam", "Sue" or "Tom". But as countless examples over the years document especially online users with an asian background may have first or last names with just two letters like software developer [Charly Ho](https://dev.to/carlymho/whats-in-a-name-validation-4b41) or pro golfer [Lucy Li](https://en.wikipedia.org/wiki/Lucy_Li).
+The smallest common given names in western countries are written with 3 letters like "Jim", "Joe", "Max", "Sam", "Sue" or "Tom". But as countless examples over the years document, especially online users with an asian background may have first or last names with just two letters like software developer [Charly Ho](https://dev.to/carlymho/whats-in-a-name-validation-4b41) or pro golfer [Lucy Li](https://en.wikipedia.org/wiki/Lucy_Li).
 
 The issue with allowed maximum lengths is often linked to very practical reasons like technical limits in IT systems. For example until 2013 the infrastructure used by the authorities in the US state of Hawaii could only process names with up to 35 characters. Then Hawaiian woman [Janice "Lokelani" Keihanaikukauakahihulihe'ekahaunaele](https://www.npr.org/sections/thetwo-way/2013/12/31/258673819/hawaiian-woman-gets-ids-that-fit-her-36-character-last-name?t=1645876662579) had to take legal measures to make the state change this. Under the new policy, the state's cards will have room for 40 characters in "first and last names and 35 characters for middle names.
 
@@ -243,9 +243,9 @@ Some of the most known problems with reserved words in computer systems are peop
 
 There are several possible technical reasons and also different ways to avoid them. Using delimiters in CSV files is an important principle (West 2017). [Testing fields for "null" and escaping them as CDATA values](https://stackoverflow.com/questions/4456438/how-to-pass-null-a-real-surname-to-a-soap-web-service-in-actionscript-3) is another one for Actionscript.
 
-On Ycombinator Hackernews a software developer told the story of a customer with who could not make payments because a credit card processor [recognized his surname "Echo" as common Unix shell command and filtered it out](](https://news.ycombinator.com/item?id=12426315)). 
+On Ycombinator Hackernews a software developer told the story of a customer who could not make payments because a credit card processor [recognized his surname "Echo" as a common Unix shell command and filtered it out](](https://news.ycombinator.com/item?id=12426315)). 
 
-Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic word as surname. He got stuck at the Buenos Aires airport when the airline for his connecting flight could not find his ticket. It turned out that a software developer used the surname "Sample" for a systemtest to book and cancel tickets every 10 minutes. The same happened several times to Flickr co-founder [Caterina Fake](https://www.fastcompany.com/1402994/flickr-co-founder-caterina-fake-value-viral-loops-exclusive-qa) who found out at airports that her bookings had been automatically cancelled.
+Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic word as surname. He got stuck at the Buenos Aires airport when the airline for his connecting flight could not find his ticket. It turned out that a software developer used the surname "Sample" for a system test to book and cancel tickets every 10 minutes. The same happened several times to Flickr co-founder [Caterina Fake](https://www.fastcompany.com/1402994/flickr-co-founder-caterina-fake-value-viral-loops-exclusive-qa) who found out at airports that her bookings had been automatically canceled.
 
 
 |Programming language |Reserved words |
@@ -263,9 +263,9 @@ Jeff Sample (Name Validation For Developers 101, 2019) also has a problematic wo
 
 [Disclaimer](#7-work-in-progress-disclaimer)
 
-Whenever people discuss about the sense or nonsense of filtering out possibly obscene words in online communication sooner or later the name of the British town Scunthorpe comes up. Because the socalled [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
+Whenever people discuss about the sense or nonsense of filtering out possibly obscene words in online communication sooner or later the name of the British town Scunthorpe comes up. Because the so called [Scunthorpe problem](https://en.m.wikipedia.org/wiki/Scunthorpe_problem) became the central synonym for filter measures which perhaps started with good moral intentions but ended up causing trouble.
 
-As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The French had similar issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ where victims of filtering.
+As it turned out citizens of Scunthorpe could not apply for a AOL connection in 1996 because the name of their town contains the substring "cunt". Similar examples can be found in practically any language. The French had similar issues with the town of [Bitche](https://fr.m.wikipedia.org/wiki/Problème_de_Scunthorpe). In [Germany](https://de.m.wikipedia.org/wiki/Scunthorpe-Problem) terms like "**anal**ysis" or „**Sex**tett“ or „Staat**sex**amen“ were victims of filtering.
 
 A quite current and hilarious case happened in late 2020 at a paleontologists conference. Due to a - [like the Guardian calls it „overzealous“](https://www.theguardian.com/science/2020/oct/16/profanity-filter-bones-paleontologists-conference) - profanity filter terms like "bone", "pubic", and "stream" where censored from the conference online forum.
 
@@ -468,9 +468,9 @@ Concept:
 
 - All letters are checked in the language they originate from. For example German politician [Thomas de Maizière](https://en.wikipedia.org/wiki/Thomas_de_Maizi%C3%A8re) has an è in his surname because his ancestors lived in France. But this letter is not included in the German test cases.
 
-- At first my idea was to use a smaller number of names which cover as many cases as possible then I realized it is better to have one name for each letter so the result is much more clearer if a test fails.
+- At first my idea was to use a smaller number of names which cover as many cases as possible then I realized it is better to have one name for each letter so the result is much more unambiguously if a test fails.
 
-- If possible for the letters I will use simple names. So instead for "ß" instead of "Franz-Josef Strauß" who has a double-barrel given name I will use composer Johann Strauß. Or instead of [Lina Gálvez Muñoz](https://www.europarl.europa.eu/meps/de/197702/LINA_GALVEZ+MUNOZ/home) I will use [Jordi Cañas](https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home)
+- If possible for the letters I will use simple names. So for "ß" instead of "Franz-Josef Strauß" who has a double-barrel given name I will use composer Johann Strauß. Or instead of [Lina Gálvez Muñoz](https://www.europarl.europa.eu/meps/de/197702/LINA_GALVEZ+MUNOZ/home) I will use [Jordi Cañas](https://www.europarl.europa.eu/meps/de/126644/JORDI_CANAS/home)
 
 The current work in progress version of the data set can be accessed [here](/app/public/data/test-data.json).
 
