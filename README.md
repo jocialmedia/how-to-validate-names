@@ -519,6 +519,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Ishida**, Richard (W3C): [Personal names around the world](https://www.w3.org/International/questions/qa-personal-names.en), 2011-08-17
 
+- **Krawczyk**, Paweł : [Input validation of free-form Unicode text in Python](https://web.archive.org/web/20170717174432/https://ipsec.pl/python/2017/input-validation-free-form-unicode-text-python.html/), 2017-06-13
+
 - **Larson**, Seth Michael: [How does UTF-8 turn “😂” into “F09F9882”?](https://sethmlarson.dev/blog/utf-8), 2022-02-08
 
 - **McEvoy**, Gearóidín: [Opinion: My name is Gearóidín and I want the Irish State to give me back my fadas](https://www.thejournal.ie/readme/opinion-my-name-is-integral-to-my-identity-and-i-want-the-irish-state-to-give-me-back-my-fadas-4588701-Apr2019/), 2019-04-19
@@ -555,6 +557,8 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Unknown**: [Name Validation For Developers 101](https://businesscomputingworld.co.uk/name-validation-for-developers-101), businesscomputingworld<area>.co.uk, 2019-02-05
 
+- **Unknown**: [OWASP Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+
 - **Unknown**: [@yournameisvalid](https://twitter.com/yournameisvalid), Twitter account with examples for wrong name validations, 2022
 
 - **Various authors**: [A Guide to Names and Naming Practices](https://www.fbiic.gov/public/2008/nov/Naming_practice_guide_UK_2006.pdf), International Criminal Police Organization (Interpol), 2006-03-31
@@ -571,7 +575,10 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 
 - **Zentgraf**, David C.: [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/), 2015-04-27
 
-  
+
+
+
+
 
 
 ## 6. Glossary
