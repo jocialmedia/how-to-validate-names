@@ -5,7 +5,7 @@ const glob = require(`glob`);
 
 const EXPIRATION_DATE_IN_DAYS = 7;
 
-const basePath = `./app/dist`;
+const basePath = `./app/dist/`;
 const destinationPath = `/`;
 const config = {
   // We store the credentials for
