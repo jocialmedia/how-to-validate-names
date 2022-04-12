@@ -578,11 +578,7 @@ Based on presentation on AlterConf Chicago [What's in a Name (Validation)?](http
 - **Zentgraf**, David C.: [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/), 2015-04-27
 
 
-
-
-
-
-
+ 
 
 
 ## 6. Glossary
