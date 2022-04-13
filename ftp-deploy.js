@@ -21,8 +21,7 @@ const ftpClient = new FtpClient();
 function createDirectory(destination) {
   return ftpClient.mkdir(destination, true, (error) => {
     if (error) throw error;
-
-    ftpClient.end();
+      ftpClient.end();
   });
 }
 

@@ -51,7 +51,7 @@
         "language": "fin",
         "use_case": "letter_ö",
         "example_first_name": "Ville",
-        "example_last_name": "Niinisto",
+        "example_last_name": "Niinistö",
         "info": "https://www.europarl.europa.eu/meps/de/197802/VILLE_NIINISTO/home",
         "comment": ""
     }, {
@@ -100,8 +100,8 @@
         "language": "ces",
         "use_case": "letter_ď",
         "example_first_name": "Naďa",
-        "example_last_name": "Urbánková",
-        "info": "https://cs.wikipedia.org/wiki/Na%C4%8Fa_Urb%C3%A1nkov%C3%A1",
+        "example_last_name": "Konvalinková",
+        "info": "https://en.wikipedia.org/wiki/Na%C4%8Fa_Konvalinkov%C3%A1",
         "comment": ""
     }, {
         "language": "ces",
@@ -239,9 +239,9 @@
     }, {
         "language": "est",
         "use_case": "letter_ö",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "Aavo",
+        "example_last_name": "Mölder",
+        "info": "https://en.wikipedia.org/wiki/Aavo_M%C3%B6lder",
         "comment": ""
     }, {
         "language": "est",
@@ -329,7 +329,7 @@
         "comment": ""
     }, {
         "language": "lav",
-        "use_case": "letter_",
+        "use_case": "letter_ņ",
         "example_first_name": "Andris",
         "example_last_name": "Bērziņš",
         "info": "https://lv.wikipedia.org/wiki/Andris_B%C4%93rzi%C5%86%C5%A1_(politi%C4%B7is,_1955)",
@@ -386,9 +386,9 @@
     }, {
         "language": "lit",
         "use_case": "letter_į",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "lit",
@@ -400,9 +400,9 @@
     }, {
         "language": "lit",
         "use_case": "letter_ų",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "lit",
@@ -421,16 +421,16 @@
     }, {
         "language": "pol",
         "use_case": "letter_ą",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "Adomas Ąžuolas ",
+        "example_last_name": "Audickas",
+        "info": "https://en.wikipedia.org/wiki/Adomas_%C4%84%C5%BEuolas_Audickas",
         "comment": ""
     }, {
         "language": "pol",
         "use_case": "letter_ć",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "pol",
@@ -484,9 +484,9 @@
     }, {
         "language": "por",
         "use_case": "letter_à",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "por",
@@ -554,9 +554,9 @@
     }, {
         "language": "por",
         "use_case": "letter_õ",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "por",
@@ -568,9 +568,9 @@
     }, {
         "language": "por",
         "use_case": "letter_ü",
-        "example_first_name": "missing",
-        "example_last_name": "missing",
-        "info": "missing",
+        "example_first_name": "notfoundyet",
+        "example_last_name": "notfoundyet",
+        "info": "notfoundyet",
         "comment": ""
     }, {
         "language": "ron",
