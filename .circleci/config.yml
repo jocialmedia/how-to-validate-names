@@ -7,9 +7,6 @@ jobs:
     steps:
       - checkout:
           path: ~/how-to-validate-names
-    steps:
-      - checkout:
-          path: ~/how-to-validate-names
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
