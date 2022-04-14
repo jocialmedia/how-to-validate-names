@@ -2,31 +2,51 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cimg/node:16.13.2
+      - image: circleci/node:12
+    parallelism: 1
     working_directory: ~/how-to-validate-names/app
     steps:
       - checkout:
           path: ~/how-to-validate-names
+      - attach_workspace:
+          at: /tmp/workspace
       - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # Fallback to using the latest cache if no exact match is found.
-          - v1-dependencies-
+          key: v1-yarn-{{ checksum "yarn.lock" }}
       - run: yarn install
       - save_cache:
+          key: v1-yarn-{{ checksum "yarn.lock" }}
           paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+            - ./node_modules
       - run: yarn build
-      # Run the FTP deployment script.
-      - run: node ftp-deploy.js
+      - persist_to_workspace:
+          root: .
+          paths: dist
+  deploy:
+      docker:
+        - image: circleci/php:7.1.5-browsers
+      working_directory: ~/how-to-validate-names/app
+      steps:
+      - checkout:
+          path: ~/how-to-validate-names
+      - attach_workspace:
+          at: /tmp/workspace
+      - run: 
+          name: Deploy Master Branch
+          command: |
+            sudo apt-get update
+            sudo apt-get -qq install git-ftp
+            echo "Deploying project ..."
+            echo $(git status)
+            git ftp init --init-if-not-exist --user "${process.env.FTP_USER}" --passwd "${process.env.FTP_PASSWORD}" ${process.env.FTP_ADDRESS}
 
 workflows:
   version: 2
-  deploy:
+  build-and-deploy:
     jobs:
-      - build:
+      - build
+      - deploy:
+          requires:
+            - build
           filters:
             branches:
-              only:
-                - main
+              only: main
