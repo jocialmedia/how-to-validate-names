@@ -37,7 +37,11 @@
 
 **TLDR:** You need information about name validation in online forms and software applications? After it is finished this project should contain amongst other things a list of suggestions, some prepared snippets and regex formulas for easy implementation.
 
-**Long Read:** Software developers are powerful. A small decision in an online form can impact the lives of thousands of people. If the validation is too strict, it can prevent humans with a more complex name from traveling or accessing financial support from the state. If a shopping platform does not accept your name, you can choose another one. But the more essential services are managed online, the more often people have no alternative to apply for drivers licenses, passports or certificates and if the only available form tells them that their name is not valid they are stuck.
+**Long Read:** Your name is an integral component of your identity. If you can not enter a address or a phone number in an online form it is annoying but does not necessarily feel personal. The rejection of your name however becomes easily more than.
+
+Especially if the characters originate in another culture challenges with validation algorithms may present a constant source of frustration and serve as reminder that your integration is not yet finished no matter how hard your try.
+
+Software developers are powerful. A small decision in an online form can impact the lives of thousands of people. If the validation is too strict, it can prevent humans with a more complex name from traveling or accessing financial support from the state. If a shopping platform does not accept your name, you can choose another one. But the more essential services are managed online, the more often people have no alternative to apply for drivers licenses, passports or certificates and if the only available form tells them that their name is not valid they are stuck.
 
 This whole issue is extremely complex because the factors why forms are like they are can be juridical, technical or sometimes simply based on human assumptions. In the everyday life of a software developer nobody has the time to dig into this whole issue. And also the existing articles and sources about this topic still demand some time to study and implement them.
 
