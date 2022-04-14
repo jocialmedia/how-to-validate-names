@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:12
     parallelism: 1
     working_directory: ~/how-to-validate-names/app
     steps:
@@ -24,7 +24,7 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:12
     parallelism: 1
     working_directory: ~/how-to-validate-names/app
     steps:
