@@ -35,9 +35,9 @@ jobs:
           command: |
             sudo apt-get update
             sudo apt-get -qq install git-ftp
-            echo "Deploying project ..."
+            echo "Deploying this project ..."
             echo $(git status)
-            git ftp init --init-if-not-exist --user "${process.env.FTP_USER}" --passwd "${process.env.FTP_PASSWORD}" ${process.env.FTP_ADDRESS}
+            git ftp init --init-if-not-exist --user ${process.env.FTP_USER} --passwd ${process.env.FTP_PASSWORD} ${process.env.FTP_ADDRESS}
 
 workflows:
   version: 2
