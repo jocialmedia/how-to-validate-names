@@ -10,7 +10,6 @@ jobs:
     steps:
       - checkout:
           path: ~/how-to-validate-names
-      # Download and cache dependencies.
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
@@ -28,9 +27,10 @@ jobs:
 
 workflows:
   version: 2
-  build-and-deploy:
+  deploy:
     jobs:
-      - build
-        filters:
-          branches:
-            only: main
+      - build:
+          filters:
+            branches:
+              only:
+                - main
