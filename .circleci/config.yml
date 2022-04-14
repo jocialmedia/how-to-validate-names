@@ -4,9 +4,10 @@ jobs:
     docker:
       - image: circleci/node:10
     parallelism: 1
-    working_directory: /tmp/workspace
+    working_directory: ~/how-to-validate-names/app
     steps:
-      - checkout
+      - checkout:
+          path: ~/how-to-validate-names
       - attach_workspace:
           at: /tmp/workspace
       - restore_cache:
@@ -25,9 +26,10 @@ jobs:
     docker:
       - image: circleci/node:10
     parallelism: 1
-    working_directory: /tmp/workspace
+    working_directory: ~/how-to-validate-names/app
     steps:
-      - checkout
+      - checkout:
+          path: ~/how-to-validate-names
       - attach_workspace:
           at: /tmp/workspace
       - restore_cache:
