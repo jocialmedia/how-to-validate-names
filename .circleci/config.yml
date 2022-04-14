@@ -23,7 +23,7 @@ jobs:
           paths: dist
   deploy:
       docker:
-        - image: circleci/php:7.1.5-browsers
+        - image: circleci/node:12
       working_directory: ~/how-to-validate-names/app
       steps:
       - checkout:
