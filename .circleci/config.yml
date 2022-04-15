@@ -39,8 +39,7 @@ jobs:
             sudo apt-get -qq install git-ftp
             echo "Deploying this project ..."
             echo $(git status)
-            pwd
-            git ftp init --syncroot /home/circleci/how-to-validate-names/app/dist --user "${FTP_USER}" --passwd "${FTP_PASSWORD}" "ftp://s94.goserver.host"
+            git ftp init --syncroot /home/circleci/how-to-validate-names/app/dist/ --user "${FTP_USER}" --passwd "${FTP_PASSWORD}" "ftp://s94.goserver.host"
 
 workflows:
   version: 2
