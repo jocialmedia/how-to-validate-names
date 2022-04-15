@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/node:12
-    parallelism: 1
     working_directory: ~/how-to-validate-names/app
     steps:
       - checkout:
@@ -37,6 +36,8 @@ jobs:
             sudo apt-get -qq install git-ftp
             echo "Deploying this project ..."
             echo $(git status)
+            echo "Does this work?"
+            echo $FTP_USER
             git ftp init --init-if-not-exist --user "$FTP_USER" --passwd "$FTP_PASSWORD" $FTP_ADDRESS
 
 workflows:
