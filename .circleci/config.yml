@@ -39,6 +39,7 @@ jobs:
             sudo apt-get -qq install git-ftp
             echo "Deploying this project ..."
             echo $(git status)
+            pwd
             git ftp init --syncroot ./dist --user "${FTP_USER}" --passwd "${FTP_PASSWORD}" "ftp://s94.goserver.host"
 
 workflows:
