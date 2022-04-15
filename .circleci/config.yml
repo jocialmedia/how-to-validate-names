@@ -37,7 +37,8 @@ jobs:
             echo "Deploying this project ..."
             echo $(git status)
             echo "Does this work?"
-            echo $FTP_USER
+            echo "$FTP_ADDRESS"
+            echo "{$process.env.FTP_ADDRESS}"
             git ftp init --init-if-not-exist --user "$FTP_USER" --passwd "$FTP_PASSWORD" $FTP_ADDRESS
 
 workflows:
