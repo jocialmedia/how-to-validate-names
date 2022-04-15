@@ -31,9 +31,6 @@ jobs:
           at: /tmp/workspace
       - run:
           name: "What was my custom environment variable?"
-          command: echo ${MY_ENV_VAR}
-      - run:
-          name: "What was my custom environment variable?"
           command: echo ${FTP_ADDRESS}
       - run: 
           name: Deploy Master Branch
@@ -42,9 +39,7 @@ jobs:
             sudo apt-get -qq install git-ftp
             echo "Deploying this project ..."
             echo $(git status)
-            echo "Does this work?"
-            echo "$FTP_ADDRESS"
-            git ftp init --init-if-not-exist --user "${FTP_USER}" --passwd "${FTP_PASSWORD}" ftp://s94.goserver.host
+            git ftp init --init-if-not-exist --user "${FTP_USER}" --passwd "${FTP_PASSWORD}" "ftp://s94.goserver.host"
 
 workflows:
   version: 2
