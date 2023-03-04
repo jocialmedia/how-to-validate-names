@@ -1,8 +1,8 @@
 # How to validate names
 
 This project consists of two parts
-- 1. In [research/](research/material.md) material and resources are collected 
-- 2. In [app/](app) you find the content of name-validation.com
+1. In [research/](research/material.md) material and resources are collected 
+2. In [app/](app) you find the content of name-validation.com
 
 ## Work in Progress Disclaimer
 
