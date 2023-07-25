@@ -1,7 +1,11 @@
+import Header from "./components/Header"
+import Body from "./components/Body"
+
 export default function Home() {
 return (
   <main>
-    Welcome to name-validation.com
+    <Header/>
+    <Body/>
   </main>
 )
 }
