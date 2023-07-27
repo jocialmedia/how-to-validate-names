@@ -19,7 +19,6 @@ function Analyzer({ firstname, lastname }) {
           <td><CheckLength firstname={firstname} lastname={lastname} /></td>
         </tr>
       </table>
-      
     </div>
   );
 }

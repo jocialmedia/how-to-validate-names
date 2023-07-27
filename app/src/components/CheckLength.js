@@ -7,9 +7,7 @@ function CheckLength({firstname, lastname}) {
     const string_length = string.length
     console.log(string_length)
   return (
-    <div>
-      <p>{string_length} </p>
-    </div>
+      <div>{string_length}</div>
   );
 }
 
