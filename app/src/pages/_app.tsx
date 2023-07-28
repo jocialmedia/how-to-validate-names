@@ -1,13 +1,16 @@
-import type { AppProps } from 'next/app'
-import 'bootstrap/dist/css/bootstrap.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
  
-function App({ Component, pageProps }: AppProps) {
+import Head from "next/head";
+import type { AppProps } from "next/app";
+
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <Component {...pageProps} />
     </>
-  )
+  );
 }
- 
-export default App
+export default MyApp;
